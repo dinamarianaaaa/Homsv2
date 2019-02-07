@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-
+<!--
+Project:  Typhoon - Solar Energy HTML Template
+Version:  1.0.0
+Author:   Webstrot
+-->
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!-->
@@ -8,7 +12,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>HomeTech</title>
+    <title>HomsTech</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description" content="smart pest" />
     <meta name="keywords" content="solar system /sun & wind" />
@@ -17,6 +21,7 @@
     <!--start theme style -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/animate.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/meanmenu.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/slicknav.min.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/font-awesome.min.css">
@@ -26,13 +31,12 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/flaticon.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/fonts.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/camera.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/js/plugin/rs_slider/layers.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/js/plugin/rs_slider/layers.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/js/plugin/rs_slider/navigation.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/js/plugin/rs_slider/settings.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/style_3.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/style_2.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/responsive_2.css" />
     <!-- favicon link-->
     <link rel="shortcut icon" type="image/icon" href="<?php echo base_url(); ?>/assets/images/favicon.png" />
 </head>
@@ -45,34 +49,34 @@
         </div>
     </div>
     <!--sw header wrapper start-->
-    <div data-scroll='0' class="full_width">
-        <div class="transparent-menu header-area hidden-menu-bar stick">
 
-            <div class="container-fluid">
+    <div class="transparent-menu header-area hidden-menu-bar stick">
 
-                <div class="bt_main_menu_wrapper">
-                    <div class="main-menu-wrapper clear-fix">
+        <div class="container">
 
-                        <div class="logo float-left">
-                            <a href="index.html"><img src="<?php echo base_url(); ?>/assets/images/hd_logo.png" class="img-responsive" alt="logo"></a>
-                        </div>
+            <div class="bt_main_menu_wrapper">
+                <div class="main-menu-wrapper clear-fix">
 
+                    <div class="logo float-left">
+                        <a href="index.html"><img src="<?php echo base_url(); ?>/assets/images/inner_logo1.png" class="img-responsive" alt="logo"></a>
                     </div>
-                    <div class="sc_navigation hidden-sm hidden-xs">
-                        <nav id="primary-nav" class="dropdown nav_left_margin">
-                            <ul class="dropdown menu navigation cart_dropdown_wrapper">
-                                <li><a href="index.html" title="">Home</a>
-								 <ul>
+
+                </div>
+                <div class="sc_navigation hidden-sm hidden-xs">
+                    <nav id="primary-nav" class="dropdown nav_left_margin">
+                        <ul class="dropdown menu navigation cart_dropdown_wrapper">
+                            <li><a href="index.html" title="">HOMS</a>
+								 <!-- <ul>
                                      <li class="dropdown_hover"><a href="index.html" title=""> home 1</a></li>
                                       <li class="dropdown_hover"><a href="index_2.html" title=""> home 2</a></li>
                                       <li class="dropdown_hover"><a href="index_3.html" title=""> home 3</a></li>
 								</ul>
+                                </li> -->
+                                <li><a href="about_us.html" title="">Demo</a>
                                 </li>
-                                <li><a href="about_us.html" title="">about us</a>
+                                <li><a href="services.html" title="">Tentang Kami</a>
                                 </li>
-                                <li><a href="services.html" title="">services</a>
-                                </li>
-                                <li><a href="project_2.html" title="">projects</a>
+                                <!-- <li><a href="project_2.html" title="">projects</a>
 								 <ul>
                                         <li class="dropdown_hover"><a href="project_2.html" title=""> project 2</a></li>
                                         <li class="dropdown_hover"><a href="project_3.html" title=""> project 3</a></li>
@@ -81,137 +85,131 @@
                                         <li class="dropdown_hover"><a href="project_single.html" title=""> project single</a></li>
 
                                     </ul>
-                                </li>
-                                <li><a href="team.html" title="">team</a>
+                                </li> -->
+                                <!-- <li><a href="team.html" title="">team</a>
                                     <ul>
                                         <li class="dropdown_hover"><a href="team.html" title=""> team</a></li>
                                         <li class="dropdown_hover"><a href="team_details.html" title="">team details</a></li>
                                     </ul>
-                                </li>
-                                <li><a href="blog_single.html" title="">blog</a>
+                                </li> -->
+                                <!-- <li><a href="blog_single.html" title="">blog</a>
                                     <ul>
                                         <li class="dropdown_hover"><a href="blog_categories.html" title=""> blog categories</a></li>
                                         <li class="dropdown_hover"><a href="blog_category.html" title=""> blog category</a></li>
                                         <li class="dropdown_hover"><a href="blog_single.html" title=""> blog single</a></li>
                                     </ul>
-                                </li>
-                                <li><a href="shop_sidebar.html" title="">shop</a>
+                                </li> -->
+                                <!-- <li><a href="shop_sidebar.html" title="">shop</a>
                                     <ul>
                                         <li class="dropdown_hover"><a href="shop_sidebar.html" title="">shop sidebar</a></li>
                                         <li class="dropdown_hover"><a href="shop_fullwidth.html" title=""> shop fullwidth</a></li>
                                         <li class="dropdown_hover"><a href="shop_single.html" title=""> shop single</a></li>
                                     </ul>
-                                </li>
-                                <li><a href="contact_us.html" title="">Contact us</a>
+                                </li> -->
+                                <!-- <li><a href="contact_us.html" title="">Contact us</a>
 								 <ul>
                                       <li class="dropdown_hover"><a href="contact_us.html" title="">contact us</a></li>
                                       <li class="dropdown_hover"><a href="error.html" title=""> 404 error</a></li>
                                 </ul>
-                                </li>
-                                <li class="caret_btn">
-                                    <a href="#"><i class="fa fa-shopping-basket"></i><span>2</span></a>
-                                    <ul>
-                                        <li>
-                                            <div class="cc_cart_wrapper1 menu-button">
-                                                <div class="cc_cart_img_wrapper">
-                                                    <img src="<?php echo base_url(); ?>/assets/images/cart_1.png" alt="cart_img" />
-                                                </div>
-                                                <div class="cc_cart_cont_wrapper">
-                                                    <h4><a href="#">put a title here</a></h4>
-                                                    <p>1 <span> $145 </span> </p>
-                                                    <h5><i class="fa fa-times"></i></h5>
-                                                </div>
+                                </li> -->
+                            <!-- <li class="caret_btn">
+                                <a href="#"><i class="fa fa-shopping-basket"></i><span>2</span></a>
+                                <ul>
+                                    <li>
+                                        <div class="cc_cart_wrapper1 menu-button">
+                                            <div class="cc_cart_img_wrapper">
+                                                <img src="<?php echo base_url(); ?>/assets/images/cart_1.png" alt="cart_img" />
                                             </div>
-                                        </li>
-                                        <li>
-                                            <div class="cc_cart_wrapper1 menu-button">
-                                                <div class="cc_cart_img_wrapper">
-                                                    <img src="<?php echo base_url(); ?>/assets/images/cart_2.png" alt="cart_img" />
-                                                </div>
-                                                <div class="cc_cart_cont_wrapper">
-                                                    <h4><a href="#">put a title here</a></h4>
-                                                    <p>1 <span> $145 </span></p>
-                                                    <h5><i class="fa fa-times"></i></h5>
-                                                </div>
+                                            <div class="cc_cart_cont_wrapper">
+                                                <h4><a href="#">put a title here</a></h4>
+                                                <p>1 <span> $145 </span> </p>
+                                                <h5><i class="fa fa-times"></i></h5>
                                             </div>
-                                        </li>
-                                        <li>
-                                            <div class="cc_cart_wrapper1 menu-button">
-                                                <div class="cc_cart_img_wrapper">
-                                                    <img src="<?php echo base_url(); ?>/assets/images/cart_3.png" alt="cart_img" />
-                                                </div>
-                                                <div class="cc_cart_cont_wrapper">
-                                                    <h4><a href="#">put a title here</a></h4>
-                                                    <p>1 <span> $145 </span></p>
-                                                    <h5><i class="fa fa-times"></i></h5>
-                                                </div>
-                                            </div>
-                                            <div class="btm_cart_wrapper">
-                                                <h5>$450.00</h5>
-                                                <p>3 items</p>
-                                            </div>
-                                            <div class="cart_checkout_btn">
-
-                                                <a href="#!" class="waves-effect waves-light waves-ripple">checkout</a>
-
-                                            </div>
-                                        </li>
-
-                                    </ul>
-                                </li>
-
-                                <!-- Menu -->
-                                <!--search -->
-                            </ul>
-                            <div class="header_right_main_wrapper">
-                                <div class="search-wrapper">
-                                    <div class="et_navbar_search_wrapper hidden-xs">
-                                        <div class="et_search_bar" id="search_button">
-                                            <a href="#"><i class="fa fa-search waves-effect waves-light" aria-hidden="true"></i></a>
                                         </div>
-                                        <div id="search_open" class="et_search_box">
-                                            <input type="text" placeholder="Search text...">
-                                            <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li>
+                                        <div class="cc_cart_wrapper1 menu-button">
+                                            <div class="cc_cart_img_wrapper">
+                                                <img src="<?php echo base_url(); ?>/assets/images/cart_2.png" alt="cart_img" />
+                                            </div>
+                                            <div class="cc_cart_cont_wrapper">
+                                                <h4><a href="#">put a title here</a></h4>
+                                                <p>1 <span> $145 </span></p>
+                                                <h5><i class="fa fa-times"></i></h5>
+                                            </div>
                                         </div>
+                                    </li>
+                                    <li>
+                                        <div class="cc_cart_wrapper1 menu-button">
+                                            <div class="cc_cart_img_wrapper">
+                                                <img src="<?php echo base_url(); ?>/assets/images/cart_3.png" alt="cart_img" />
+                                            </div>
+                                            <div class="cc_cart_cont_wrapper">
+                                                <h4><a href="#">put a title here</a></h4>
+                                                <p>1 <span> $145 </span></p>
+                                                <h5><i class="fa fa-times"></i></h5>
+                                            </div>
+                                        </div>
+                                        <div class="btm_cart_wrapper">
+                                            <h5>$450.00</h5>
+                                            <p>3 items</p>
+                                        </div>
+                                        <div class="cart_checkout_btn">
+
+                                            <a href="#!" class="waves-effect waves-light waves-ripple">checkout</a>
+
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </li> -->
+
+                            <!-- Menu -->
+                            <!--search -->
+                        </ul>
+                        <div class="header_right_inner_page">
+                            <div class="search-wrapper">
+                                <div class="et_navbar_search_wrapper hidden-xs">
+                                    <div class="et_search_bar" id="search_button">
+                                        <a href="#"><i class="fa fa-search waves-effect waves-light" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div id="search_open" class="et_search_box">
+                                        <input type="text" placeholder="Search text...">
+                                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
-                                <div class="sw_icon_bar">
-                                    <ul class="tc_login_btn_wrapper">
-                                        <li class="dropdown tc_login_btn">
-                                            <a class="dropdown-toggle hvr-float-shadow active waves-effect waves-light" data-toggle="dropdown" href="#"><i class="fa fa-ellipsis-v"></i></a>
-                                            <ul class="dropdown-menu tc_menu_fixed_border">
-                                                <li class="dropdown_hover"><a href="#">FAQ's</a></li>
-                                                <li class="dropdown_hover"><a href="#">Track Order</a></li>
-                                                <li class="dropdown_hover"><a href="#">Register</a></li>
-                                                <li class="dropdown_hover"><a href="#">Login</a></li>
-                                                <li class="dropdown_hover hidden-lg"><a href="#">Free Quote</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="header_btn">
-                                    <ul>
-                                        <li>
-                                            <a href="#!" class="waves-effect waves-light waves-ripple">free quote</a>
-                                        </li>
-                                    </ul>
-                                </div>
+                            </div>
+                            <div class="sw_icon_bar">
+                                <ul class="tc_login_btn_wrapper">
+                                    <li class="dropdown tc_login_btn">
+                                        <a class="dropdown-toggle hvr-float-shadow active waves-effect waves-light" data-toggle="dropdown" href="#"><i class="fa fa-ellipsis-v"></i></a>
+                                        <ul class="dropdown-menu tc_menu_fixed_border">
+                                            <li class="dropdown_hover"><a href="#">FAQ's</a></li>
+                                            <li class="dropdown_hover"><a href="#">Track Order</a></li>
+                                            <li class="dropdown_hover"><a href="#">Register</a></li>
+                                            <li class="dropdown_hover"><a href="#">Login</a></li>
+                                            <li class="dropdown_hover hidden-lg"><a href="#">Join Us</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             </div>
 
-                        </nav>
-                    </div>
-                    <!-- /.main-menu-wrapper -->
-                    <!-- mobile menu area start -->
-                    <div class="mobile-menu-area visible-sm visible-xs">
-                        <div class="container-fluid header_container">
-                            <div class="row">
+                        </div>
 
-                                <div class="col-xs-12 cc_menu_top_margin">
-                                    <!-- mobile menu start -->
-                                    <div class="mobile-menu">
-                                        <nav>
-                                            <ul class="nav">
-                                                <li><a href="index.html">Home</a>
+                    </nav>
+                </div>
+                <!-- /.main-menu-wrapper -->
+                <!-- mobile menu area start -->
+                <div class="mobile-menu-area visible-sm visible-xs">
+                    <div class="container header_container">
+                        <div class="row">
+
+                            <div class="col-xs-12 cc_menu_top_margin">
+                                <!-- mobile menu start -->
+                                <div class="mobile-menu">
+                                    <nav>
+                                        <ul class="nav">
+                                            <li><a href="index.html">Home</a>
 												 <ul>
 													 <li><a href="index.html" title=""> home 1</a></li>
 													  <li><a href="index_2.html" title=""> home 2</a></li>
@@ -258,75 +256,82 @@
 													  <li><a href="error.html" title=""> 404 error</a></li>
 												</ul>
                                                 </li>
-                                                <li class="caret_btn">
-                                                    <a href="#"><i class="fa fa-shopping-basket"></i><span>2</span></a>
-                                                    <ul>
-                                                        <li>
-                                                            <div class="cc_cart_wrapper1 menu-button">
-                                                                <div class="cc_cart_img_wrapper">
-                                                                    <img src="<?php echo base_url(); ?>/assets/images/cart_1.png" alt="cart_img" />
-                                                                </div>
-                                                                <div class="cc_cart_cont_wrapper">
-                                                                    <h4><a href="#">put a title here</a></h4>
-                                                                    <p>1 <span> $145 </span> </p>
-                                                                    <h5><i class="fa fa-times"></i></h5>
-                                                                </div>
+                                            <li class="caret_btn">
+                                                <a href="#"><i class="fa fa-shopping-basket"></i><span>2</span></a>
+                                                <ul>
+                                                    <li>
+                                                        <div class="cc_cart_wrapper1 menu-button">
+                                                            <div class="cc_cart_img_wrapper">
+                                                                <img src="<?php echo base_url(); ?>/assets/images/cart_1.png" alt="cart_img" />
                                                             </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="cc_cart_wrapper1 menu-button">
-                                                                <div class="cc_cart_img_wrapper">
-                                                                    <img src="<?php echo base_url(); ?>/assets/images/cart_2.png" alt="cart_img" />
-                                                                </div>
-                                                                <div class="cc_cart_cont_wrapper">
-                                                                    <h4><a href="#">put a title here</a></h4>
-                                                                    <p>1 <span> $145 </span></p>
-                                                                    <h5><i class="fa fa-times"></i></h5>
-                                                                </div>
+                                                            <div class="cc_cart_cont_wrapper">
+                                                                <h4><a href="#">put a title here</a></h4>
+                                                                <p>1 <span> $145 </span> </p>
+                                                                <h5><i class="fa fa-times"></i></h5>
                                                             </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="cc_cart_wrapper1 menu-button">
-                                                                <div class="cc_cart_img_wrapper">
-                                                                    <img src="<?php echo base_url(); ?>/assets/images/cart_3.png" alt="cart_img" />
-                                                                </div>
-                                                                <div class="cc_cart_cont_wrapper">
-                                                                    <h4><a href="#">put a title here</a></h4>
-                                                                    <p>1 <span> $145 </span></p>
-                                                                    <h5><i class="fa fa-times"></i></h5>
-                                                                </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="cc_cart_wrapper1 menu-button">
+                                                            <div class="cc_cart_img_wrapper">
+                                                                <img src="<?php echo base_url(); ?>/assets/images/cart_2.png" alt="cart_img" />
                                                             </div>
-                                                            <div class="btm_cart_wrapper">
-                                                                <h5>$450.00</h5>
-                                                                <p>3 items</p>
+                                                            <div class="cc_cart_cont_wrapper">
+                                                                <h4><a href="#">put a title here</a></h4>
+                                                                <p>1 <span> $145 </span></p>
+                                                                <h5><i class="fa fa-times"></i></h5>
                                                             </div>
-                                                            <div class="cart_checkout_btn">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="cc_cart_wrapper1 menu-button">
+                                                            <div class="cc_cart_img_wrapper">
+                                                                <img src="<?php echo base_url(); ?>/assets/images/cart_3.png" alt="cart_img" />
+                                                            </div>
+                                                            <div class="cc_cart_cont_wrapper">
+                                                                <h4><a href="#">put a title here</a></h4>
+                                                                <p>1 <span> $145 </span></p>
+                                                                <h5><i class="fa fa-times"></i></h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btm_cart_wrapper">
+                                                            <h5>$450.00</h5>
+                                                            <p>3 items</p>
+                                                        </div>
+                                                        <div class="cart_checkout_btn">
 
-                                                                <a href="#!" class="waves-effect waves-light waves-ripple">checkout</a>
+                                                            <a href="#!" class="waves-effect waves-light waves-ripple">checkout</a>
 
-                                                            </div>
-                                                        </li>
+                                                        </div>
+                                                    </li>
 
-                                                    </ul>
-                                                </li>
+                                                </ul>
+                                            </li>
 
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                    <!-- mobile menu end -->
+                                        </ul>
+                                    </nav>
                                 </div>
+                                <!-- mobile menu end -->
                             </div>
                         </div>
                     </div>
-                    <!-- mobile menu area end -->
-
-                    <!-- /.main-menu-wrapper -->
                 </div>
+                <!-- mobile menu area end -->
+
+                <!-- /.main-menu-wrapper -->
             </div>
         </div>
 
-        <!--sw header wrapper end-->
-        <!--sw slider wrapper start-->
+        <div class="header_btn">
+            <ul>
+                <li>
+                    <a href="#!" class="waves-effect waves-light waves-ripple">Join Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--sw header wrapper end-->
+    <!--sw slider wrapper start-->
         <div class="slider_main_wrapper">
             <div id="rev_slider_1050_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="webproduct-light" data-source="gallery" style="background-color:#000;padding:0px;">
                 <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
@@ -335,45 +340,41 @@
                         <!-- SLIDE  -->
                         <li data-index="rs-2938" data-transition="slidevertical" data-slotamount="1" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="1500" data-thumb="" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="<?php echo base_url(); ?>/assets/images/slider_bg_2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <img src="<?php echo base_url(); ?>/assets/images/slider_bg1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 2 -->
-                            <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-2" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/vi_1.gif" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div>
+                            <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-2" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/index_2_img.png" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div>
 
                             <!-- LAYER NR. 7 -->
-                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-3" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">Wide Range of
-                                <br> Solar & Wind
-                                <br> Solutions
+                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-3" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">Innovative Solar <br>Solutions for <br> Your Home 
                             </div>
 
                             <!-- LAYER NR. 10 -->
                             <div class="tp-caption rev-btn rev-btn waves-effect waves-light waves-ripple slider_btn_boxshdw" id="slide-2938-layer-5" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['150','20','400','420']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-2939","delay":""}]' data-responsive_offset="on" data-responsive="off" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1750,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"},{"frame":"hover","speed":"300","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:#1d3571;bg:#fff;bw:2px 2px 2px 2px;"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[25,25,25,25]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[25,25,25,25]" style="z-index: 1000; white-space: nowrap; font-size: 16px;font-weight: 600; color: #1d3571;font-family: 'Montserrat', sans-serif;background-color:#fff;display:inline-block; border-radius:100px;text-align:center;"><a href="#">Read More </a></div>
 
                             <!-- LAYER NR. 14 -->
-                            <div class="tp-caption tp-shape tp-shapewrapper " id="slide-67-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 1;background:linear-gradient(50deg, rgba(81, 114, 211, 0.9) 0px, rgba(60, 48, 158, 0.9) 80%);"> </div>
+                            <div class="tp-caption tp-shape tp-shapewrapper " id="slide-67-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 1;background-color:rgba(38, 67, 128, 0.9);"> </div>
 
                             <!-- LAYER NR. 10 -->
                         </li>
                         <!-- SLIDE  -->
                         <li data-index="rs-2939" data-transition="slidevertical" data-slotamount="1" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="1500" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Examples" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="<?php echo base_url(); ?>/assets/images/slider_bg_1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <img src="<?php echo base_url(); ?>/assets/images/slider_bg2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 2 -->
                             <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-7" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/leads.gif" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div>
 
                             <!-- LAYER NR. 7 -->
-                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-8" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">Wide Range of
-                                <br> Solar & Wind
-                                <br> Solutions
+                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-8" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">Innovative Solar <br>Solutions for <br> Your Home 
                             </div>
 
                             <!-- LAYER NR. 10 -->
                             <div class="tp-caption rev-btn rev-btn waves-effect waves-light waves-ripple slider_btn_boxshdw" id="slide-2938-layer-10" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['150','20','400','420']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-2939","delay":""}]' data-responsive_offset="on" data-responsive="off" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1750,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"},{"frame":"hover","speed":"300","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:#1d3571;bg:#fff;bw:2px 2px 2px 2px;"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[25,25,25,25]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[25,25,25,25]" style="z-index: 1000; white-space: nowrap; font-size: 16px;font-weight: 600; color: #1d3571;font-family: 'Montserrat', sans-serif;background-color:#fff;display:inline-block; border-radius:100px;text-align:center;"><a href="#">Read More </a></div>
                             <!-- LAYER NR. 14 -->
-                            <div class="tp-caption tp-shape tp-shapewrapper " id="slide-67-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 1;background:linear-gradient(50deg, rgba(81, 114, 211, 0.9) 0px, rgba(60, 48, 158, 0.9) 80%);"> </div>
+                            <div class="tp-caption tp-shape tp-shapewrapper " id="slide-67-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 1;background-color:rgba(38, 67, 128, 0.9);"> </div>
 
                             <!-- LAYER NR. 10 -->
 
@@ -381,22 +382,20 @@
                         <!-- SLIDE  -->
                         <li data-index="rs-2940" data-transition="slidevertical" data-slotamount="1" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="1500" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Easy to Use" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="<?php echo base_url(); ?>/assets/images/slider_bg.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <img src="<?php echo base_url(); ?>/assets/images/slider_bg3.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 2 -->
                             <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-12" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/vi.gif" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div>
 
                             <!-- LAYER NR. 7 -->
-                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-13" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">Wide Range of
-                                <br> Solar & Wind
-                                <br> Solutions
+                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-13" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">Innovative Solar <br>Solutions for <br> Your Home 
                             </div>
 
                             <!-- LAYER NR. 10 -->
                             <div class="tp-caption rev-btn rev-btn waves-effect waves-light waves-ripple slider_btn_boxshdw" id="slide-2938-layer-15" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['150','20','400','420']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-2939","delay":""}]' data-responsive_offset="on" data-responsive="off" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1750,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"},{"frame":"hover","speed":"300","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:#1d3571;bg:#fff;bw:2px 2px 2px 2px;"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[25,25,25,25]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[25,25,25,25]" style="z-index: 1000; white-space: nowrap; font-size: 16px;font-weight: 600; color: #1d3571;font-family: 'Montserrat', sans-serif;background-color:#fff;display:inline-block; border-radius:100px;text-align:center;"><a href="#">Read More </a></div>
                             <!-- LAYER NR. 14 -->
-                            <div class="tp-caption tp-shape tp-shapewrapper " id="slide-67-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 1;background:linear-gradient(50deg, rgba(81, 114, 211, 0.9) 0px, rgba(60, 48, 158, 0.9) 80%);"> </div>
+                            <div class="tp-caption tp-shape tp-shapewrapper " id="slide-67-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"Power4.easeOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 1;background-color:rgba(38, 67, 128, 0.9);"> </div>
 
                             <!-- LAYER NR. 10 -->
                         </li>
@@ -409,28 +408,93 @@
                 <div id="section10" class="section1_bottom_scroll">
                     <div class="circle"><a href="1"><span></span></a></div>
                 </div>
-                <div class="sw_banner_top_shap_img_wrapper">
-                    <img src="<?php echo base_url(); ?>/assets/images/image.png" alt="shape">
-                </div>
             </div>
         </div>
     </div>
     <!-- sw slider section end-->
-    <!-- sw spectrum section start-->
-    <div data-scroll='1' class="full_width">
-        <div class="sw_spectrum_wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+	 <!--sw discover wrapper start-->
+	 <div data-scroll='1' class="full_width">
+    <div class="sw_discver_wrapper sw_dicover_index">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                    <div class="sw_disc_txt_wrapper">
+
                         <div class="sw_left_heading_wraper">
-                            <h1>We Cover the Whole Spectrum</h1>
+                            <h1>Discover the Advantages</h1>
                             <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
+                            <p>Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor. </p>
+                        </div>
+                        <div class="sw_desc_btm_txt">
+                            <div class="sw_disc_image">
+                                 <i class="flaticon-sun"></i>
+                            </div>
+                            <div class="sw_disc_head_text">
+                                <h5><a href="#">Solar Panels Service</a></h5>
+                                <p>Ruisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur
+                                    <br> elitam purus tellus fringilla.</p>
+                            </div>
+                        </div>
+                        <div class="sw_desc_btm_txt">
+                            <div class="sw_disc_image">
+                                 <i class="flaticon-wind-turbine"></i>
+                            </div>
+                            <div class="sw_disc_head_text">
+                                <h5><a href="#">Best Wind Energy</a></h5>
+                                <p>Ruisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur
+                                    <br> elitam purus tellus fringilla.</p>
+                            </div>
+                        </div>
+                        <div class="sw_desc_btm_txt">
+                            <div class="sw_disc_image">
+                                 <i class="flaticon-power"></i>
+                            </div>
+                            <div class="sw_disc_head_text">
+                                <h5><a href="#">Extended Guarantee</a></h5>
+                                <p>Ruisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur
+                                    <br> elitam purus tellus fringilla.</p>
+                            </div>
+                        </div>
+                        <div class="disc_btn">
+                            <ul>
+                                <li>
+                                    <a href="#!" class="waves-effect waves-light waves-ripple">view all</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1 col-sm-12 col-xs-12 clm_img">
+                    <div class="sw_right_img_wrapper">
+                        <div class="sw_disc_img_overlay"></div>
+                        <img src="<?php echo base_url(); ?>/assets/images/disc_lft_bg.jpg" alt="About" class="img-responsive sw_right_img_div">
+
+                        <div class="sw_disc_img_btm">
+                            <img src="<?php echo base_url(); ?>/assets/images/disc_lft.jpg" alt="About" class="img-responsive">
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- sw discover section end-->
+	  <!--sw spectrum wrapper start-->
+    <div class="sw_abt_spectrum_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                    <div class="sw_left_heading_wraper">
+                        <h1>We Cover the Whole Spectrum</h1>
+                        <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
+                    </div>
+                </div>
 
-                    <!-- slider start -->
-                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 sw_spectrm_padding">
-                        <div class="spectrum_slider_wrapper">
+                <!-- slider start -->
+                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 sw_spectrm_padding">
+                    <div class="spectrum_slider_wrapper">
                             <div class="owl-carousel owl-theme">
                                 <div class="item">
                                     <div class="spectrum_slider_cntnt">
@@ -474,343 +538,12 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!--sw spectrum wrapper end-->
-    <!--sw discover wrapper start-->
-    <div class="sw_discver_wrapper jarallax">
-        <div class="sw_banner_bottom_shap_img_wrapper">
-            <img src="<?php echo base_url(); ?>/assets/images/image11.png" alt="shape">
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                    <div class="sw_disc_txt_wrapper">
-
-                        <div class="sw_left_heading_wraper sw_dark_heading_wraper">
-                            <h1>Discover the Advantages</h1>
-                            <img src="<?php echo base_url(); ?>/assets/images/hd_line_dark.png" alt="title">
-                            <p>Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor. </p>
-                        </div>
-                        <div class="sw_desc_btm_txt">
-                            <div class="sw_disc_image">
-                                <i class="flaticon-sun"></i>
-                            </div>
-                            <div class="sw_disc_head_text">
-                                <h5><a href="#">Solar Panels Service</a></h5>
-                                <p>Ruisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur
-                                    <br> elitam purus tellus fringilla.</p>
-                            </div>
-                        </div>
-                        <div class="sw_desc_btm_txt">
-                            <div class="sw_disc_image">
-                                <i class="flaticon-wind-turbine"></i>
-                            </div>
-                            <div class="sw_disc_head_text">
-                                <h5><a href="#">Best Wind Energy</a></h5>
-                                <p>Ruisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur
-                                    <br> elitam purus tellus fringilla.</p>
-                            </div>
-                        </div>
-                        <div class="sw_desc_btm_txt">
-                            <div class="sw_disc_image">
-                                <i class="flaticon-power"></i>
-                            </div>
-                            <div class="sw_disc_head_text">
-                                <h5><a href="#">Extended Guarantee</a></h5>
-                                <p>Ruisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur
-                                    <br> elitam purus tellus fringilla.</p>
-                            </div>
-                        </div>
-                        <div class="disc_btn">
-                            <ul>
-                                <li>
-                                    <a href="#!" class="waves-effect waves-light waves-ripple">view all</a>
-                                </li>
-                            </ul>
-
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1 col-sm-12 col-xs-12 clm_img">
-                    <div class="sw_right_img_wrapper">
-                        <div class="sw_disc_img_overlay"></div>
-                        <img src="<?php echo base_url(); ?>/assets/images/disc_lft_bg.jpg" alt="About" class="img-responsive sw_right_img_div">
-
-                        <div class="sw_disc_img_btm">
-                            <img src="<?php echo base_url(); ?>/assets/images/disc_lft.jpg" alt="About" class="img-responsive">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sw_banner_bottom_shap_img_wrapper">
-            <img src="<?php echo base_url(); ?>/assets/images/image.png" alt="shape">
-        </div>
-    </div>
-    <!-- sw discover section end-->
-    <!-- sw project section start-->
-    <div class="sw_project_wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
-                    <div class="sw_left_heading_wraper sw_center_heading_wrapper">
-                        <h1>Our Incredible Projects</h1>
-                        <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
-                        <p>Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="gallery-area">
-
-            <div class="row">
-                <div id="gallery">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="filter filter-demo portfolio-nav galery_2_wraper my_slide_filter">
-                            <ul>
-                                <li class="button galery_hover_div is-checked waves-effect waves-light waves-ripple" data-filter="*">
-                                    all
-                                </li>
-                                <li class="button galery_hover_div waves-effect waves-light waves-ripple" data-filter=".branding">
-                                    household
-                                </li>
-
-                                <li class="button galery_hover_div waves-effect waves-light waves-ripple" data-filter=".ux">
-                                    organization</li>
-                                <li class="button galery_hover_div waves-effect waves-light waves-ripple" data-filter=".rresentation">
-                                    research</li>
-
-                                <li class="button galery_hover_div waves-effect waves-light waves-ripple" data-filter=".web">
-                                    solar pannels</li>
-
-                                <li class="button galery_hover_div waves-effect waves-light waves-ripple" data-filter=".photoshop">
-                                    wind energy</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="grid galler_2_btm_section">
-
-                        <div class="grid-item rresentation branding * pd_2">
-                            <div class="gallery-list img-effect zoom-slow">
-                                <div class="sp_img_box_overlay"></div>
-                                <div class="over">
-
-                                    <img src="<?php echo base_url(); ?>/assets/images/pj_1.jpg" alt="" class="img-responsive" />
-
-                                    <div class="tab_img_overlay">
-                                        <a href="<?php echo base_url(); ?>/assets/images/pj_1.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
-                                            <i class="fa fa-arrows-alt"></i> </a>
-                                        <h1>project title here</h1>
-                                        <p>(solar pannels)</p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="grid-item ux * photoshop pd_2">
-                            <div class="gallery-list img-effect zoom-slow">
-                                <div class="sp_img_box_overlay"></div>
-                                <div class="over">
-
-                                    <img src="<?php echo base_url(); ?>/assets/images/pj_2.jpg" alt="" class="img-responsive" />
-                                    <div class="tab_img_overlay">
-
-                                        <a href="<?php echo base_url(); ?>/assets/images/pj_2.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
-                                            <i class="fa fa-arrows-alt"></i> </a>
-                                        <h1>project title here</h1>
-                                        <p>(solar pannels)</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="grid-item ux branding photoshop pd_2">
-                            <div class="gallery-list img-effect zoom-slow">
-                                <div class="sp_img_box_overlay"></div>
-                                <div class="over">
-
-                                    <img src="<?php echo base_url(); ?>/assets/images/pj_3.jpg" alt="" class="img-responsive" />
-                                    <div class="tab_img_overlay">
-
-                                        <a href="<?php echo base_url(); ?>/assets/images/pj_3.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
-                                            <i class="fa fa-arrows-alt"></i> </a>
-                                        <h1>project title here</h1>
-                                        <p>(solar pannels)</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="grid-item rresentation web branding * pd_2">
-                            <div class="gallery-list img-effect zoom-slow">
-                                <div class="sp_img_box_overlay"></div>
-                                <div class="over">
-
-                                    <img src="<?php echo base_url(); ?>/assets/images/pj_4.jpg" alt="" class="img-responsive" />
-                                    <div class="tab_img_overlay">
-
-                                        <a href="<?php echo base_url(); ?>/assets/images/pj_4.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
-                                            <i class="fa fa-arrows-alt"></i> </a>
-                                        <h1>project title here</h1>
-                                        <p>(solar pannels)</p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="grid-item rresentation photoshop branding pd_2">
-                            <div class="gallery-list img-effect zoom-slow">
-                                <div class="sp_img_box_overlay"></div>
-                                <div class="over ">
-
-                                    <img src="<?php echo base_url(); ?>/assets/images/pj_5.jpg" alt="" class="img-responsive" />
-                                    <div class="tab_img_overlay">
-
-                                        <a href="<?php echo base_url(); ?>/assets/images/pj_5.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
-                                            <i class="fa fa-arrows-alt"></i> </a>
-                                        <h1>project title here</h1>
-                                        <p>(solar pannels)</p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-						<div class="grid-item branding pd_2">
-                            <div class="gallery-list img-effect zoom-slow">
-                                <div class="sp_img_box_overlay"></div>
-                                <div class="over">
-
-                                    <img src="<?php echo base_url(); ?>/assets/images/pj_12.jpg" alt="" class="img-responsive" />
-                                    <div class="tab_img_overlay">
-
-                                        <a href="<?php echo base_url(); ?>/assets/images/pj_12.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
-                                            <i class="fa fa-arrows-alt"></i> </a>
-                                        <h1>project title here</h1>
-                                        <p>(solar pannels)</p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="grid-item web branding pd_2">
-                            <div class="gallery-list img-effect zoom-slow">
-                                <div class="sp_img_box_overlay"></div>
-                                <div class="over">
-
-                                    <img src="<?php echo base_url(); ?>/assets/images/pj_6.jpg" alt="" class="img-responsive" />
-                                    <div class="tab_img_overlay">
-
-                                        <a href="<?php echo base_url(); ?>/assets/images/pj_6.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
-                                            <i class="fa fa-arrows-alt"></i> </a>
-                                        <h1>project title here</h1>
-                                        <p>(solar pannels)</p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-						<div class="grid-item web pd_2">
-                            <div class="gallery-list img-effect zoom-slow">
-                                <div class="sp_img_box_overlay"></div>
-                                <div class="over">
-
-                                    <img src="<?php echo base_url(); ?>/assets/images/pj_11.jpg" alt="" class="img-responsive" />
-                                    <div class="tab_img_overlay">
-
-                                        <a href="<?php echo base_url(); ?>/assets/images/pj_11.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
-                                            <i class="fa fa-arrows-alt"></i> </a>
-                                        <h1>project title here</h1>
-                                        <p>(solar pannels)</p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="grid-item web rresentation pd_2">
-                            <div class="gallery-list img-effect zoom-slow">
-                                <div class="sp_img_box_overlay"></div>
-                                <div class="over">
-
-                                    <img src="<?php echo base_url(); ?>/assets/images/pj_7.jpg" alt="" class="img-responsive" />
-                                    <div class="tab_img_overlay">
-
-                                        <a href="<?php echo base_url(); ?>/assets/images/pj_7.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
-                                            <i class="fa fa-arrows-alt"></i> </a>
-                                        <h1>project title here</h1>
-                                        <p>(solar pannels)</p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="grid-item web photoshop pd_2">
-                            <div class="gallery-list img-effect zoom-slow">
-                                <div class="sp_img_box_overlay"></div>
-                                <div class="over">
-
-                                    <img src="<?php echo base_url(); ?>/assets/images/pj_8.jpg" alt="" class="img-responsive" />
-                                    <div class="tab_img_overlay">
-
-                                        <a href="<?php echo base_url(); ?>/assets/images/pj_8.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
-                                            <i class="fa fa-arrows-alt"></i> </a>
-                                        <h1>project title here</h1>
-                                        <p>(solar pannels)</p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- sw project section end-->
-    <!--sw newsletter wrapper start-->
-    <div class="sw_news_letter_wrapper">
-        <div class="container">
-            <div class="sw_nl_heading_wrapper">
-                 <i class="flaticon-rocket"></i>
-                <h2>Get Free Consultancy About Your Project</h2>
-
-            </div>
-
-            <div class="sw_nl_form_wrapper">
-
-                <div class="disc_btn ltr_btn">
-                    <ul>
-                        <li>
-                            <a href="#!" class="waves-effect waves-light waves-ripple">ask a question</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!--sw newsletter wrapper end-->
-    <!-- sw choose service wrapper start-->
+	  <!-- sw choose service wrapper start-->
     <div class="sw_chose_service_wrapper">
         <div class="container">
             <div class="row">
@@ -927,7 +660,7 @@
                                 <p>Quisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur.</p>
                             </div>
                         </div>
-                        <div class="chose_icon_wrapper_list">
+                        <div class="chose_icon_wrapper_list wow">
                             <div class="chose_icon_img_list">
                                 <img src="<?php echo base_url(); ?>/assets/images/ser_img_5.png" alt="title">
 
@@ -948,17 +681,199 @@
         </div>
     </div>
     <!-- sw choose service wrapper end-->
-    <!--sw testimonial wrapper start-->
-    <div class="sw_testimonial_wrapper jarallax">
-        <div class="sw_banner_bottom_shap_img_wrapper">
-            <img src="<?php echo base_url(); ?>/assets/images/shape.png" alt="shape">
+	 <!--sw newsletter wrapper start-->
+    <div class="sw_news_letter_wrapper sw_new_letter_index">
+        <div class="container">
+            <div class="sw_nl_heading_wrapper">
+               <i class="flaticon-rocket"></i>
+                <h2>Get Free Consultancy About Your Project</h2>
+
+            </div>
+
+            <div class="sw_nl_form_wrapper">
+
+                <div class="disc_btn ltr_btn">
+                    <ul>
+                        <li>
+                            <a href="#!" class="waves-effect waves-light waves-ripple">ask a question</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
         </div>
+
+    </div>
+    <!--sw newsletter wrapper end-->
+	 <!-- sw project section start-->
+    <div class="sw_project_wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
-                    <div class="sw_left_heading_wraper sw_dark_heading_wraper dark_heading_center">
+                    <div class="sw_left_heading_wraper sw_center_heading_wrapper">
+                        <h1>Our Incredible Projects</h1>
+                        <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
+                        <p>Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor. </p>
+                    </div>
+                </div>
+
+                <div class="gallery-area">
+
+                    <div id="gallery">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="filter filter-demo portfolio-nav galery_2_wraper my_slide_filter">
+                                <ul>
+                                    <li class="button galery_hover_div is-checked waves-effect waves-light waves-ripple" data-filter="*">
+                                        all
+                                    </li>
+                                    <li class="button galery_hover_div waves-effect waves-light waves-ripple" data-filter=".branding">
+                                        household
+                                    </li>
+
+                                    <li class="button galery_hover_div waves-effect waves-light waves-ripple" data-filter=".ux">
+                                        organization</li>
+                                    <li class="button galery_hover_div waves-effect waves-light waves-ripple" data-filter=".rresentation">
+                                        research</li>
+
+                                    <li class="button galery_hover_div waves-effect waves-light waves-ripple" data-filter=".web">
+                                        solar pannels</li>
+
+                                    <li class="button galery_hover_div waves-effect waves-light waves-ripple" data-filter=".photoshop">
+                                        wind energy</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="grid galler_2_btm_section">
+
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 grid-item rresentation branding * project_pdr_btm">
+                                <div class="gallery-list img-effect zoom-slow">
+                                    <div class="sp_img_box_overlay sp_img_index_overlay"></div>
+                                    <div class="over">
+
+                                        <img src="<?php echo base_url(); ?>/assets/images/pj_1.jpg" alt="" class="img-responsive" />
+
+                                        <div class="tab_img_overlay tab_img_overlay_2 tab_img_overlay_3">
+                                            <a href="<?php echo base_url(); ?>/assets/images/pj_1.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
+                                                <i class="fa fa-arrows-alt"></i> </a>
+                                            <h1>project title here</h1>
+                                            <p>(solar pannels)</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 grid-item rresentation web branding * project_pdr_btm">
+                                <div class="gallery-list img-effect zoom-slow">
+                                    <div class="sp_img_box_overlay sp_img_index_overlay"></div>
+                                    <div class="over">
+
+                                        <img src="<?php echo base_url(); ?>/assets/images/pj_4.jpg" alt="" class="img-responsive" />
+                                        <div class="tab_img_overlay tab_img_overlay_2 tab_img_overlay_3">
+
+                                            <a href="<?php echo base_url(); ?>/assets/images/pj_4.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
+                                                <i class="fa fa-arrows-alt"></i> </a>
+                                            <h1>project title here</h1>
+                                            <p>(solar pannels)</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 grid-item web branding project_pdr_btm">
+                                <div class="gallery-list img-effect zoom-slow">
+                                    <div class="sp_img_box_overlay sp_img_index_overlay"></div>
+                                    <div class="over">
+
+                                        <img src="<?php echo base_url(); ?>/assets/images/pj_6.jpg" alt="" class="img-responsive" />
+                                        <div class="tab_img_overlay tab_img_overlay_2 tab_img_overlay_3">
+
+                                            <a href="<?php echo base_url(); ?>/assets/images/pj_6.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
+                                                <i class="fa fa-arrows-alt"></i> </a>
+                                            <h1>project title here</h1>
+                                            <p>(solar pannels)</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 grid-item web ux branding project_pdr_btm">
+                                <div class="gallery-list img-effect zoom-slow">
+                                    <div class="sp_img_box_overlay sp_img_index_overlay"></div>
+                                    <div class="over">
+
+                                        <img src="<?php echo base_url(); ?>/assets/images/pj_11.jpg" alt="" class="img-responsive" />
+                                        <div class="tab_img_overlay tab_img_overlay_2 tab_img_overlay_3">
+
+                                            <a href="<?php echo base_url(); ?>/assets/images/pj_11.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
+                                                <i class="fa fa-arrows-alt"></i> </a>
+                                            <h1>project title here</h1>
+                                            <p>(solar pannels)</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                           
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 grid-item web branding ux project_pdr_btm">
+                                <div class="gallery-list img-effect zoom-slow">
+                                    <div class="sp_img_box_overlay sp_img_index_overlay"></div>
+                                    <div class="over">
+
+                                        <img src="<?php echo base_url(); ?>/assets/images/pj_9.jpg" alt="" class="img-responsive" />
+                                        <div class="tab_img_overlay tab_img_overlay_2 tab_img_overlay_3">
+
+                                            <a href="<?php echo base_url(); ?>/assets/images/pj_9.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
+                                                <i class="fa fa-arrows-alt"></i> </a>
+                                            <h1>project title here</h1>
+                                            <p>(solar pannels)</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 grid-item photoshop branding ux project_pdr_btm">
+                                <div class="gallery-list img-effect zoom-slow">
+                                    <div class="sp_img_box_overlay sp_img_index_overlay"></div>
+                                    <div class="over">
+
+                                        <img src="<?php echo base_url(); ?>/assets/images/pj_10.jpg" alt="" class="img-responsive" />
+                                        <div class="tab_img_overlay tab_img_overlay_2 tab_img_overlay_3">
+
+                                            <a href="<?php echo base_url(); ?>/assets/images/pj_10.jpg" class="venobox info" data-title="PROJECT TITTLE" data-gall="gall12">
+                                                <i class="fa fa-arrows-alt"></i> </a>
+                                            <h1>project title here</h1>
+                                            <p>(solar pannels)</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- sw project section end-->
+	<!--sw testimonial wrapper start-->
+    <div class="sw_testimonial_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
+                    <div class="sw_left_heading_wraper dark_heading_center">
                         <h1>Why Choose Us solar Energy</h1>
-                        <img src="<?php echo base_url(); ?>/assets/images/hd_line_dark.png" alt="title">
+                        <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
                         <p>Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor. </p>
                     </div>
                 </div>
@@ -1043,19 +958,16 @@
                 </div>
             </div>
         </div>
-        <div class="sw_banner_bottom_shap_img_wrapper">
-            <img src="<?php echo base_url(); ?>/assets/images/shape_2.png" alt="shape">
-        </div>
     </div>
 
     <!--sw testimonial wrapper end-->
-    <!--sw best product wrapper start-->
-    <div class="sw_best_product_wrapper">
+	  <!--sw best product wrapper start-->
+    <div class="sw_best_product_wrapper sw_shop_2_product">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                     <div class="sw_left_heading_wraper">
-                        <h1>Our Best Rated Products</h1>
+                        <h1>related Products</h1>
                         <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
                     </div>
                 </div>
@@ -1065,120 +977,18 @@
                     <div class="best_product_slider_wrapper">
                         <div class="owl-carousel owl-theme">
                             <div class="item">
-                                <div class="sw_product_box_wrapper">
-                                    <div class="sw_product_indx_img_wrapper">
-
-                                        <img src="<?php echo base_url(); ?>/assets/images/prdct_1.jpg" alt="shop_img" class="img-responsive" />
-                                    </div>
-
-                                    <div class="sw_product_indx_img_cont_wrapper">
-                                        <div class="sw_pdct_img">
-                                            <img src="<?php echo base_url(); ?>/assets/images/line.png" alt="img" />
-                                        </div>
-                                        <h5>$  156</h5>
-                                        <h1><a href="#">AIR 30 Turbine</a></h1>
-
-                                        <div class="cc_li_cont_wrapper">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="cc_li_img_overlay">
-                                            <div class="cc_li_img_text">
-                                                <ul>
-                                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-
-                                                    <li><a href="#"><i class="fa fa-expand"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="sw_product_box_wrapper">
-                                    <div class="sw_product_indx_img_wrapper">
-
-                                        <img src="<?php echo base_url(); ?>/assets/images/prdct_2.jpg" alt="shop_img" class="img-responsive" />
-                                    </div>
-
-                                    <div class="sw_product_indx_img_cont_wrapper">
-                                        <div class="sw_pdct_img">
-                                            <img src="<?php echo base_url(); ?>/assets/images/line.png" alt="img" />
-                                        </div>
-                                        <h5>$  156</h5>
-                                        <h1><a href="#">canadian 30 Turbine</a></h1>
-
-                                        <div class="cc_li_cont_wrapper">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="cc_li_img_overlay">
-                                            <div class="cc_li_img_text">
-                                                <ul>
-                                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-
-                                                    <li><a href="#"><i class="fa fa-expand"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="sw_product_box_wrapper">
-                                    <div class="sw_product_indx_img_wrapper">
-
-                                        <img src="<?php echo base_url(); ?>/assets/images/prdct_3.jpg" alt="shop_img" class="img-responsive" />
-                                    </div>
-
-                                    <div class="sw_product_indx_img_cont_wrapper">
-                                        <div class="sw_pdct_img">
-                                            <img src="<?php echo base_url(); ?>/assets/images/line.png" alt="img" />
-                                        </div>
-                                        <h5>$  156</h5>
-                                        <h1><a href="#">AIR Turbine 40</a></h1>
-
-                                        <div class="cc_li_cont_wrapper">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-o"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </div>
-                                        <div class="cc_li_img_overlay">
-                                            <div class="cc_li_img_text">
-                                                <ul>
-                                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-
-                                                    <li><a href="#"><i class="fa fa-expand"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="sw_product_box_wrapper">
+                                <div class="sw_product_box_wrapper sw_shop_sider_pder">
                                     <div class="sw_product_indx_img_wrapper">
 
                                         <img src="<?php echo base_url(); ?>/assets/images/prdct_4.png" alt="shop_img" class="img-responsive" />
                                     </div>
 
-                                    <div class="sw_product_indx_img_cont_wrapper">
+                                    <div class="sw_product_indx_img_cont_wrapper sw_product_indx_img_cont_wrapper_2">
                                         <div class="sw_pdct_img">
                                             <img src="<?php echo base_url(); ?>/assets/images/line.png" alt="img" />
                                         </div>
                                         <h5>$  156</h5>
-                                        <h1><a href="#">Canadian Solar 255</a></h1>
+                                        <h1><a href="#">SolarWorld 280</a></h1>
 
                                         <div class="cc_li_cont_wrapper">
                                             <i class="fa fa-star"></i>
@@ -1201,13 +1011,115 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="sw_product_box_wrapper">
+                                <div class="sw_product_box_wrapper sw_shop_sider_pder">
+                                    <div class="sw_product_indx_img_wrapper">
+
+                                        <img src="<?php echo base_url(); ?>/assets/images/prdct_1.jpg" alt="shop_img" class="img-responsive" />
+                                    </div>
+
+                                    <div class="sw_product_indx_img_cont_wrapper sw_product_indx_img_cont_wrapper_2">
+                                        <div class="sw_pdct_img">
+                                            <img src="<?php echo base_url(); ?>/assets/images/line.png" alt="img" />
+                                        </div>
+                                        <h5>$  156</h5>
+                                        <h1><a href="#">canadian solar 280</a></h1>
+
+                                        <div class="cc_li_cont_wrapper">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="cc_li_img_overlay">
+                                            <div class="cc_li_img_text">
+                                                <ul>
+                                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+
+                                                    <li><a href="#"><i class="fa fa-expand"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="sw_product_box_wrapper sw_shop_sider_pder">
                                     <div class="sw_product_indx_img_wrapper">
 
                                         <img src="<?php echo base_url(); ?>/assets/images/prdct_2.jpg" alt="shop_img" class="img-responsive" />
                                     </div>
 
-                                    <div class="sw_product_indx_img_cont_wrapper">
+                                    <div class="sw_product_indx_img_cont_wrapper sw_product_indx_img_cont_wrapper_2">
+                                        <div class="sw_pdct_img">
+                                            <img src="<?php echo base_url(); ?>/assets/images/line.png" alt="img" />
+                                        </div>
+                                        <h5>$  156</h5>
+                                        <h1><a href="#">AIR sun 280</a></h1>
+
+                                        <div class="cc_li_cont_wrapper">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="cc_li_img_overlay">
+                                            <div class="cc_li_img_text">
+                                                <ul>
+                                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+
+                                                    <li><a href="#"><i class="fa fa-expand"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="sw_product_box_wrapper sw_shop_sider_pder">
+                                    <div class="sw_product_indx_img_wrapper">
+
+                                        <img src="<?php echo base_url(); ?>/assets/images/prdct_6.png" alt="shop_img" class="img-responsive" />
+                                    </div>
+
+                                    <div class="sw_product_indx_img_cont_wrapper sw_product_indx_img_cont_wrapper_2">
+                                        <div class="sw_pdct_img">
+                                            <img src="<?php echo base_url(); ?>/assets/images/line.png" alt="img" />
+                                        </div>
+                                        <h5>$  156</h5>
+                                        <h1><a href="#">SolarWorld 280</a></h1>
+
+                                        <div class="cc_li_cont_wrapper">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="cc_li_img_overlay">
+                                            <div class="cc_li_img_text">
+                                                <ul>
+                                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+
+                                                    <li><a href="#"><i class="fa fa-expand"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="sw_product_box_wrapper sw_shop_sider_pder">
+                                    <div class="sw_product_indx_img_wrapper">
+
+                                        <img src="<?php echo base_url(); ?>/assets/images/prdct_4.png" alt="shop_img" class="img-responsive" />
+                                    </div>
+
+                                    <div class="sw_product_indx_img_cont_wrapper sw_product_indx_img_cont_wrapper_2">
                                         <div class="sw_pdct_img">
                                             <img src="<?php echo base_url(); ?>/assets/images/line.png" alt="img" />
                                         </div>
@@ -1241,19 +1153,16 @@
         </div>
     </div>
     <!--sw best product wrapper end-->
-    <!--sw leads wrapper start-->
-    <div class="sw_leads_wrapper jarallax">
-        <div class="sw_banner_bottom_shap_img_wrapper">
-            <img src="<?php echo base_url(); ?>/assets/images/image11.png" alt="shape">
-        </div>
+      <!--sw leads wrapper start-->
+    <div class="sw_leads_wrapper sw_leads_index">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                     <div class="sw_disc_txt_wrapper">
 
-                        <div class="sw_left_heading_wraper sw_dark_heading_wraper">
+                        <div class="sw_left_heading_wraper">
                             <h1>All Roads Lead to Solar!</h1>
-                            <img src="<?php echo base_url(); ?>/assets/images/hd_line_dark.png" alt="title">
+                            <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
                             <p>Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor. </p>
                         </div>
 
@@ -1294,10 +1203,25 @@
                                 <div class="panel panel-default">
                                     <div class="panel-heading bell">
                                         <h4 class="panel-title">
-											<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftThree" aria-expanded="false">Advantage Of  Solar ?</a>
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftThree" aria-expanded="false">Advantage Of  Solar</a>
 										</h4>
                                     </div>
                                     <div id="collapseFifteenLeftThree" class="panel-collapse collapse" aria-expanded="false" role="tabpanel">
+                                        <div class="panel-body">
+
+                                            <div class="panel_cont">
+                                                <p>Akshay Handge dolor sit amet, consectetur adipisicing elido eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading bell">
+                                        <h4 class="panel-title">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftFour" aria-expanded="false">Solar System Benefits?</a>
+										</h4>
+                                    </div>
+                                    <div id="collapseFifteenLeftFour" class="panel-collapse collapse" aria-expanded="false" role="tabpanel">
                                         <div class="panel-body">
 
                                             <div class="panel_cont">
@@ -1312,19 +1236,15 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                    <div class="sw_road_leads_img">
+					<div class="sw_road_leads_img">
                         <img src="<?php echo base_url(); ?>/assets/images/leads.gif" alt="img">
-
                     </div>
                 </div>
             </div>
         </div>
-        <div class="sw_banner_bottom_shap_img_wrapper">
-            <img src="<?php echo base_url(); ?>/assets/images/image.png" alt="shape">
-        </div>
     </div>
     <!-- sw leads section end-->
-    <!-- sw pricing section start-->
+	 <!-- sw pricing section start-->
     <div class="sw_pricing_wrapper">
         <div class="container">
             <div class="row">
@@ -1447,13 +1367,11 @@
         </div>
     </div>
     <!-- sw pricing section end-->
-    <!-- sw contact form section start-->
-    <div class="sw_contact_form_wrapper sw_contact_form_padder jarallax">
-        <div class="sw_banner_bottom_shap_img_wrapper">
-            <img src="<?php echo base_url(); ?>/assets/images/shape.png" alt="shape">
-        </div>
+	 <!-- sw contact form section start-->
+    <div class="sw_contact_form_wrapper sw_contact_form_padder sw_contact_index">
+
         <div class="container">
-           <div class="contact_left_wrapper wow  bounceIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: bounceIn;">
+            <div class="contact_left_wrapper wow  bounceIn  animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: bounceIn;">
                 <img src="<?php echo base_url(); ?>/assets/images/form_bg.png" alt="img" class="img-responsive">
             </div>
             <div class="contact_right_wrapper">
@@ -1499,111 +1417,108 @@
                 </div>
             </div>
         </div>
-        <div class="sw_banner_bottom_shap_img_wrapper">
-            <img src="<?php echo base_url(); ?>/assets/images/shape_2.png" alt="shape">
-        </div>
+
     </div>
 
     <!-- sw contact form section end-->
-    <!-- sw news section start-->
-    <div class="sw_news_wrapper">
+	 <div class="sw_blog_categories_2_wrapper sw_blog_2_wrapper pst">
+
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
+			   <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
                     <div class="sw_left_heading_wraper sw_center_heading_wrapper">
-                        <h1>Latest News Today</h1>
+                        <h1>latest news today</h1>
                         <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
                         <p>Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor. </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="btc_blog_indx_box_wrapper">
-                        <div class="btc_blog_indx_img_wrapper">
-                            <img src="<?php echo base_url(); ?>/assets/images/news_1.jpg" alt="blog_img">
-                            <div class="btc_blog_indx_date_wrapper">
-                                <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder btc_index_blog_pader">
+                            <div class="btc_blog_indx_img_wrapper">
+                                <img src="<?php echo base_url(); ?>/assets/images/news_1.jpg" alt="blog_img">
+                                <div class="btc_blog_indx_date_wrapper">
+                                    <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="btc_blog_indx_cont_wrapper">
-                            <p>june 16,2018</p>
-                            <h5>Electricity is on track for what
+                            <div class="btc_blog_indx_cont_wrapper">
+                                <p>june 16,2018</p>
+                                <h5>Electricity is on track for what
 about decarbonising heat?</h5>
 
-                        </div>
-                        <div class="btc_blog_indx_cont_bottom">
-                            <div class="btc_blog_indx_cont_bottom_left">
-                                <p><i class="fa fa-user"></i> &nbsp;<a href="#">by Akshay</a></p>
                             </div>
-                            <div class="btc_blog_indx_cont_bottom_right">
-                                <p><i class="fa fa-comments-o"></i> &nbsp;<a href="#">04 Comm.</a></p>
+                            <div class="btc_blog_indx_cont_bottom">
+                                <div class="btc_blog_indx_cont_bottom_left">
+                                    <p><i class="fa fa-user"></i> &nbsp;<a href="#">by Akshay</a></p>
+                                </div>
+                                <div class="btc_blog_indx_cont_bottom_right">
+                                    <p><i class="fa fa-comments-o"></i> &nbsp;<a href="#">04 Comm.</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="btc_blog_indx_box_wrapper">
-                        <div class="btc_blog_indx_img_wrapper">
-                            <img src="<?php echo base_url(); ?>/assets/images/news_2.jpg" alt="blog_img">
-                            <div class="btc_blog_indx_date_wrapper">
-                                <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder btc_index_blog_pader">
+                            <div class="btc_blog_indx_img_wrapper">
+                                <img src="<?php echo base_url(); ?>/assets/images/news_2.jpg" alt="blog_img">
+                                <div class="btc_blog_indx_date_wrapper">
+                                    <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="btc_blog_indx_cont_wrapper">
-                            <p>june 16,2018</p>
-                            <h5> Electricity is on track for what
+                            <div class="btc_blog_indx_cont_wrapper">
+                                <p>june 16,2018</p>
+                                <h5>Electricity is on track for what
 about decarbonising heat?</h5>
 
-                        </div>
-                        <div class="btc_blog_indx_cont_bottom">
-                            <div class="btc_blog_indx_cont_bottom_left">
-                                <p><i class="fa fa-user"></i> &nbsp;<a href="#">by Akshay</a></p>
                             </div>
-                            <div class="btc_blog_indx_cont_bottom_right">
-                                <p><i class="fa fa-comments-o"></i> &nbsp;<a href="#">04 Comm.</a></p>
+                            <div class="btc_blog_indx_cont_bottom">
+                                <div class="btc_blog_indx_cont_bottom_left">
+                                    <p><i class="fa fa-user"></i> &nbsp;<a href="#">by Akshay</a></p>
+                                </div>
+                                <div class="btc_blog_indx_cont_bottom_right">
+                                    <p><i class="fa fa-comments-o"></i> &nbsp;<a href="#">04 Comm.</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="btc_blog_indx_box_wrapper btc_blog_padder">
-                        <div class="btc_blog_indx_img_wrapper">
-                            <img src="<?php echo base_url(); ?>/assets/images/news_3.jpg" alt="blog_img">
-                            <div class="btc_blog_indx_date_wrapper">
-                                <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+                        <div class="btc_blog_indx_box_wrapper btc_blog_padder">
+                            <div class="btc_blog_indx_img_wrapper">
+                                <img src="<?php echo base_url(); ?>/assets/images/news_3.jpg" alt="blog_img">
+                                <div class="btc_blog_indx_date_wrapper">
+                                    <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="btc_blog_indx_cont_wrapper">
-                            <p>june 16,2018</p>
-                            <h5>Electricity is on track for what
+                            <div class="btc_blog_indx_cont_wrapper">
+                                <p>june 16,2018</p>
+                                <h5>Electricity is on track for what
 about decarbonising heat?</h5>
 
-                        </div>
-                        <div class="btc_blog_indx_cont_bottom">
-                            <div class="btc_blog_indx_cont_bottom_left">
-                                <p><i class="fa fa-user"></i> &nbsp;<a href="#">by Akshay</a></p>
                             </div>
-                            <div class="btc_blog_indx_cont_bottom_right">
-                                <p><i class="fa fa-comments-o"></i> &nbsp;<a href="#">04 Comm.</a></p>
+                            <div class="btc_blog_indx_cont_bottom">
+                                <div class="btc_blog_indx_cont_bottom_left">
+                                    <p><i class="fa fa-user"></i> &nbsp;<a href="#">by Akshay</a></p>
+                                </div>
+                                <div class="btc_blog_indx_cont_bottom_right">
+                                    <p><i class="fa fa-comments-o"></i> &nbsp;<a href="#">04 Comm.</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
+             </div>
+		</div>
+     </div>
+	 <!-- sw blog wrapper end-->
+	   <!--sw our newsletter wrapper start-->
+    <div class="sw_our_newsletter_wrapper">
 
-    <!-- sw news section end-->
-    <!--sw our newsletter wrapper start-->
-    <div class="sw_our_newsletter_wrapper jarallax">
-        <div class="discover_overlay"></div>
-        <div class="sw_banner_bottom_shap_img_wrapper">
-            <img src="<?php echo base_url(); ?>/assets/images/image11.png" alt="shape">
-        </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12">
                     <div class="sw_nl_heading_wrapper sw_our_news_txt">
-                        <i class="flaticon-rocket"></i>
+                       <i class="flaticon-rocket"></i>
                         <h2>Subscribe Our Newsletter</h2>
                         <h6>Get the latest News & Offers..</h6>
 
@@ -1617,16 +1532,14 @@ about decarbonising heat?</h5>
                     </div>
                 </div>
                 <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
-                    <div class="sw_letter_img_wrapper">
-                        <img src="<?php echo base_url(); ?>/assets/images/btm_news_bg.png" alt="img">
+                    <div class="sw_letter_img_wrapper wow  zoomIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: zoomIn;">
+                        <img src="<?php echo base_url(); ?>/assets/images/abt_ltr_img.png" alt="img">
 
                     </div>
                 </div>
             </div>
         </div>
-        <div class="sw_banner_bottom_shap_img_wrapper">
-            <img src="<?php echo base_url(); ?>/assets/images/image.png" alt="shape">
-        </div>
+
     </div>
     <!-- sw our newsletter section end-->
     <!-- sw partners section start-->
@@ -1680,16 +1593,15 @@ about decarbonising heat?</h5>
     </div>
     <!-- sw partners section end-->
     <!-- sw footer section start-->
-    <div class="sw_contact_form_wrapper jarallax">
-        <div class="sw_banner_bottom_shap_img_wrapper">
-            <img src="<?php echo base_url(); ?>/assets/images/shape.png" alt="shape">
+    <div class="sw_footer_main_wrapper sw_footer_index_wrapper">
+
+        <div class="circle_btm">
+            <a href="javascript:" id="return-to-top"><i class="fa fa-long-arrow-up"></i></a>
         </div>
         <div class="footer_wrapper">
 
             <div class="container">
-			  <div class="circle_btm">
-					<a href="javascript:" id="return-to-top"><i class="fa fa-long-arrow-up"></i></a>
-				</div>
+
                 <div class="row">
                     <div class="foter_padder">
                         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
@@ -1714,7 +1626,7 @@ about decarbonising heat?</h5>
                         <div class="col-lg-2 col-md-2 col-xs-12 col-sm-4">
                             <div class="wrapper_second_useful">
                                 <h4>useful links </h4>
-                                <img src="images/hd_line_dark.png" alt="title" class="pd_btm_3">
+                                <img src="<?php echo base_url(); ?>/assets/images/hd_line_dark.png" alt="title" class="pd_btm_3">
                                 <ul>
                                     <li><a href="#"><i class="fa fa-angle-right"></i>About us</a>
                                     </li>
@@ -1750,7 +1662,7 @@ about decarbonising heat?</h5>
                         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
                             <div class="wrapper_second_useful wrapper_second_useful_2">
                                 <h4>contact  us</h4>
-                                <img src="images/hd_line_dark.png" alt="title" class="pd_btm_3">
+                                <img src="<?php echo base_url(); ?>/assets/images/hd_line_dark.png" alt="title" class="pd_btm_3">
                                 <ul>
 									<li>
                                      <h1>+800 568 322</h1></li>
@@ -1784,7 +1696,6 @@ about decarbonising heat?</h5>
     <script src="<?php echo base_url(); ?>/assets/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url(); ?>/assets/js/jqu_menu.js"></script>
     <script src="<?php echo base_url(); ?>/assets/js/jqu_slickmenu.js"></script>
-	<script src="<?php echo base_url(); ?>/assets/js/jarallax.js"></script>
     <script src="<?php echo base_url(); ?>/assets/js/isotope.pkgd.min.js"></script>
     <script src="<?php echo base_url(); ?>/assets/venobox/js/venobox.min.js"></script>
     <script src="<?php echo base_url(); ?>/assets/js/jquery.inview.min.js"></script>
@@ -1794,7 +1705,7 @@ about decarbonising heat?</h5>
     <script src="<?php echo base_url(); ?>/assets/js/jquery.easing.1.3.js"></script>
     <script src="<?php echo base_url(); ?>/assets/js/owl.carousel.js"></script>
     <script src="<?php echo base_url(); ?>/assets/js/camera.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/js/plugin/rs_slider/jquery.themepunch.revolution.min.js"></script>
+	  <script src="<?php echo base_url(); ?>/assets/js/plugin/rs_slider/jquery.themepunch.revolution.min.js"></script>
     <script src="<?php echo base_url(); ?>/assets/js/plugin/rs_slider/jquery.themepunch.tools.min.js"></script>
     <script src="<?php echo base_url(); ?>/assets/js/plugin/rs_slider/revolution.addon.snow.min.js"></script>
     <script src="<?php echo base_url(); ?>/assets/js/plugin/rs_slider/revolution.extension.actions.min.js"></script>
@@ -1806,8 +1717,103 @@ about decarbonising heat?</h5>
     <script src="<?php echo base_url(); ?>/assets/js/plugin/rs_slider/revolution.extension.parallax.min.js"></script>
     <script src="<?php echo base_url(); ?>/assets/js/plugin/rs_slider/revolution.extension.slideanims.min.js"></script>
     <script src="<?php echo base_url(); ?>/assets/js/plugin/rs_slider/revolution.extension.video.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/js/custom_3.js"></script>
+    <script src="<?php echo base_url(); ?>/assets/js/custom_2.js"></script>
     <!--js code-->
+	<script>
+			
+	 var tpj=jQuery;
+			
+			var revapi1050;
+			tpj(document).ready(function() {
+				if(tpj("#rev_slider_1050_1").revolution == undefined){
+					revslider_showDoubleJqueryError("#rev_slider_1050_1");
+				}else{
+					revapi1050 = tpj("#rev_slider_1050_1").show().revolution({
+						sliderType:"standard",
+jsFileLocation:"revolution/js/",
+						sliderLayout:"fullscreen",
+						dottedOverlay:"none",
+						delay:9000,
+						navigation: {
+							keyboardNavigation:"on",
+							keyboard_direction: "horizontal",
+							mouseScrollNavigation:"off",
+ 							mouseScrollReverse:"default",
+							onHoverStop:"off",
+							touch:{
+								touchenabled:"on",
+								swipe_threshold: 75,
+								swipe_min_touches: 50,
+								swipe_direction: "horizontal",
+								drag_block_vertical: false
+							},
+							arrows: {
+					style:"uranus",
+					enable:false,
+					hide_onmobile:true,
+					hide_onleave:true,
+					tmp:'',
+					left: {
+						h_align:"left",
+						v_align:"center",
+						h_offset:0,
+						v_offset:10
+					},
+					right: {
+						h_align:"right",
+						v_align:"center",
+						h_offset:0,
+						v_offset:10
+					}
+				}
+							,
+							bullets: {
+								enable:true,
+								hide_onmobile:false,
+								hide_under:1024,
+								style:"hephaistos",
+								hide_onleave:false,
+								direction:"horizontal",
+								h_align:"center",
+								v_align:"bottom",
+								h_offset:0,
+								v_offset:0,
+								space:10,
+								tmp:''
+							}
+						},
+						responsiveLevels:[1240,1024,778,480],
+						visibilityLevels:[1240,1024,778,480],
+						gridwidth:[1400,1240,778,480],
+						gridheight:[868,768,960,720],
+						lazyType:"none",
+						shadow:0,
+						spinner:"spinner2",
+						stopLoop:"on",
+						stopAfterLoops:0,
+						stopAtSlide:1,
+						shuffle:"off",
+						autoHeight:"off",
+						fullScreenAutoWidth:"off",
+						fullScreenAlignForce:"off",
+						fullScreenOffsetContainer: "",
+						fullScreenOffset: "",
+						disableProgressBar:"on",
+						hideThumbsOnMobile:"off",
+						hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						debugMode:false,
+						fallbacks: {
+							simplifyAll:"off",
+							nextSlideOnWindowFocus:"off",
+							disableFocusListener:false,
+						}
+					});
+				}
+			});	/*ready*/
+	
+	</script>
 </body>
 
 </html>
