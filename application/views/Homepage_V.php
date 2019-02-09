@@ -184,8 +184,8 @@ Author:   Webstrot
                                     <li class="dropdown tc_login_btn">
                                         <a class="dropdown-toggle hvr-float-shadow active waves-effect waves-light" data-toggle="dropdown" href="#"><i class="fa fa-ellipsis-v"></i></a>
                                         <ul class="dropdown-menu tc_menu_fixed_border">
-                                            <li class="dropdown_hover"><a href="#">FAQ's</a></li>
-                                            <li class="dropdown_hover"><a href="#">Track Order</a></li>
+                                            <!-- <li class="dropdown_hover"><a href="#">FAQ's</a></li>
+                                            <li class="dropdown_hover"><a href="#">Track Order</a></li> -->
                                             <li class="dropdown_hover"><a href="#">Register</a></li>
                                             <li class="dropdown_hover"><a href="#">Login</a></li>
                                             <li class="dropdown_hover hidden-lg"><a href="#">Join Us</a></li>
@@ -421,18 +421,19 @@ Author:   Webstrot
                     <div class="sw_disc_txt_wrapper">
 
                         <div class="sw_left_heading_wraper">
-                            <h1>Discover the Advantages</h1>
+                            <h1>Apa Keuntungan Surya Atap?</h1>
                             <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
-                            <p>Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor. </p>
+                            <p>Pemasangan Surya Atap dapat Menghemat Konsumsi Energi Listrik di Rumah Anda. 
+                                Selain itu, Energi Surya juga Aman dan Ramah Lingkungan. </p>
                         </div>
                         <div class="sw_desc_btm_txt">
                             <div class="sw_disc_image">
                                  <i class="flaticon-sun"></i>
                             </div>
                             <div class="sw_disc_head_text">
-                                <h5><a href="#">Solar Panels Service</a></h5>
-                                <p>Ruisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur
-                                    <br> elitam purus tellus fringilla.</p>
+                                <h5><a href="#">Pemasangan Mudah & Murah</a></h5>
+                                <p>Panel Surya dapat Dipasang Dimana Saja dan Harganya yang
+                                    <br>Ekonomis dapat Menjadi Solusi di Rumah Anda.</p>
                             </div>
                         </div>
                         <div class="sw_desc_btm_txt">
@@ -440,9 +441,9 @@ Author:   Webstrot
                                  <i class="flaticon-wind-turbine"></i>
                             </div>
                             <div class="sw_disc_head_text">
-                                <h5><a href="#">Best Wind Energy</a></h5>
-                                <p>Ruisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur
-                                    <br> elitam purus tellus fringilla.</p>
+                                <h5><a href="#">Investasi Yang Menguntungkan</a></h5>
+                                <p>Umur Panel Surya dapat Bertahan hingga 25 Tahun dan 
+                                    <br> Perawatannya pun Sederhana.</p>
                             </div>
                         </div>
                         <div class="sw_desc_btm_txt">
@@ -450,29 +451,29 @@ Author:   Webstrot
                                  <i class="flaticon-power"></i>
                             </div>
                             <div class="sw_disc_head_text">
-                                <h5><a href="#">Extended Guarantee</a></h5>
-                                <p>Ruisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur
-                                    <br> elitam purus tellus fringilla.</p>
+                                <h5><a href="#">Pembangkit Energi Abadi</a></h5>
+                                <p>Sampai Kutub Utara Mencair pun Energi Surya Tidak
+                                    <br> Akan Habis.</p>
                             </div>
                         </div>
-                        <div class="disc_btn">
+                        <!-- <div class="disc_btn">
                             <ul>
                                 <li>
                                     <a href="#!" class="waves-effect waves-light waves-ripple">view all</a>
                                 </li>
                             </ul>
 
-                        </div>
+                        </div> -->
 
                     </div>
                 </div>
                 <div class="col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1 col-sm-12 col-xs-12 clm_img">
                     <div class="sw_right_img_wrapper">
                         <div class="sw_disc_img_overlay"></div>
-                        <img src="<?php echo base_url(); ?>/assets/images/disc_lft_bg.jpg" alt="About" class="img-responsive sw_right_img_div">
+                        <img src="<?php echo base_url(); ?>/assets/images/disc_lft_bg1.jpg" alt="About" class="img-responsive sw_right_img_div">
 
                         <div class="sw_disc_img_btm">
-                            <img src="<?php echo base_url(); ?>/assets/images/disc_lft.jpg" alt="About" class="img-responsive">
+                            <img src="<?php echo base_url(); ?>/assets/images/disc_lft1.jpg" alt="About" class="img-responsive">
                         </div>
                     </div>
                 </div>
@@ -487,7 +488,7 @@ Author:   Webstrot
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                     <div class="sw_left_heading_wraper">
-                        <h1>We Cover the Whole Spectrum</h1>
+                        <h1>Menuju Energi Masa Depan Bersama HOMS Energi</h1>
                         <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
                     </div>
                 </div>
@@ -500,7 +501,7 @@ Author:   Webstrot
                                     <div class="spectrum_slider_cntnt">
                                         <div class="spectrum_slider_shadow">
                                             <img src="<?php echo base_url(); ?>/assets/images/spec_1.png" alt="title" class="img-responsive">
-                                            <h2><a href="#">solar system</a></h2>
+                                            <h2><a href="#">Future Energy</a></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -508,7 +509,7 @@ Author:   Webstrot
                                     <div class="spectrum_slider_cntnt">
                                         <div class="spectrum_slider_shadow">
                                             <img src="<?php echo base_url(); ?>/assets/images/spec_2.png" alt="title">
-                                            <h2><a href="#">solar pv systems</a></h2>
+                                            <h2><a href="#">Green Energy</a></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -516,7 +517,7 @@ Author:   Webstrot
                                     <div class="spectrum_slider_cntnt">
                                         <div class="spectrum_slider_shadow">
                                             <img src="<?php echo base_url(); ?>/assets/images/spec_3.png" alt="title" class="img-responsive">
-                                            <h2><a href="#">Wind Generators</a></h2>
+                                            <h2><a href="#">Friendly Energy</a></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -524,7 +525,7 @@ Author:   Webstrot
                                     <div class="spectrum_slider_cntnt">
                                         <div class="spectrum_slider_shadow">
                                             <img src="<?php echo base_url(); ?>/assets/images/spec_4.png" alt="title" class="img-responsive">
-                                            <h2><a href="#">Alternative Energy</a></h2>
+                                            <h2><a href="#">Affordable Energy</a></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -532,7 +533,7 @@ Author:   Webstrot
                                     <div class="spectrum_slider_cntnt">
                                         <div class="spectrum_slider_shadow">
                                             <img src="<?php echo base_url(); ?>/assets/images/spec_2.png" alt="title" class="img-responsive">
-                                            <h2><a href="#">Wind Generators</a></h2>
+                                            <h2><a href="#">Smart Energy</a></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -549,9 +550,9 @@ Author:   Webstrot
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
                     <div class="sw_left_heading_wraper sw_center_heading_wrapper">
-                        <h1>Why Choose Us solar Energy</h1>
+                        <h1>HOMS Monitoring App</h1>
                         <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
-                        <p>Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor. </p>
+                        <p>Punya Panel Surya tapi Tidak Ada Monitoring? Mana bisa tau HEMAT berapa ... </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
@@ -563,8 +564,8 @@ Author:   Webstrot
                             </div>
 
                             <div class="chose_icon_content_left">
-                                <h4><a href="#">Long Time to Use</a></h4>
-                                <p>Quisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur.</p>
+                                <h4><a href="#">Produksi Energi Surya</a></h4>
+                                <p>Dapatkan aplikasi monitoring produksi dan daya panel surya beserta konsumsi anda secara real time</p>
                             </div>
 
                         </div>
@@ -575,8 +576,8 @@ Author:   Webstrot
                             </div>
 
                             <div class="chose_icon_content_left">
-                                <h4><a href="#">Alaways Clean Energy</a></h4>
-                                <p>Quisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur.</p>
+                                <h4><a href="#">Estimasi Balik Modal</a></h4>
+                                <p>Perhitungan balik modal investasi panel surya yang akurat berdasarkan data produksi energi surya anda.</p>
                             </div>
 
                         </div>
@@ -587,8 +588,8 @@ Author:   Webstrot
                             </div>
 
                             <div class="chose_icon_content_left">
-                                <h4><a href="#">Energy Can Be Reused</a></h4>
-                                <p>Quisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur.</p>
+                                <h4><a href="#">Battery Monitoring</a></h4>
+                                <p>Teknologi monitoring akurat kapasitas battery secara berkala.</p>
                             </div>
 
                         </div>
@@ -603,8 +604,8 @@ Author:   Webstrot
                     <div class="chose_text_wrapper_right">
                         <div class="chose_icon_wrapper_list">
                             <div class="icon_content_right">
-                                <h4><a href="#">Used for Many Purposes</a></h4>
-                                <p>Quisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur.</p>
+                                <h4><a href="#">Ramalan Cuaca</a></h4>
+                                <p>Ramalan cuaca sesuai kondisi geografis di Indonesia.</p>
                             </div>
 
                             <div class="chose_icon_img_list">
@@ -615,8 +616,8 @@ Author:   Webstrot
                         <div class="chose_icon_wrapper_list">
 
                             <div class="icon_content_right">
-                                <h4><a href="#">Low Installation Costs</a></h4>
-                                <p>Quisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur.</p>
+                                <h4><a href="#">Perhitungan Efisiensi</a></h4>
+                                <p>Dapatkan perhitungan penghematan energi akurat di rumah anda setelah memasang panel surya.</p>
                             </div>
 
                             <div class="chose_icon_img_list">
@@ -627,8 +628,8 @@ Author:   Webstrot
                         <div class="chose_icon_wrapper_list">
 
                             <div class="icon_content_right">
-                                <h4><a href="#">Easy Installation</a></h4>
-                                <p>Quisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur.</p>
+                                <h4><a href="#">Kontribusi Reduksi CO<sup>2</sup></a></h4>
+                                <p>Ketahuilah kontribusi anda dalam Upaya menyelamatkan lingkungan dari polusi karbon.</p>
                             </div>
 
                             <div class="chose_icon_img_list">
@@ -686,7 +687,7 @@ Author:   Webstrot
         <div class="container">
             <div class="sw_nl_heading_wrapper">
                <i class="flaticon-rocket"></i>
-                <h2>Get Free Consultancy About Your Project</h2>
+                <h2>Pengen Dapt Aplikasi HOMS Monitoring di Atas?</h2>
 
             </div>
 
@@ -695,7 +696,7 @@ Author:   Webstrot
                 <div class="disc_btn ltr_btn">
                     <ul>
                         <li>
-                            <a href="#!" class="waves-effect waves-light waves-ripple">ask a question</a>
+                            <a href="#!" class="waves-effect waves-light waves-ripple">Pesan Sekarang !</a>
                         </li>
                     </ul>
 
@@ -706,7 +707,7 @@ Author:   Webstrot
     </div>
     <!--sw newsletter wrapper end-->
 	 <!-- sw project section start-->
-    <div class="sw_project_wrapper">
+    <!-- <div class="sw_project_wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
@@ -864,10 +865,10 @@ Author:   Webstrot
                
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- sw project section end-->
 	<!--sw testimonial wrapper start-->
-    <div class="sw_testimonial_wrapper">
+    <!-- <div class="sw_testimonial_wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
@@ -958,11 +959,11 @@ Author:   Webstrot
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!--sw testimonial wrapper end-->
 	  <!--sw best product wrapper start-->
-    <div class="sw_best_product_wrapper sw_shop_2_product">
+    <!-- <div class="sw_best_product_wrapper sw_shop_2_product">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
@@ -970,10 +971,10 @@ Author:   Webstrot
                         <h1>related Products</h1>
                         <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
                     </div>
-                </div>
+                </div> -->
 
                 <!-- slider start -->
-                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 sw_spectrm_padding">
+                <!-- <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 sw_spectrm_padding">
                     <div class="best_product_slider_wrapper">
                         <div class="owl-carousel owl-theme">
                             <div class="item">
@@ -1151,7 +1152,7 @@ Author:   Webstrot
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--sw best product wrapper end-->
       <!--sw leads wrapper start-->
     <div class="sw_leads_wrapper sw_leads_index">
@@ -1161,9 +1162,9 @@ Author:   Webstrot
                     <div class="sw_disc_txt_wrapper">
 
                         <div class="sw_left_heading_wraper">
-                            <h1>All Roads Lead to Solar!</h1>
+                            <h1>Kenapa Pembangkit Surya itu Penting!</h1>
                             <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
-                            <p>Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor. </p>
+                            <p>Sudah Saatnya Kita Bersinergi Bersama-sama Menuju Energi Masa Depan. </p>
                         </div>
 
                         <div class="sw_leads_accordian">
@@ -1171,14 +1172,14 @@ Author:   Webstrot
                                 <div class="panel panel-default">
                                     <div class="panel-heading desktop">
                                         <h4 class="panel-title">
-											<a data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftone" aria-expanded="true">The Cost Benefit Ratio: </a>
+											<a data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftone" aria-expanded="true">Sudah Saatnya Hidup Hemat </a>
 										</h4>
                                     </div>
                                     <div id="collapseFifteenLeftone" class="panel-collapse collapse in" aria-expanded="true" role="tabpanel">
                                         <div class="panel-body">
 
                                             <div class="panel_cont">
-                                                <p>Akshay Handge dolor sit amet, consectetur adipisicing elido eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
+                                                <p>Hanya Modal Investasi Panel Surya, Tagihan Listrik di Rumah Anda akan Menurun hingga 80%. </p>
                                             </div>
                                         </div>
                                     </div>
@@ -1187,14 +1188,14 @@ Author:   Webstrot
                                 <div class="panel panel-default">
                                     <div class="panel-heading horn">
                                         <h4 class="panel-title">
-											<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftTwo" aria-expanded="false">Why Solar Energy ?</a>
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftTwo" aria-expanded="false">Hentikan Polusi Karbon!</a>
 										</h4>
                                     </div>
                                     <div id="collapseFifteenLeftTwo" class="panel-collapse collapse" aria-expanded="false" role="tabpanel">
                                         <div class="panel-body">
 
                                             <div class="panel_cont">
-                                                <p>Akshay Handge dolor sit amet, consectetur adipisicing elido eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
+                                                <p>Sebesar 88% Kebutuhan Energi Listrik di Pasok dari Energi Fosil yang Menimbulkan Polusi & Pemanasan Global .</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1203,14 +1204,14 @@ Author:   Webstrot
                                 <div class="panel panel-default">
                                     <div class="panel-heading bell">
                                         <h4 class="panel-title">
-											<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftThree" aria-expanded="false">Advantage Of  Solar</a>
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftThree" aria-expanded="false">Yuk Selamatkan Bumi Kita</a>
 										</h4>
                                     </div>
                                     <div id="collapseFifteenLeftThree" class="panel-collapse collapse" aria-expanded="false" role="tabpanel">
                                         <div class="panel-body">
 
                                             <div class="panel_cont">
-                                                <p>Akshay Handge dolor sit amet, consectetur adipisicing elido eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
+                                                <p>Dengan Energi Surya Anda dapat Berkontribusi Melestarikan Lingkungan & Mendukung Program Bauran Energi Nasional.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1218,14 +1219,14 @@ Author:   Webstrot
                                 <div class="panel panel-default">
                                     <div class="panel-heading bell">
                                         <h4 class="panel-title">
-											<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftFour" aria-expanded="false">Solar System Benefits?</a>
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordionFifteenLeft" href="#collapseFifteenLeftFour" aria-expanded="false">Surya Atap Ga Bakal Rugi</a>
 										</h4>
                                     </div>
                                     <div id="collapseFifteenLeftFour" class="panel-collapse collapse" aria-expanded="false" role="tabpanel">
                                         <div class="panel-body">
 
                                             <div class="panel_cont">
-                                                <p>Akshay Handge dolor sit amet, consectetur adipisicing elido eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
+                                                <p>Investasi Panel Surya Anda Tidak Perlu Kuatir Mergui Sekarang Energi Listrik dari Surya Atap Anda bisa dijual ke PLN.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1250,16 +1251,17 @@ Author:   Webstrot
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
                     <div class="sw_left_heading_wraper sw_center_heading_wrapper pd_0">
-                        <h1>Affordable Pricing Packages</h1>
+                        <h1>Pilih Paket HOMS Monitoring</h1>
                         <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
-                        <p>Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor. </p>
+                        <p>Sekarang Saatnya Anda Mendapatkan Aplikasi untuk Monitoring, Memprediksi, dan  
+                        Monetisasi Produk & Konsumsi Energi Listrik Sistem Pembangkit Surya Anda. </p>
                     </div>
                 </div>
 
                 <div class="pricing_box1_wrapper">
                     <div class="box1_heading_wrapper box1_orange">
 
-                        <h1><sup>$</sup>75<span> /  month</span></h1>
+                        <h1><sup>Rp.</sup>99K<span> / Thn</span></h1>
                         <div class="jp_pricing_label_wrapper">
 
                         </div>
@@ -1269,7 +1271,7 @@ Author:   Webstrot
                         <div class="disc_btn pricing_btn">
                             <ul>
                                 <li>
-                                    <a href="#!" class="waves-effect waves-light waves-ripple">basic</a>
+                                    <a href="#!" class="waves-effect waves-light waves-ripple">Rumah Tangga</a>
                                 </li>
                             </ul>
 
@@ -1277,12 +1279,12 @@ Author:   Webstrot
 
                         <div class="pricing_btm_txt_wrapper txt_clr_oange">
                             <div class="pricing_cont">
-                                <p>Battery Capacity 11 - 15 kWh</p>
+                                <p>Kapasitas Daya 1-10 kVA/p>
                                 <ul>
-                                    <li> free service</li>
-                                    <li>ranted battery</li>
-                                    <li>free installation</li>
-                                    <li>24 hour support</li>
+                                    <li>RealTime Monitoring</li>
+                                    <li>Wifi/Non-Wifi IoT Module</li>
+                                    <li>Free Installation</li>
+                                    <li>24/7 Customer Services</li>
 
                                 </ul>
                             </div>
@@ -1295,7 +1297,7 @@ Author:   Webstrot
                 <div class="pricing_box1_wrapper sw_pricing_box_transition">
                     <div class="box1_heading_wrapper box1_blue">
 
-                        <h1><sup>$</sup>95<span> /  month</span></h1>
+                        <h1><sup>Rp.</sup>199K<span> /  Thn</span></h1>
                         <div class="jp_pricing_label_wrapper jp_pricing_label_blue">
 
                         </div>
@@ -1304,7 +1306,7 @@ Author:   Webstrot
                         <div class="disc_btn pricing_btn">
                             <ul>
                                 <li>
-                                    <a href="#!" class="waves-effect waves-light waves-ripple">business</a>
+                                    <a href="#!" class="waves-effect waves-light waves-ripple">PLTS Off Grid</a>
                                 </li>
                             </ul>
 
@@ -1312,12 +1314,12 @@ Author:   Webstrot
 
                         <div class="pricing_btm_txt_wrapper txt_clr_blue">
                             <div class="pricing_cont">
-                                <p>Battery Capacity 16 - 20 kWh</p>
+                                <p>Kapasitas Daya 1-100 kVA</p>
                                 <ul>
-                                    <li> free service</li>
-                                    <li>ranted battery</li>
-                                    <li>free installation</li>
-                                    <li>24 hour support</li>
+                                    <li>Real Time Monitoring</li>
+                                    <li>Custom Request Installation</li>
+                                    <li>Rural Area System</li>
+                                    <li>24/7 Customer Services</li>
 
                                 </ul>
                             </div>
@@ -1330,7 +1332,7 @@ Author:   Webstrot
                 <div class="pricing_box1_wrapper padder_btm_0">
                     <div class="box1_heading_wrapper box1_green">
 
-                        <h1><sup>$</sup>125<span> /  month</span></h1>
+                        <h1><sup>Rp.</sup>299K<span> /  Thn</span></h1>
                         <div class="jp_pricing_label_wrapper jp_pricing_label_green">
 
                         </div>
@@ -1340,7 +1342,7 @@ Author:   Webstrot
                         <div class="disc_btn pricing_btn">
                             <ul>
                                 <li>
-                                    <a href="#!" class="waves-effect waves-light waves-ripple">ultimate</a>
+                                    <a href="#!" class="waves-effect waves-light waves-ripple">Perkantoran</a>
                                 </li>
                             </ul>
 
@@ -1348,12 +1350,12 @@ Author:   Webstrot
 
                         <div class="pricing_btm_txt_wrapper txt_clr_green">
                             <div class="pricing_cont">
-                                <p>Battery Capacity all kWh</p>
+                                <p>Kapasitas Daya 1-20 kVA</p>
                                 <ul>
-                                    <li> free service</li>
-                                    <li>ranted battery</li>
-                                    <li>free installation</li>
-                                    <li>24 hour support</li>
+                                    <li>Real Time Monitoring</li>
+                                    <li>Custom Request Installation</li>
+                                    <li>Building Management System</li>
+                                    <li>24/7 Customer Services</li>
 
                                 </ul>
                             </div>
@@ -1377,38 +1379,39 @@ Author:   Webstrot
             <div class="contact_right_wrapper">
                 <div class="cmnt_area_div_mn">
                     <div class="sw_left_heading_wraper sw_dark_heading_wraper">
-                        <h1>Fill Free Contact Us</h1>
+                        <h1>Dapatkan Konsultasi Gratis!</h1>
                         <img src="<?php echo base_url(); ?>/assets/images/hd_line_dark.png" alt="title">
-                        <p>Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor. </p>
+                        <p>Pastikan Rumah Anda Layak Sebelum Memasang Panel Surya!
+                       <br> Kapan lagi dapat Konsultasi Gratis. </p>
                     </div>
                     <div class="row">
                         <form>
                             <div class="cont_main_section">
 
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="contect_form1">
-                                        <input type="text" name="full_name" placeholder="Name*" class="require">
+                                        <input type="text" name="full_name" placeholder="Nama*" class="require">
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="contect_form1">
+                                        <input type="number" name="Nomor HP" placeholder="Nomor HP" pattern="[0-9]" maxlength="13" class="require">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="contect_form1">
                                         <input type="email" name="email" placeholder="Email*" class="require" data-valid="email" data-error="Email should be valid.">
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="contect_form1">
-                                        <input type="text" name="subject" placeholder="Subject">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="contect_form4">
-                                        <textarea rows="5" name="message" placeholder="Message" class="require"></textarea>
+                                        <textarea rows="5" name="message" placeholder="Tulis pertanyaan anda di sini" class="require"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="response"></div>
                                     <div class="cntct_2_btn_wrapper">
-                                        <button type="button" class="submitForm waves-effect waves-light waves-ripple">send</button>
+                                        <button type="button" class="submitForm waves-effect waves-light waves-ripple">Kirim</button>
                                     </div>
                                 </div>
                             </div>
@@ -1427,9 +1430,9 @@ Author:   Webstrot
             <div class="row">
 			   <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
                     <div class="sw_left_heading_wraper sw_center_heading_wrapper">
-                        <h1>latest news today</h1>
+                        <h1>Simak Kabar Hari Ini</h1>
                         <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
-                        <p>Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor. </p>
+                        <p>Jangan Sampai Ketinggalan dengan Berita-Berita Terbaru Ketenaga Listrikan Indonesia. </p>
                     </div>
                 </div>
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -1519,16 +1522,14 @@ about decarbonising heat?</h5>
                 <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12">
                     <div class="sw_nl_heading_wrapper sw_our_news_txt">
                        <i class="flaticon-rocket"></i>
-                        <h2>Subscribe Our Newsletter</h2>
-                        <h6>Get the latest News & Offers..</h6>
+                        <h2>Jangan Lewatkan Promo Menarik</h2>
+                        <h6>Dapatkan Penawaran & Berita Terbaru... Siapa Cepat, Dia Dapat...</h6>
 
                         <div class="prs_newsletter_field">
-                            <input type="text" placeholder="Email*">
+                            <input type="text" placeholder="Alamat Email*">
                             <button type="submit" class="waves-effect waves-light waves-ripple">Submit</button>
                         </div>
-                        <p>True environmental protection lies in loving the mountains, the oceans and in cher
-                            <br> all creation.</p>
-
+                       
                     </div>
                 </div>
                 <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
@@ -1548,7 +1549,7 @@ about decarbonising heat?</h5>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                     <div class="sw_left_heading_wraper">
-                        <h1>Our Partners</h1>
+                        <h1>Partner Kami</h1>
                         <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
                     </div>
                 </div>
@@ -1610,7 +1611,8 @@ about decarbonising heat?</h5>
                                     <a href="index.html"><img src="<?php echo base_url(); ?>/assets/images/hd_logo.png" class="img-responsive" alt="logo" /></a>
                                 </div>
                                 <div class="abotus_content">
-                                    <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis aks nostrud exercitation ullamco.</p>
+                                    <p>Penghematan tidak dijamin dan akan bervariasi berdasarkan berbagai faktor, 
+                                    tergantung jenis produk, penggunaan energi aktual, produksi sistem aktual, geografi, cuaca, naungan, dan kenaikan tarif. Hubungi HOMS untuk perkiraan yang lebih akurat.</p>
                                     <ul>
                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -1661,17 +1663,17 @@ about decarbonising heat?</h5>
 
                         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
                             <div class="wrapper_second_useful wrapper_second_useful_2">
-                                <h4>contact  us</h4>
+                                <h4>Kontak Kami</h4>
                                 <img src="<?php echo base_url(); ?>/assets/images/hd_line_dark.png" alt="title" class="pd_btm_3">
                                 <ul>
 									<li>
-                                     <h1>+800 568 322</h1></li>
-									 <li><a href="#"><i class="flaticon-new-email-outline"></i>sunwind@example.com</a>
+                                     <h1>+89 61 333 144</h1></li>
+									 <li><a href="#"><i class="flaticon-new-email-outline"></i>marketing-homs@gmail.com</a>
                                     </li>
-									 <li><a href="#"><i class="flaticon-internet"></i>www.example.com</a>
+									 <li><a href="#"><i class="flaticon-internet"></i>www.homsttech.com</a>
                                     </li>
                                   
-                                    <li><i class="flaticon-placeholder"></i>Timposn, Suite 247 USA, 222
+                                    <li><i class="flaticon-placeholder"></i>Lt.8 Gedung Research Center - ITS, Surabaya
                                     </li>                                   
                                 </ul>
                             </div>
@@ -1680,7 +1682,7 @@ about decarbonising heat?</h5>
                 </div>
                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                     <div class="section3_copyright">
-                        <p>Copyright 2018 <a href="index.html"> sun & wind energy</a>. all right reserved - design by <a href="index.html">webstrot</a></p>
+                        <p>Copyright 2019 <a href="index.html"> sun & wind energy</a>. all right reserved - design by <a href="index.html">webstrot</a></p>
                     </div>
                 </div>
             </div>
