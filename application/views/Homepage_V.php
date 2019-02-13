@@ -58,23 +58,23 @@ Author:   Webstrot
                 <div class="main-menu-wrapper clear-fix">
 
                     <div class="logo float-left">
-                        <a href="index.html"><img src="<?php echo base_url(); ?>/assets/images/inner_logo1.png" class="img-responsive" alt="logo"></a>
+                        <a href="./"><img src="<?php echo base_url(); ?>/assets/images/inner_logo1.png" class="img-responsive" alt="logo"></a>
                     </div>
 
                 </div>
                 <div class="sc_navigation hidden-sm hidden-xs">
                     <nav id="primary-nav" class="dropdown nav_left_margin">
                         <ul class="dropdown menu navigation cart_dropdown_wrapper">
-                            <li><a href="index.html" title="">HOMS</a>
+                            <li><a href="#" title="">HOMS</a>
 								 <!-- <ul>
                                      <li class="dropdown_hover"><a href="index.html" title=""> home 1</a></li>
                                       <li class="dropdown_hover"><a href="index_2.html" title=""> home 2</a></li>
                                       <li class="dropdown_hover"><a href="index_3.html" title=""> home 3</a></li>
 								</ul>
                                 </li> -->
-                                <li><a href="about_us.html" title="">Demo</a>
+                                <li><a href="#" title="">Demo</a>
                                 </li>
-                                <li><a href="services.html" title="">Tentang Kami</a>
+                                <li><a href="#" title="">Tentang Kami</a>
                                 </li>
                                 <!-- <li><a href="project_2.html" title="">projects</a>
 								 <ul>
@@ -325,7 +325,7 @@ Author:   Webstrot
         <div class="header_btn">
             <ul>
                 <li>
-                    <a href="#!" class="waves-effect waves-light waves-ripple">Join Us</a>
+                    <a href="./mitra" class="waves-effect waves-light waves-ripple">Join Us</a>
                 </li>
             </ul>
         </div>
@@ -696,7 +696,7 @@ Author:   Webstrot
                 <div class="disc_btn ltr_btn">
                     <ul>
                         <li>
-                            <a href="#!" class="waves-effect waves-light waves-ripple">Pesan Sekarang !</a>
+                            <a href="./booking-now" class="waves-effect waves-light waves-ripple">Pesan Sekarang !</a>
                         </li>
                     </ul>
 
