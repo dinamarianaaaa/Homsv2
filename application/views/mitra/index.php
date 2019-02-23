@@ -16,12 +16,10 @@
       <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/mitra/style.css">
       
     <link rel="shortcut icon" type="image/icon" href="<?php echo base_url(); ?>/assets/images/favicon.png" />
-
-  
 </head>
 
 <body>
-
+    
   <div ng-controller="DemoCtrl" ng-cloak="" class="md-inline-form" ng-app="MyApp" layout="column" layout-sm="row" layout-align="center center" layout-align-sm="start start" layout-fill>
 		<md-content id="SignupContent" class="md-whiteframe-10dp" flex-sm>
 				<md-toolbar flex id="materialToolbar">
@@ -29,6 +27,7 @@
 				</md-toolbar>
 				<div layout-padding="">
 						<div></div>
+                    
 						<form name="userForm" method="POST" action="" ng-submit="user.submit(userForm.$valid)" enctype="multipart/form-data">
 								<input type="hidden" name="action" value="signup" />
 								<div layout="row" layout-sm="column">
@@ -44,8 +43,8 @@
 												<label>Nama Perusahaan Kontraktor</label>
 												<input ng-model="user.last_name" name="last_name" required type="text" ng-pattern="/^[a-zA-Z'. -]+$/" placeholder="Tulis Nama Perusahaan Anda">
 												<div ng-if="userForm.last_name.$dirty" ng-messages="userForm.last_name.$error" role="alert">
-														<div ng-message="required" class="my-message">Lengkapi Nama Perusahaa Anda Saat Ini.</div>
-														<div ng-message="pattern" class="my-message">Lengkapi Nama Perusahaan dengan Benar</div>
+														<div ng-message="required" class="my-message">Lengkapi Nama Perusahaan Anda Saat Ini.</div>
+														<div ng-message="pattern" class="my-message">Lengkapi Nama Perusahaan Anda dengan Benar</div>
 												</div>
 										</md-input-container>
 								</div>
@@ -80,7 +79,7 @@
 								<div layout="row" layout-sm="column">
 										<md-input-container flex-gt-sm="">
 												<label>Riwayat Pendidikan</label>
-												<input name="password" ng-model="user.password" type="password" ng-pattern="/(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/" required placeholder="Pendidikan Terakhir Anda">
+												<input name="riwayat_pendidikan" type="text" required placeholder="Pendidikan Terakhir Anda">
 												<div ng-if="userForm.password.$dirty" ng-messages="userForm.password.$error" role="alert" multiple>
 														<div ng-message="required">Lengkapi Riwayat Pendidikan Anda.</div>
 														<div ng-message="pattern">Masukkan Riwayat Pendidikan dengan Benar.</div>
@@ -88,15 +87,21 @@
 										</md-input-container>
 										<md-input-container flex-gt-sm="">
 												<label>Riwayat Project Surya Atap (Opsional)</label>
-												<input name="confmPassword" ng-model="user.confmPassword" type="password" ng-pattern="/(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/" required compare-to="user.password" placeholder="Pengalaman Project PLTS Anda">
+												<input name="riwayat_proyek" type="text" placeholder="Pengalaman Project PLTS Anda">
 												<div ng-if="userForm.confmPassword.$dirty" ng-messages="userForm.confmPassword.$error" role="alert">
 														<div ng-message="required">Masukkan Pengalaman Project PLTS apabila ada.</div>
 														<div ng-message="compareTo">Masukkan Pengalaman Project PLTS apabila ada.</div>
 												</div>
 										</md-input-container>
 								</div>
-								<md-button class="md-raised md-primary" style="width:100%; margin: 0px 0px;" type="submit" ng-disabled="userForm.$invalid" name="submit">Daftar Mitra</md-button>
-								<md-button class="md-raised md-primary" ng-href="https://codepen.io/faizanrupani/pen/QjzMJp" target="_blank" style="width:100%; margin: 15px 0px 0px 0px;">Login Akun</md-button>
+								<md-button
+                                           class="md-raised md-primary" style="width:100%; margin: 0px 0px;" type="submit" ng-disabled="userForm.$invalid" name="submit" action="">Daftar Mitra
+                            
+                                </md-button>
+								<!--<md-button class="md-raised md-primary" ng-href="https://codepen.io/faizanrupani/pen/QjzMJp" target="_blank" style="width:100%; margin: 15px 0px 0px 0px;">Login Akun</md-button>-->
+                                
+                                
+                   
 						</form>
 				</div>
 		</md-content>
