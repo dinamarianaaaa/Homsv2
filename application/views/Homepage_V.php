@@ -167,7 +167,7 @@ Author:   Webstrot
                             <!-- Menu -->
                             <!--search -->
                         </ul>
-                        <div class="header_right_inner_page">
+                        <!-- <div class="header_right_inner_page">
                             <div class="search-wrapper">
                                 <div class="et_navbar_search_wrapper hidden-xs">
                                     <div class="et_search_bar" id="search_button">
@@ -178,7 +178,7 @@ Author:   Webstrot
                                         <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="sw_icon_bar">
                                 <ul class="tc_login_btn_wrapper">
                                     <li class="dropdown tc_login_btn">
