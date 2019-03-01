@@ -1557,34 +1557,34 @@ about decarbonising heat?</h5>
                     <div class="partners_slider_wrapper">
                         <div class="owl-carousel owl-theme">
                             <div class="item">
-                                <div class="lr_prt_img_wrapper">
+                                <!-- <div class="lr_prt_img_wrapper">
                                     <img src="<?php echo base_url(); ?>/assets/images/partner_1.png" alt="partner_img">
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="lr_prt_img_wrapper">
+                                <!-- <div class="lr_prt_img_wrapper">
                                     <img src="<?php echo base_url(); ?>/assets/images/partner_2.png" alt="partner_img">
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="lr_prt_img_wrapper">
+                                <!-- <div class="lr_prt_img_wrapper">
                                     <img src="<?php echo base_url(); ?>/assets/images/partner_3.png" alt="partner_img">
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="lr_prt_img_wrapper">
+                                <!-- <div class="lr_prt_img_wrapper">
                                     <img src="<?php echo base_url(); ?>/assets/images/partner_4.png" alt="partner_img">
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="lr_prt_img_wrapper">
+                                <!-- <div class="lr_prt_img_wrapper">
                                     <img src="<?php echo base_url(); ?>/assets/images/partner_5.png" alt="partner_img">
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="lr_prt_img_wrapper">
+                                <!-- <div class="lr_prt_img_wrapper">
                                     <img src="<?php echo base_url(); ?>/assets/images/partner_2.png" alt="partner_img">
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -1630,7 +1630,7 @@ about decarbonising heat?</h5>
                                 <h4>useful links </h4>
                                 <img src="<?php echo base_url(); ?>/assets/images/hd_line_dark.png" alt="title" class="pd_btm_3">
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i>About us</a>
+                                    <!-- <li><a href="#"><i class="fa fa-angle-right"></i>About us</a>
                                     </li>
                                     <li><a href="#"><i class="fa fa-angle-right"></i>events </a>
                                     </li>
@@ -1638,7 +1638,7 @@ about decarbonising heat?</h5>
                                     </li>
                                     <li><a href="#"><i class="fa fa-angle-right"></i>history</a>
                                     </li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i>news</a> </li>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i>news</a> </li> -->
                                 </ul>
 
                             </div>
@@ -1647,7 +1647,7 @@ about decarbonising heat?</h5>
                             <div class="wrapper_second_useful wrapper_second_links">
 
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i>sitemap</a>
+                                    <!-- <li><a href="#"><i class="fa fa-angle-right"></i>sitemap</a>
                                     </li>
                                     <li><a href="#"><i class="fa fa-angle-right"></i>FAQ </a>
                                     </li>
@@ -1655,7 +1655,7 @@ about decarbonising heat?</h5>
                                     </li>
                                     <li><a href="#"><i class="fa fa-angle-right"></i>tstimonials</a>
                                     </li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i>career</a> </li>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i>career</a> </li> -->
                                 </ul>
 
                             </div>
