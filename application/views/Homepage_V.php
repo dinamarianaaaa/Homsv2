@@ -58,23 +58,23 @@ Author:   Webstrot
                 <div class="main-menu-wrapper clear-fix">
 
                     <div class="logo float-left">
-                        <a href="index.html"><img src="<?php echo base_url(); ?>/assets/images/inner_logo1.png" class="img-responsive" alt="logo"></a>
+                        <a href="./"><img src="<?php echo base_url(); ?>/assets/images/inner_logo1.png" class="img-responsive" alt="logo"></a>
                     </div>
 
                 </div>
                 <div class="sc_navigation hidden-sm hidden-xs">
                     <nav id="primary-nav" class="dropdown nav_left_margin">
                         <ul class="dropdown menu navigation cart_dropdown_wrapper">
-                            <li><a href="index.html" title="">HOMS</a>
+                            <li><a href="#" title="">HOMS</a>
 								 <!-- <ul>
                                      <li class="dropdown_hover"><a href="index.html" title=""> home 1</a></li>
                                       <li class="dropdown_hover"><a href="index_2.html" title=""> home 2</a></li>
                                       <li class="dropdown_hover"><a href="index_3.html" title=""> home 3</a></li>
 								</ul>
                                 </li> -->
-                                <li><a href="about_us.html" title="">Demo</a>
+                                <li><a href="#" title="">Demo</a>
                                 </li>
-                                <li><a href="services.html" title="">Tentang Kami</a>
+                                <li><a href="#" title="">Tentang Kami</a>
                                 </li>
                                 <!-- <li><a href="project_2.html" title="">projects</a>
 								 <ul>
@@ -325,7 +325,7 @@ Author:   Webstrot
         <div class="header_btn">
             <ul>
                 <li>
-                    <a href="#!" class="waves-effect waves-light waves-ripple">Join Us</a>
+                    <a href="./mitra" class="waves-effect waves-light waves-ripple">Join Kontraktor</a>
                 </li>
             </ul>
         </div>
@@ -532,7 +532,7 @@ Author:   Webstrot
                                 <div class="item">
                                     <div class="spectrum_slider_cntnt">
                                         <div class="spectrum_slider_shadow">
-                                            <img src="<?php echo base_url(); ?>/assets/images/spec_2.png" alt="title" class="img-responsive">
+                                            <img src="<?php echo base_url(); ?>/assets/images/spec_5.png" alt="title" class="img-responsive">
                                             <h2><a href="#">Smart Energy</a></h2>
                                         </div>
                                     </div>
@@ -555,7 +555,7 @@ Author:   Webstrot
                         <p>Punya Panel Surya tapi Tidak Ada Monitoring? Mana bisa tau HEMAT berapa ... </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+                <div class="col-lg-5 col-md-4 col-xs-12 col-sm-12">
                     <div class="chose_text_wrapper_left">
                         <div class="chose_icon_wrapper_list">
 
@@ -595,9 +595,9 @@ Author:   Webstrot
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-xs-12 hidden-sm hidden-xs wow  bounceIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: bounceIn;">
+                <div class="col-lg-3 col-md-4 col-xs-12 hidden-sm hidden-xs wow  bounceIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: bounceIn;">
                     <div class="section2_img_wrapper">
-                        <img class="img-responsive" src="<?php echo base_url(); ?>/assets/images/cs_service.png" alt="img">
+                        <img class="img-responsive" src="<?php echo base_url(); ?>/assets/images/apps_1.png" alt="img">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 hidden-sm hidden-xs">
@@ -609,7 +609,7 @@ Author:   Webstrot
                             </div>
 
                             <div class="chose_icon_img_list">
-                                <img src="<?php echo base_url(); ?>/assets/images/ser_img_3.png" alt="title">
+                                <img src="<?php echo base_url(); ?>/assets/images/ser_img_7.png" alt="title">
                             </div>
 
                         </div>
@@ -675,7 +675,7 @@ Author:   Webstrot
                 </div>
                 <div class="col-xs-12 col-sm-12 visible-sm visible-xs">
                     <div class="section2_img_wrapper wow  bounceIn animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: bounceIn;">
-                        <img class="img-responsive" src="<?php echo base_url(); ?>/assets/images/cs_service.png" alt="img">
+                        <img class="img-responsive" src="<?php echo base_url(); ?>/assets/images/apps_1.png" alt="img">
                     </div>
                 </div>
             </div>
@@ -687,7 +687,7 @@ Author:   Webstrot
         <div class="container">
             <div class="sw_nl_heading_wrapper">
                <i class="flaticon-rocket"></i>
-                <h2>Pengen Dapt Aplikasi HOMS Monitoring di Atas?</h2>
+                <h2>Ingin mendapatkan Aplikasi HOMS Monitoring di atas?</h2>
 
             </div>
 
@@ -696,7 +696,7 @@ Author:   Webstrot
                 <div class="disc_btn ltr_btn">
                     <ul>
                         <li>
-                            <a href="#!" class="waves-effect waves-light waves-ripple">Pesan Sekarang !</a>
+                            <a href="./booking-now" class="waves-effect waves-light waves-ripple">Pesan Sekarang !</a>
                         </li>
                     </ul>
 
@@ -1374,7 +1374,7 @@ Author:   Webstrot
 
         <div class="container">
             <div class="contact_left_wrapper wow  bounceIn  animated" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: bounceIn;">
-                <img src="<?php echo base_url(); ?>/assets/images/form_bg.png" alt="img" class="img-responsive">
+                <img src="<?php echo base_url(); ?>/assets/images/form_bg1.png" alt="img" class="img-responsive">
             </div>
             <div class="contact_right_wrapper">
                 <div class="cmnt_area_div_mn">
@@ -1439,7 +1439,7 @@ Author:   Webstrot
 
                         <div class="btc_blog_indx_box_wrapper btc_blog_padder btc_index_blog_pader">
                             <div class="btc_blog_indx_img_wrapper">
-                                <img src="<?php echo base_url(); ?>/assets/images/news_1.jpg" alt="blog_img">
+                                <img src="<?php echo base_url(); ?>/assets/images/news_1.png" alt="blog_img">
                                 <div class="btc_blog_indx_date_wrapper">
                                     <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
                                 </div>
@@ -1464,7 +1464,7 @@ about decarbonising heat?</h5>
 
                         <div class="btc_blog_indx_box_wrapper btc_blog_padder btc_index_blog_pader">
                             <div class="btc_blog_indx_img_wrapper">
-                                <img src="<?php echo base_url(); ?>/assets/images/news_2.jpg" alt="blog_img">
+                                <img src="<?php echo base_url(); ?>/assets/images/news_2.png" alt="blog_img">
                                 <div class="btc_blog_indx_date_wrapper">
                                     <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
                                 </div>
@@ -1489,7 +1489,7 @@ about decarbonising heat?</h5>
 
                         <div class="btc_blog_indx_box_wrapper btc_blog_padder">
                             <div class="btc_blog_indx_img_wrapper">
-                                <img src="<?php echo base_url(); ?>/assets/images/news_3.jpg" alt="blog_img">
+                                <img src="<?php echo base_url(); ?>/assets/images/news_3.png" alt="blog_img">
                                 <div class="btc_blog_indx_date_wrapper">
                                     <a href="#!" class="waves-effect waves-light waves-ripple"><i class="fa fa-long-arrow-right"></i></a>
                                 </div>
@@ -1526,8 +1526,10 @@ about decarbonising heat?</h5>
                         <h6>Dapatkan Penawaran & Berita Terbaru... Siapa Cepat, Dia Dapat...</h6>
 
                         <div class="prs_newsletter_field">
-                            <input type="text" placeholder="Alamat Email*">
-                            <button type="submit" class="waves-effect waves-light waves-ripple">Submit</button>
+                            <form method="POST" action=<?php echo base_url(); ?> /application/views/subscription.php>
+                                <input type="text" name='Email' placeholder="Alamat Email*">
+                                <button type="submit" class="waves-effect waves-light waves-        ripple">Submit</button>
+                            </form>
                         </div>
                        
                     </div>
@@ -1608,7 +1610,7 @@ about decarbonising heat?</h5>
                         <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
                             <div class="wrapper_second_about">
                                 <div class="wrapper_first_image">
-                                    <a href="index.html"><img src="<?php echo base_url(); ?>/assets/images/hd_logo.png" class="img-responsive" alt="logo" /></a>
+                                    <a href="index.html"><img src="<?php echo base_url(); ?>/assets/images/logo_bawah_1.png" class="img-responsive" alt="logo" /></a>
                                 </div>
                                 <div class="abotus_content">
                                     <p>Penghematan tidak dijamin dan akan bervariasi berdasarkan berbagai faktor, 
@@ -1682,7 +1684,7 @@ about decarbonising heat?</h5>
                 </div>
                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                     <div class="section3_copyright">
-                        <p>Copyright 2019 <a href="index.html"> sun & wind energy</a>. all right reserved - design by <a href="index.html">webstrot</a></p>
+                        <p>Copyright 2019 <a href="index.html"> HOMS</a>.</p>
                     </div>
                 </div>
             </div>
