@@ -52,8 +52,10 @@
                         <figure><img src="<?php echo base_url(); ?>/assets/images/signup-image.jpg" alt="sing up image"></figure>
                         <a href="#" class="signup-image-link">I am already member</a>
                     </div>
+                    
                 </div>
             </div>
+            
         </section>
 
     <!-- JS -->

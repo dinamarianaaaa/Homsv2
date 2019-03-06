@@ -50,6 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'Homepage_C';
+$route['login'] = 'Login_C';
 $route['booking-now'] = 'Booking_Now';
 $route['mitra'] = 'Mitra';
 $route['404_override'] = '';

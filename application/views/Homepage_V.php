@@ -74,6 +74,8 @@ Author:   Webstrot
                                 </li> -->
                                 <li><a href="#" title="">Demo</a>
                                 </li>
+                                <li><a href="./login" title="">Login</a>
+                                </li>
                                 <li><a href="#" title="">Tentang Kami</a>
                                 </li>
                                 <!-- <li><a href="project_2.html" title="">projects</a>
@@ -179,20 +181,20 @@ Author:   Webstrot
                                     </div>
                                 </div>
                             </div> -->
-                            <div class="sw_icon_bar">
-                                <ul class="tc_login_btn_wrapper">
-                                    <li class="dropdown tc_login_btn">
+                            <!-- <div class="sw_icon_bar">
+                                <ul class="tc_login_btn_wrapper"> -->
+                                    <!-- <li class="dropdown tc_login_btn">
                                         <a class="dropdown-toggle hvr-float-shadow active waves-effect waves-light" data-toggle="dropdown" href="#"><i class="fa fa-ellipsis-v"></i></a>
-                                        <ul class="dropdown-menu tc_menu_fixed_border">
+                                        <ul class="dropdown-menu tc_menu_fixed_border"> -->
                                             <!-- <li class="dropdown_hover"><a href="#">FAQ's</a></li>
                                             <li class="dropdown_hover"><a href="#">Track Order</a></li> -->
-                                            <li class="dropdown_hover"><a href="#">Register</a></li>
+                                            <!-- <li class="dropdown_hover"><a href="#">Register</a></li>
                                             <li class="dropdown_hover"><a href="#">Login</a></li>
-                                            <li class="dropdown_hover hidden-lg"><a href="#">Join Us</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
+                                            <li class="dropdown_hover hidden-lg"><a href="#">Join Us</a></li> -->
+                                        <!-- </ul>
+                                    </li> -->
+                                <!-- </ul>
+                            </div> -->
 
                         </div>
 
@@ -210,53 +212,53 @@ Author:   Webstrot
                                     <nav>
                                         <ul class="nav">
                                             <li><a href="index.html">Home</a>
-												 <ul>
+												 <!-- <ul>
 													 <li><a href="index.html" title=""> home 1</a></li>
 													  <li><a href="index_2.html" title=""> home 2</a></li>
 													  <li><a href="index_3.html" title=""> home 3</a></li>
-												</ul>
+												</ul> -->
                                                 </li>
-                                                <li><a href="about_us.html">about us</a>
+                                                <li><a href="about_us.html">Demo</a>
                                                 </li>
-                                                <li><a href="services.html">services</a>
+                                                <li><a href="services.html">Login</a>
                                                 </li>
-                                                <li><a href="project_2.html">projects</a>
-												 <ul>
+                                                <li><a href="project_2.html">Tentang Kami</a>
+												 <!-- <ul>
 													<li><a href="project_2.html" title=""> project 2</a></li>
 													<li><a href="project_3.html" title=""> project 3</a></li>
 													<li><a href="project_4.html" title=""> project 4</a></li>
 													<li><a href="project_fullwidth.html" title="">project fullwidth</a></li>
 													<li><a href="project_single.html" title=""> project single</a></li>
 
-												</ul>
+												</ul> -->
                                                 </li>
-                                                <li><a href="team.html">team</a>
+                                                <!-- <li><a href="team.html">team</a>
                                                     <ul>
 														<li><a href="team.html" title=""> team</a></li>
 														<li><a href="team_details.html" title="">team details</a></li>
 													</ul>
-                                                </li>
-                                                <li><a href="blog_single.html" title="">blog</a>
+                                                </li> -->
+                                                <!-- <li><a href="blog_single.html" title="">blog</a>
                                                      <ul>
 														<li><a href="blog_categories.html" title=""> blog categories</a></li>
 														<li><a href="blog_category.html" title=""> blog category</a></li>
 														<li><a href="blog_single.html" title=""> blog single</a></li>
 													</ul>
-                                                </li>
-                                                <li><a href="shop_sidebar.html" title="">shop</a>
+                                                </li> -->
+                                                <!-- <li><a href="shop_sidebar.html" title="">shop</a>
                                                    <ul>
 														<li><a href="shop_sidebar.html" title="">shop sidebar</a></li>
 														<li><a href="shop_fullwidth.html" title=""> shop fullwidth</a></li>
 														<li><a href="shop_single.html" title=""> shop single</a></li>
 													</ul>
-                                                </li>
-                                                <li><a href="contact_us.html"> contact us</a>
+                                                </li> -->
+                                                <!-- <li><a href="contact_us.html"> contact us</a>
 												 <ul>
 													  <li><a href="contact_us.html" title="">contact us</a></li>
 													  <li><a href="error.html" title=""> 404 error</a></li>
 												</ul>
-                                                </li>
-                                            <li class="caret_btn">
+                                                </li> -->
+                                            <!-- <li class="caret_btn">
                                                 <a href="#"><i class="fa fa-shopping-basket"></i><span>2</span></a>
                                                 <ul>
                                                     <li>
@@ -270,8 +272,8 @@ Author:   Webstrot
                                                                 <h5><i class="fa fa-times"></i></h5>
                                                             </div>
                                                         </div>
-                                                    </li>
-                                                    <li>
+                                                    </li> -->
+                                                    <!-- <li>
                                                         <div class="cc_cart_wrapper1 menu-button">
                                                             <div class="cc_cart_img_wrapper">
                                                                 <img src="<?php echo base_url(); ?>/assets/images/cart_2.png" alt="cart_img" />
@@ -282,8 +284,8 @@ Author:   Webstrot
                                                                 <h5><i class="fa fa-times"></i></h5>
                                                             </div>
                                                         </div>
-                                                    </li>
-                                                    <li>
+                                                    </li> -->
+                                                    <!-- <li>
                                                         <div class="cc_cart_wrapper1 menu-button">
                                                             <div class="cc_cart_img_wrapper">
                                                                 <img src="<?php echo base_url(); ?>/assets/images/cart_3.png" alt="cart_img" />
@@ -303,7 +305,7 @@ Author:   Webstrot
                                                             <a href="#!" class="waves-effect waves-light waves-ripple">checkout</a>
 
                                                         </div>
-                                                    </li>
+                                                    </li> -->
 
                                                 </ul>
                                             </li>
@@ -1629,9 +1631,9 @@ about decarbonising heat?</h5>
 
                         <div class="col-lg-2 col-md-2 col-xs-12 col-sm-4">
                             <div class="wrapper_second_useful">
-                                <h4>useful links </h4>
+                                <!-- <h4>useful links </h4>
                                 <img src="<?php echo base_url(); ?>/assets/images/hd_line_dark.png" alt="title" class="pd_btm_3">
-                                <ul>
+                                <ul> -->
                                     <!-- <li><a href="#"><i class="fa fa-angle-right"></i>About us</a>
                                     </li>
                                     <li><a href="#"><i class="fa fa-angle-right"></i>events </a>
@@ -1641,7 +1643,7 @@ about decarbonising heat?</h5>
                                     <li><a href="#"><i class="fa fa-angle-right"></i>history</a>
                                     </li>
                                     <li><a href="#"><i class="fa fa-angle-right"></i>news</a> </li> -->
-                                </ul>
+                                <!-- </ul> -->
 
                             </div>
                         </div>
