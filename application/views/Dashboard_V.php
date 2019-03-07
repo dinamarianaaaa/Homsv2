@@ -28,7 +28,7 @@
 
 <body>
     <!-- ============================================================== -->
-    <!-- Preloader - style you can find in spinners.css -->
+    <!-- Preloader - style you can find in spinners.css contoh --> 
     <!-- ============================================================== -->
     <div class="preloader">
         <div class="lds-ripple">
