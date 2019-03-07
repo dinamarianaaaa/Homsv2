@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url(); ?>/assets/images/favicon_dash.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url(); ?>/assets/image/favicon.png">
     <title>Dashboard</title>
     <!-- chartist CSS -->
     <link href="<?php echo base_url(); ?>/assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
 
 <body>
     <!-- ============================================================== -->
-    <!-- Preloader - style you can find in spinners.css contoh --> 
+    <!-- Preloader - style you can find in spinners.css --> 
     <!-- ============================================================== -->
     <div class="preloader">
         <div class="lds-ripple">
@@ -350,7 +350,7 @@
                             <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
                                 <span class="with-arrow"><span class="bg-primary"></span></span>
                                 <div class="d-flex no-block align-items-center p-15 bg-primary text-white mb-2">
-                                    <div class=""><img src="<?php echo base_url(); ?>/assets/image/users/1.jpg" alt="user" class="img-circle" width="60"></div>
+                                    <div class=""><img src="<?php echo base_url(); ?>/assets/image/users/2.jpg" alt="user" class="img-circle" width="60"></div>
                                     <div class="ml-2">
                                         <h4 class="mb-0">Steave Jobs</h4>
                                         <p class=" mb-0">varun@gmail.com</p>

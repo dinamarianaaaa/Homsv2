@@ -72,7 +72,7 @@ Author:   Webstrot
                                       <li class="dropdown_hover"><a href="index_3.html" title=""> home 3</a></li>
 								</ul>
                                 </li> -->
-                                <li><a href="#" title="">Demo</a>
+                                <li><a href="./demo" title="">Demo</a>
                                 </li>
                                 <li><a href="./login" title="">Login</a>
                                 </li>
