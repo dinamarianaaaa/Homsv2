@@ -45,7 +45,7 @@ Author:   Webstrot
     <!-- preloader Start -->
     <div id="preloader">
         <div id="status">
-            <img src="<?php echo base_url(); ?>/assets/images/preloader.gif" id="preloader_image" alt="loader">
+            <img src="<?php echo base_url(); ?>/assets/images/vi.gif" id="preloader_image" alt="loader">
         </div>
     </div>
     <!--sw header wrapper start-->
@@ -346,10 +346,10 @@ Author:   Webstrot
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 2 -->
-                            <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-2" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/index_2_img.png" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div>
+                            <!-- <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-2" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/index_2_img.png" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div> -->
 
                             <!-- LAYER NR. 7 -->
-                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-3" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">Innovative Solar <br>Solutions for <br> Your Home 
+                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-3" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">HOMSTECH <br>CARA BARU <br> HIDUP HEMAT! 
                             </div>
 
                             <!-- LAYER NR. 10 -->
@@ -367,10 +367,10 @@ Author:   Webstrot
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 2 -->
-                            <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-7" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/leads.gif" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div>
+                            <!-- <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-7" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/leads.gif" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div> -->
 
                             <!-- LAYER NR. 7 -->
-                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-8" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">Innovative Solar <br>Solutions for <br> Your Home 
+                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-8" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">HOMSTECH <br>CARA BARU <br> MENANAM POHON!
                             </div>
 
                             <!-- LAYER NR. 10 -->
@@ -388,10 +388,10 @@ Author:   Webstrot
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 2 -->
-                            <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-12" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/vi.gif" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div>
+                            <!-- <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-12" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/vi.gif" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div> -->
 
                             <!-- LAYER NR. 7 -->
-                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-13" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">Innovative Solar <br>Solutions for <br> Your Home 
+                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-13" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">HOMSTECH <br>CARA BARU <br> HIDUP BERSAMA!
                             </div>
 
                             <!-- LAYER NR. 10 -->
@@ -423,14 +423,14 @@ Author:   Webstrot
                     <div class="sw_disc_txt_wrapper">
 
                         <div class="sw_left_heading_wraper">
-                            <h1>Apa Keuntungan Surya Atap?</h1>
+                            <h1>Sudah Kenal Surya Atap Belum?</h1>
                             <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
                             <p>Pemasangan Surya Atap dapat Menghemat Konsumsi Energi Listrik di Rumah Anda. 
                                 Selain itu, Energi Surya juga Aman dan Ramah Lingkungan. </p>
                         </div>
                         <div class="sw_desc_btm_txt">
                             <div class="sw_disc_image">
-                                 <i class="flaticon-sun"></i>
+                                 <i class="flaticon-wind-turbine"></i>
                             </div>
                             <div class="sw_disc_head_text">
                                 <h5><a href="#">Pemasangan Mudah & Murah</a></h5>
@@ -440,9 +440,9 @@ Author:   Webstrot
                         </div>
                         <div class="sw_desc_btm_txt">
                             <div class="sw_disc_image">
-                                 <i class="flaticon-wind-turbine"></i>
+                                 <i class="flaticon-power"></i>
                             </div>
-                            <div class="sw_disc_head_text">
+                                                    <div class="sw_disc_head_text">
                                 <h5><a href="#">Investasi Yang Menguntungkan</a></h5>
                                 <p>Umur Panel Surya dapat Bertahan hingga 25 Tahun dan 
                                     <br> Perawatannya pun Sederhana.</p>
@@ -450,8 +450,8 @@ Author:   Webstrot
                         </div>
                         <div class="sw_desc_btm_txt">
                             <div class="sw_disc_image">
-                                 <i class="flaticon-power"></i>
-                            </div>
+                                 <i class="flaticon-sun"></i>
+                            </div>          
                             <div class="sw_disc_head_text">
                                 <h5><a href="#">Pembangkit Energi Abadi</a></h5>
                                 <p>Sampai Kutub Utara Mencair pun Energi Surya Tidak
@@ -552,9 +552,9 @@ Author:   Webstrot
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
                     <div class="sw_left_heading_wraper sw_center_heading_wrapper">
-                        <h1>HOMS Monitoring App</h1>
+                        <h1>HOMS Monitoring</h1>
                         <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
-                        <p>Punya Panel Surya tapi Tidak Ada Monitoring? Mana bisa tau HEMAT berapa ... </p>
+                        <p>Sekarang anda Dapat Menghemat Tagihan Listrik dengan HOMS Monitoring </p>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-4 col-xs-12 col-sm-12">
@@ -566,8 +566,8 @@ Author:   Webstrot
                             </div>
 
                             <div class="chose_icon_content_left">
-                                <h4><a href="#">Produksi Energi Surya</a></h4>
-                                <p>Dapatkan aplikasi monitoring produksi dan daya panel surya beserta konsumsi anda secara real time</p>
+                                <h4><a href="#">Solar Production Analytic</a></h4>
+                                <p>Dapatkan aplikasi monitoring produksi dan daya panel surya beserta konsumsi anda secara real time.</p>
                             </div>
 
                         </div>
@@ -578,8 +578,8 @@ Author:   Webstrot
                             </div>
 
                             <div class="chose_icon_content_left">
-                                <h4><a href="#">Estimasi Balik Modal</a></h4>
-                                <p>Perhitungan balik modal investasi panel surya yang akurat berdasarkan data produksi energi surya anda.</p>
+                                <h4><a href="#">Payback Estimation</a></h4>
+                                <p>Bagi anda pengguna surya atap dapat menikmati perhitungan estimasi balik modal yang akurat.</p>
                             </div>
 
                         </div>
@@ -590,8 +590,8 @@ Author:   Webstrot
                             </div>
 
                             <div class="chose_icon_content_left">
-                                <h4><a href="#">Battery Monitoring</a></h4>
-                                <p>Teknologi monitoring akurat kapasitas battery secara berkala.</p>
+                                <h4><a href="#">Power Monitoring</a></h4>
+                                <p>Amati aktifitas energi dari baterai hingga peralatan terboros di rumah anda.</p>
                             </div>
 
                         </div>
@@ -606,8 +606,8 @@ Author:   Webstrot
                     <div class="chose_text_wrapper_right">
                         <div class="chose_icon_wrapper_list">
                             <div class="icon_content_right">
-                                <h4><a href="#">Ramalan Cuaca</a></h4>
-                                <p>Ramalan cuaca sesuai kondisi geografis di Indonesia.</p>
+                                <h4><a href="#">Energy Forecast</a></h4>
+                                <p>Dapatkan layanan Prediksi Konsumsi dan Produksi Energi di Rumah Anda.</p>
                             </div>
 
                             <div class="chose_icon_img_list">
@@ -618,8 +618,8 @@ Author:   Webstrot
                         <div class="chose_icon_wrapper_list">
 
                             <div class="icon_content_right">
-                                <h4><a href="#">Perhitungan Efisiensi</a></h4>
-                                <p>Dapatkan perhitungan penghematan energi akurat di rumah anda setelah memasang panel surya.</p>
+                                <h4><a href="#">Smart Saving Analytic</a></h4>
+                                <p>Anda tidak perlu pusing memikirkan berapa besar penghematan dari panel surya anda.</p>
                             </div>
 
                             <div class="chose_icon_img_list">
@@ -630,8 +630,8 @@ Author:   Webstrot
                         <div class="chose_icon_wrapper_list">
 
                             <div class="icon_content_right">
-                                <h4><a href="#">Kontribusi Reduksi CO<sup>2</sup></a></h4>
-                                <p>Ketahuilah kontribusi anda dalam Upaya menyelamatkan lingkungan dari polusi karbon.</p>
+                                <h4><a href="#">Carbon Footprint Record</a></h4>
+                                <p>Pastikan anda mengetahui berapa kontribusi pelestarian yang telah anda lakukan.</p>
                             </div>
 
                             <div class="chose_icon_img_list">
@@ -689,7 +689,7 @@ Author:   Webstrot
         <div class="container">
             <div class="sw_nl_heading_wrapper">
                <i class="flaticon-rocket"></i>
-                <h2>Ingin mendapatkan Aplikasi HOMS Monitoring di atas?</h2>
+                <h2>Tagihan Listrik di Rumah Anda Membengkak? Buruan Install HOMS Monitoring Platform!</h2>
 
             </div>
 
@@ -1197,7 +1197,7 @@ Author:   Webstrot
                                         <div class="panel-body">
 
                                             <div class="panel_cont">
-                                                <p>Sebesar 88% Kebutuhan Energi Listrik di Pasok dari Energi Fosil yang Menimbulkan Polusi & Pemanasan Global .</p>
+                                                <p>Sebesar 88% Kebutuhan Energi Listrik di Pasok dari Energi Fosil yang Menimbulkan Polusi & Pemanasan Global.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1248,7 +1248,7 @@ Author:   Webstrot
     </div>
     <!-- sw leads section end-->
 	 <!-- sw pricing section start-->
-    <div class="sw_pricing_wrapper">
+    <!-- <div class="sw_pricing_wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
@@ -1369,7 +1369,7 @@ Author:   Webstrot
 
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- sw pricing section end-->
 	 <!-- sw contact form section start-->
     <div class="sw_contact_form_wrapper sw_contact_form_padder sw_contact_index">
@@ -1671,10 +1671,10 @@ about decarbonising heat?</h5>
                                 <img src="<?php echo base_url(); ?>/assets/images/hd_line_dark.png" alt="title" class="pd_btm_3">
                                 <ul>
 									<li>
-                                     <h1>+89 61 333 144</h1></li>
+                                     <h1>+62 8961 333 144</h1></li>
 									 <li><a href="#"><i class="flaticon-new-email-outline"></i>marketing-homs@gmail.com</a>
                                     </li>
-									 <li><a href="#"><i class="flaticon-internet"></i>www.homsttech.com</a>
+									 <li><a href="#"><i class="flaticon-internet"></i>www.homstech.com</a>
                                     </li>
                                   
                                     <li><i class="flaticon-placeholder"></i>Lt.8 Gedung Research Center - ITS, Surabaya

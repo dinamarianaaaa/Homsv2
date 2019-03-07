@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url(); ?>/assets/image/favicon_dash">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url(); ?>/assets/images/favicon_dash.png">
     <title>Dashboard</title>
     <!-- chartist CSS -->
     <link href="<?php echo base_url(); ?>/assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
