@@ -45,7 +45,7 @@ Author:   Webstrot
     <!-- preloader Start -->
     <div id="preloader">
         <div id="status">
-            <img src="<?php echo base_url(); ?>/assets/images/vi.gif" id="preloader_image" alt="loader">
+            <img src="<?php echo base_url(); ?>/assets/images/preloader.gif" id="preloader_image" alt="loader">
         </div>
     </div>
     <!--sw header wrapper start-->
@@ -388,7 +388,7 @@ Author:   Webstrot
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 2 -->
-                            <!-- <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-12" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/vi.gif" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div> -->
+                            <!-- <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-12" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/preloader.gif" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div> -->
 
                             <!-- LAYER NR. 7 -->
                             <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-13" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">HOMSTECH <br>CARA BARU <br> HIDUP BERSAMA!
@@ -1548,7 +1548,7 @@ about decarbonising heat?</h5>
     </div>
     <!-- sw our newsletter section end-->
     <!-- sw partners section start-->
-    <div class="sw_partners_wrapper">
+    <!-- <div class="sw_partners_wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
@@ -1560,7 +1560,7 @@ about decarbonising heat?</h5>
                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 sw_spectrm_padding">
                     <div class="partners_slider_wrapper">
                         <div class="owl-carousel owl-theme">
-                            <div class="item">
+                            <div class="item"> -->
                                 <!-- <div class="lr_prt_img_wrapper">
                                     <img src="<?php echo base_url(); ?>/assets/images/partner_1.png" alt="partner_img">
                                 </div> -->

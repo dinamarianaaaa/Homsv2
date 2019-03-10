@@ -882,7 +882,7 @@
                 <!-- ============================================================== -->
                 <div class="row mt-4">
                     <!-- col -->
-                    <div class="col-sm-12 col-lg-4">
+                    <!-- <div class="col-sm-12 col-lg-4">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Device Variations</h4>
@@ -894,9 +894,9 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- col -->
-                    <div class="col-sm-12 col-lg-4">
+                    <!-- <div class="col-sm-12 col-lg-4">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Net Income</h4>
@@ -906,7 +906,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- col -->
                     <div class="col-sm-12 col-lg-4">
                         <div class="card">
@@ -948,7 +948,7 @@
                 <!-- ============================================================== -->
                 <!-- Table -->
                 <!-- ============================================================== -->
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
@@ -1069,7 +1069,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
@@ -1077,7 +1077,8 @@
             <!-- footer -->
             <!-- ============================================================== -->
             <footer class="footer text-center">
-       All Rights Reserved by Xtreme admin. Designed and Developed by <a href="https://wrappixel.com">WrapPixel</a>.
+       Copyright 2019 HOMS
+       <a href="http://homstech.com">homstech</a>.
 </footer>
             <!-- ============================================================== -->
             <!-- End footer -->
