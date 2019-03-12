@@ -9,15 +9,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url(); ?>/assets/image/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url(); ?>assets/image/favicon.png">
     <title>Dashboard</title>
     <!-- chartist CSS -->
-    <link href="<?php echo base_url(); ?>/assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
-    <link href="<?php echo base_url(); ?>/assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css" rel="stylesheet">
     <!--c3 CSS -->
-    <link href="<?php echo base_url(); ?>/assets/extra-libs/c3/c3.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/extra-libs/c3/c3.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="<?php echo base_url(); ?>/assets/dist/css/style.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/dist/css/style.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -56,17 +56,17 @@
                         <b class="logo-icon">
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
-                            <img src="<?php echo base_url(); ?>/assets/image/logo-icon.png" alt="homepage" class="dark-logo" />
+                            <img src="<?php echo base_url(); ?>assets/image/logo-icon.png" alt="homepage" class="dark-logo" />
                             <!-- Light Logo icon -->
-                            <img src="<?php echo base_url(); ?>/assets/image/logo-light-icon.png" alt="homepage" class="light-logo" />
+                            <img src="<?php echo base_url(); ?>assets/image/logo-light-icon.png" alt="homepage" class="light-logo" />
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
                         <span class="logo-text">
                              <!-- dark Logo text -->
-                             <img src="<?php echo base_url(); ?>/assets/image/logo-text.png" alt="homepage" class="dark-logo" />
+                             <img src="<?php echo base_url(); ?>assets/image/logo-text.png" alt="homepage" class="dark-logo" />
                              <!-- Light Logo text -->    
-                             <img src="<?php echo base_url(); ?>/assets/image/logo-light-text.png" class="light-logo" alt="homepage" />
+                             <img src="<?php echo base_url(); ?>assets/image/logo-light-text.png" class="light-logo" alt="homepage" />
                         </span>
                     </a>
                     <!-- ============================================================== -->
@@ -101,13 +101,13 @@
                                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                             <div class="carousel-inner" role="listbox">
                                                 <div class="carousel-item active">
-                                                    <div class="container p-0"> <img class="d-block img-fluid" src="<?php echo base_url(); ?>/assets/image/big/img1.jpg" alt="First slide"></div>
+                                                    <div class="container p-0"> <img class="d-block img-fluid" src="<?php echo base_url(); ?>assets/image/big/img1.jpg" alt="First slide"></div>
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <div class="container p-0"><img class="d-block img-fluid" src="<?php echo base_url(); ?>/assets/image/big/img2.jpg" alt="Second slide"></div>
+                                                    <div class="container p-0"><img class="d-block img-fluid" src="<?php echo base_url(); ?>assets/image/big/img2.jpg" alt="Second slide"></div>
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <div class="container p-0"><img class="d-block img-fluid" src="<?php echo base_url(); ?>/assets/image/big/img3.jpg" alt="Third slide"></div>
+                                                    <div class="container p-0"><img class="d-block img-fluid" src="<?php echo base_url(); ?>assets/image/big/img3.jpg" alt="Third slide"></div>
                                                 </div>
                                             </div>
                                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
@@ -309,25 +309,25 @@
                                         <div class="message-center message-body">
                                             <!-- Message -->
                                             <a href="javascript:void(0)" class="message-item">
-                                                <span class="user-img"> <img src="<?php echo base_url(); ?>/assets/image/users/1.jpg" alt="user" class="rounded-circle"> <span class="profile-status online pull-right"></span> </span>
+                                                <span class="user-img"> <img src="<?php echo base_url(); ?>assets/image/users/1.jpg" alt="user" class="rounded-circle"> <span class="profile-status online pull-right"></span> </span>
                                                 <div class="mail-contnet">
                                                     <h5 class="message-title">Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span> </div>
                                             </a>
                                             <!-- Message -->
                                             <a href="javascript:void(0)" class="message-item">
-                                                <span class="user-img"> <img src="<?php echo base_url(); ?>/assets/image/users/2.jpg" alt="user" class="rounded-circle"> <span class="profile-status busy pull-right"></span> </span>
+                                                <span class="user-img"> <img src="<?php echo base_url(); ?>assets/image/users/2.jpg" alt="user" class="rounded-circle"> <span class="profile-status busy pull-right"></span> </span>
                                                 <div class="mail-contnet">
                                                     <h5 class="message-title">Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span> </div>
                                             </a>
                                             <!-- Message -->
                                             <a href="javascript:void(0)" class="message-item">
-                                                <span class="user-img"> <img src="<?php echo base_url(); ?>/assets/image/users/3.jpg" alt="user" class="rounded-circle"> <span class="profile-status away pull-right"></span> </span>
+                                                <span class="user-img"> <img src="<?php echo base_url(); ?>assets/image/users/3.jpg" alt="user" class="rounded-circle"> <span class="profile-status away pull-right"></span> </span>
                                                 <div class="mail-contnet">
                                                     <h5 class="message-title">Arijit Sinh</h5> <span class="mail-desc">I am a singer!</span> <span class="time">9:08 AM</span> </div>
                                             </a>
                                             <!-- Message -->
                                             <a href="javascript:void(0)" class="message-item">
-                                                <span class="user-img"> <img src="<?php echo base_url(); ?>/assets/image/users/4.jpg" alt="user" class="rounded-circle"> <span class="profile-status offline pull-right"></span> </span>
+                                                <span class="user-img"> <img src="<?php echo base_url(); ?>assets/image/users/4.jpg" alt="user" class="rounded-circle"> <span class="profile-status offline pull-right"></span> </span>
                                                 <div class="mail-contnet">
                                                     <h5 class="message-title">Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
                                             </a>
@@ -346,11 +346,11 @@
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="<?php echo base_url(); ?>/assets/images/users/1.jpg" alt="user" class="rounded-circle" width="31"></a>
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="<?php echo base_url(); ?>assets/images/users/1.jpg" alt="user" class="rounded-circle" width="31"></a>
                             <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
                                 <span class="with-arrow"><span class="bg-primary"></span></span>
                                 <div class="d-flex no-block align-items-center p-15 bg-primary text-white mb-2">
-                                    <div class=""><img src="<?php echo base_url(); ?>/assets/image/users/2.jpg" alt="user" class="img-circle" width="60"></div>
+                                    <div class=""><img src="<?php echo base_url(); ?>assets/image/users/2.jpg" alt="user" class="img-circle" width="60"></div>
                                     <div class="ml-2">
                                         <h4 class="mb-0">Steave Jobs</h4>
                                         <p class=" mb-0">varun@gmail.com</p>
@@ -390,7 +390,7 @@
                         <li>
                             <!-- User Profile-->
                             <div class="user-profile d-flex no-block dropdown mt-3">
-                                <div class="user-pic"><img src="<?php echo base_url(); ?>/assets/image/users/1.jpg" alt="users" class="rounded-circle" width="40" /></div>
+                                <div class="user-pic"><img src="<?php echo base_url(); ?>assets/image/users/1.jpg" alt="users" class="rounded-circle" width="40" /></div>
                                 <div class="user-content hide-menu ml-2">
                                     <a href="javascript:void(0)" class="" id="Userdd" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <h5 class="mb-0 user-name font-medium">Steave Jobs <i class="fa fa-angle-down"></i></h5>
@@ -984,7 +984,7 @@
                                             <tr>
                                                 <td>
                                                     <div class="d-flex no-block align-items-center">
-                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>/assets/image/users/d1.jpg" alt="user" class="rounded-circle" width="45"></div>
+                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/d1.jpg" alt="user" class="rounded-circle" width="45"></div>
                                                         <div class="">
                                                             <h5 class="mb-0 font-16 font-medium">Hanna Gover</h5><span>hgover@gmail.com</span></div>
                                                     </div>
@@ -994,7 +994,7 @@
                                                     <div class="popover-icon">
                                                         <a class="btn-circle btn btn-info" href="javascript:void(0)">SS</a>
                                                         <a class="btn-circle btn btn-cyan text-white popover-item" href="javascript:void(0)">DS</a>
-                                                        <a class="btn-circle btn p-0 popover-item" href="javascript:void(0)"><img src="<?php echo base_url(); ?>/assets/image/users/1.jpg" alt="" class="rounded-circle" width="39"></a>
+                                                        <a class="btn-circle btn p-0 popover-item" href="javascript:void(0)"><img src="<?php echo base_url(); ?>assets/image/users/1.jpg" alt="" class="rounded-circle" width="39"></a>
                                                         <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
                                                     </div>
                                                 </td>
@@ -1005,7 +1005,7 @@
                                             <tr>
                                                 <td>
                                                     <div class="d-flex no-block align-items-center">
-                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>/assets/image/users/d2.jpg" alt="user" class="rounded-circle" width="45"></div>
+                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/d2.jpg" alt="user" class="rounded-circle" width="45"></div>
                                                         <div class="">
                                                             <h5 class="mb-0 font-16 font-medium">Daniel Kristeen</h5><span>Kristeen@gmail.com</span></div>
                                                     </div>
@@ -1025,7 +1025,7 @@
                                             <tr>
                                                 <td>
                                                     <div class="d-flex no-block align-items-center">
-                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>/assets/image/users/d3.jpg" alt="user" class="rounded-circle" width="45"></div>
+                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/d3.jpg" alt="user" class="rounded-circle" width="45"></div>
                                                         <div class="">
                                                             <h5 class="mb-0 font-16 font-medium">Julian Josephs</h5><span>Josephs@gmail.com</span></div>
                                                     </div>
@@ -1046,7 +1046,7 @@
                                             <tr>
                                                 <td>
                                                     <div class="d-flex no-block align-items-center">
-                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>/assets/image/users/2.jpg" alt="user" class="rounded-circle" width="45"></div>
+                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/2.jpg" alt="user" class="rounded-circle" width="45"></div>
                                                         <div class="">
                                                             <h5 class="mb-0 font-16 font-medium">Jan Petrovic</h5><span>hgover@gmail.com</span></div>
                                                     </div>
@@ -1182,53 +1182,53 @@
                         <li>
                             <div class="message-center chat-scroll">
                                 <a href="javascript:void(0)" class="message-item" id='chat_user_1' data-user-id='1'>
-                                    <span class="user-img"> <img src="<?php echo base_url(); ?>/assets/image/users/1.jpg" alt="user" class="rounded-circle"> <span class="profile-status online pull-right"></span> </span>
+                                    <span class="user-img"> <img src="<?php echo base_url(); ?>assets/image/users/1.jpg" alt="user" class="rounded-circle"> <span class="profile-status online pull-right"></span> </span>
                                     <div class="mail-contnet">
                                         <h5 class="message-title">Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span> </div>
                                 </a>
                                 <!-- Message -->
                                 <a href="javascript:void(0)" class="message-item" id='chat_user_2' data-user-id='2'>
-                                    <span class="user-img"> <img src="<?php echo base_url(); ?>/assets/image/users/2.jpg" alt="user" class="rounded-circle"> <span class="profile-status busy pull-right"></span> </span>
+                                    <span class="user-img"> <img src="<?php echo base_url(); ?>assets/image/users/2.jpg" alt="user" class="rounded-circle"> <span class="profile-status busy pull-right"></span> </span>
                                     <div class="mail-contnet">
                                         <h5 class="message-title">Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span> </div>
                                 </a>
                                 <!-- Message -->
                                 <a href="javascript:void(0)" class="message-item" id='chat_user_3' data-user-id='3'>
-                                    <span class="user-img"> <img src="<?php echo base_url(); ?>/assets/image/users/3.jpg" alt="user" class="rounded-circle"> <span class="profile-status away pull-right"></span> </span>
+                                    <span class="user-img"> <img src="<?php echo base_url(); ?>assets/image/users/3.jpg" alt="user" class="rounded-circle"> <span class="profile-status away pull-right"></span> </span>
                                     <div class="mail-contnet">
                                         <h5 class="message-title">Arijit Sinh</h5> <span class="mail-desc">I am a singer!</span> <span class="time">9:08 AM</span> </div>
                                 </a>
                                 <!-- Message -->
                                 <a href="javascript:void(0)" class="message-item" id='chat_user_4' data-user-id='4'>
-                                    <span class="user-img"> <img src="<?php echo base_url(); ?>/assets/image/users/4.jpg" alt="user" class="rounded-circle"> <span class="profile-status offline pull-right"></span> </span>
+                                    <span class="user-img"> <img src="<?php echo base_url(); ?>assets/image/users/4.jpg" alt="user" class="rounded-circle"> <span class="profile-status offline pull-right"></span> </span>
                                     <div class="mail-contnet">
                                         <h5 class="message-title">Nirav Joshi</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
                                 </a>
                                 <!-- Message -->
                                 <!-- Message -->
                                 <a href="javascript:void(0)" class="message-item" id='chat_user_5' data-user-id='5'>
-                                    <span class="user-img"> <img src="<?php echo base_url(); ?>/assets/image/users/5.jpg" alt="user" class="rounded-circle"> <span class="profile-status offline pull-right"></span> </span>
+                                    <span class="user-img"> <img src="<?php echo base_url(); ?>assets/image/users/5.jpg" alt="user" class="rounded-circle"> <span class="profile-status offline pull-right"></span> </span>
                                     <div class="mail-contnet">
                                         <h5 class="message-title">Sunil Joshi</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
                                 </a>
                                 <!-- Message -->
                                 <!-- Message -->
                                 <a href="javascript:void(0)" class="message-item" id='chat_user_6' data-user-id='6'>
-                                    <span class="user-img"> <img src="<?php echo base_url(); ?>/assets/image/users/6.jpg" alt="user" class="rounded-circle"> <span class="profile-status offline pull-right"></span> </span>
+                                    <span class="user-img"> <img src="<?php echo base_url(); ?>assets/image/users/6.jpg" alt="user" class="rounded-circle"> <span class="profile-status offline pull-right"></span> </span>
                                     <div class="mail-contnet">
                                         <h5 class="message-title">Akshay Kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
                                 </a>
                                 <!-- Message -->
                                 <!-- Message -->
                                 <a href="javascript:void(0)" class="message-item" id='chat_user_7' data-user-id='7'>
-                                    <span class="user-img"> <img src="<?php echo base_url(); ?>/assets/image/users/7.jpg" alt="user" class="rounded-circle"> <span class="profile-status offline pull-right"></span> </span>
+                                    <span class="user-img"> <img src="<?php echo base_url(); ?>assets/image/users/7.jpg" alt="user" class="rounded-circle"> <span class="profile-status offline pull-right"></span> </span>
                                     <div class="mail-contnet">
                                         <h5 class="message-title">Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
                                 </a>
                                 <!-- Message -->
                                 <!-- Message -->
                                 <a href="javascript:void(0)" class="message-item" id='chat_user_8' data-user-id='8'>
-                                    <span class="user-img"> <img src="<?php echo base_url(); ?>/assets/image/users/8.jpg" alt="user" class="rounded-circle"> <span class="profile-status offline pull-right"></span> </span>
+                                    <span class="user-img"> <img src="<?php echo base_url(); ?>assets/image/users/8.jpg" alt="user" class="rounded-circle"> <span class="profile-status offline pull-right"></span> </span>
                                     <div class="mail-contnet">
                                         <h5 class="message-title">Varun Dhavan</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
                                 </a>
@@ -1257,14 +1257,14 @@
                             </div>
                         </div>
                         <div class="sl-item">
-                            <div class="sl-left"> <img class="rounded-circle" alt="user" src="<?php echo base_url(); ?>/assets/image/users/2.jpg"> </div>
+                            <div class="sl-left"> <img class="rounded-circle" alt="user" src="<?php echo base_url(); ?>assets/image/users/2.jpg"> </div>
                             <div class="sl-right">
                                 <div class="font-medium">Go to the Doctor <span class="sl-date">5 minutes ago</span></div>
                                 <div class="desc">Contrary to popular belief</div>
                             </div>
                         </div>
                         <div class="sl-item">
-                            <div class="sl-left"> <img class="rounded-circle" alt="user" src="<?php echo base_url(); ?>/assets/image/users/1.jpg"> </div>
+                            <div class="sl-left"> <img class="rounded-circle" alt="user" src="<?php echo base_url(); ?>assets/image/users/1.jpg"> </div>
                             <div class="sl-right">
                                 <div><a href="javascript:void(0)">Stephen</a> <span class="sl-date">5 minutes ago</span></div>
                                 <div class="desc">Approve meeting with tiger</div>
@@ -1292,7 +1292,7 @@
                             </div>
                         </div>
                         <div class="sl-item">
-                            <div class="sl-left"> <img class="rounded-circle" alt="user" src="<?php echo base_url(); ?>/assets/image/users/6.jpg"> </div>
+                            <div class="sl-left"> <img class="rounded-circle" alt="user" src="<?php echo base_url(); ?>assets/image/users/6.jpg"> </div>
                             <div class="sl-right">
                                 <div><a href="javascript:void(0)">Stephen</a> <span class="sl-date">5 minutes ago</span></div>
                                 <div class="desc">Approve meeting with tiger</div>
@@ -1308,31 +1308,31 @@
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script src="<?php echo base_url(); ?>/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/libs/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="<?php echo base_url(); ?>/assets/libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- apps -->
-    <script src="<?php echo base_url(); ?>/assets/dist/js/app.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/dist/js/app.init.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/dist/js/app-style-switcher.js"></script>
+    <script src="<?php echo base_url(); ?>assets/dist/js/app.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/dist/js/app.init.js"></script>
+    <script src="<?php echo base_url(); ?>assets/dist/js/app-style-switcher.js"></script>
     <!-- slimscrollbar scrollbar JavaScript -->
-    <script src="<?php echo base_url(); ?>/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/extra-libs/sparkline/sparkline.js"></script>
+    <script src="<?php echo base_url(); ?>assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/extra-libs/sparkline/sparkline.js"></script>
     <!--Wave Effects -->
-    <script src="<?php echo base_url(); ?>/assets/dist/js/waves.js"></script>
+    <script src="<?php echo base_url(); ?>assets/dist/js/waves.js"></script>
     <!--Menu sidebar -->
-    <script src="<?php echo base_url(); ?>/assets/dist/js/sidebarmenu.js"></script>
+    <script src="<?php echo base_url(); ?>assets/dist/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
-    <script src="<?php echo base_url(); ?>/assets/dist/js/custom.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/dist/js/custom.min.js"></script>
     <!--This page JavaScript -->
-    <script src="<?php echo base_url(); ?>/assets/assets/libs/chartist/dist/chartist.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/assets/extra-libs/c3/d3.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/assets/extra-libs/c3/c3.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/assets/libs/chart.js/dist/Chart.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/assets/libs/gaugeJS/dist/gauge.min.js"></script>
-    <script src="<?php echo base_url(); ?>/assets/dist/js/pages/dashboards/dashboard8.js"></script>
+    <script src="<?php echo base_url(); ?>assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/extra-libs/c3/d3.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/extra-libs/c3/c3.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/libs/chart.js/dist/Chart.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/libs/gaugeJS/dist/gauge.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/dist/js/pages/dashboards/dashboard8.js"></script>
 </body>
 
 </html>
