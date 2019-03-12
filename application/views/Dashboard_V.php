@@ -352,7 +352,7 @@
                                 <div class="d-flex no-block align-items-center p-15 bg-primary text-white mb-2">
                                     <div class=""><img src="<?php echo base_url(); ?>assets/image/users/2.jpg" alt="user" class="img-circle" width="60"></div>
                                     <div class="ml-2">
-                                        <h4 class="mb-0"> Jobs</h4>
+                                        <h4 class="mb-0"> Steve Jobs</h4>
                                         <p class=" mb-0">@gmail.com</p>
                                     </div>
                                 </div>
@@ -393,7 +393,7 @@
                                 <div class="user-pic"><img src="<?php echo base_url(); ?>assets/image/users/1.jpg" alt="users" class="rounded-circle" width="40" /></div>
                                 <div class="user-content hide-menu ml-2">
                                     <a href="javascript:void(0)" class="" id="Userdd" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <h5 class="mb-0 user-name font-medium">Steave Jobs <i class="fa fa-angle-down"></i></h5>
+                                        <h5 class="mb-0 user-name font-medium">Se Jobs <i class="fa fa-angle-down"></i></h5>
                                         <span class="op-5 user-email">varun@gmail.com</span>
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="Userdd">
@@ -742,9 +742,9 @@
                         <!-- col -->
                         <div class="col-sm-12 col-lg-4">
                             <div class="temp d-flex align-items-center flex-row">
-                                <div class="display-5 text-white"><i class="wi wi-day-showers"></i> <span>73<sup>°</sup></span></div>
+                                <div class="display-5 text-white"><i class="wi wi-day-showers"></i> <span>24<sup>°</sup></span></div>
                                 <div class="ml-2">
-                                    <h3 class="mb-0 text-white">Saturday</h3><small class="text-white op-5">Ahmedabad, India</small>
+                                    <h3 class="mb-0 text-white">Kamis</h3><small class="text-white op-5">Jakarta, Indonesia</small>
                                 </div>
                             </div>
                         </div>
@@ -758,8 +758,8 @@
                                             <i class="mdi mdi-wallet text-white display-5 op-5"></i>
                                         </div>
                                         <div>
-                                            <h3 class="text-white mb-0">$6,890.68</h3>
-                                            <span class="text-white op-5">Net Profit</span>
+                                            <h3 class="text-white mb-0">Rp 3,657,312</h3>
+                                            <span class="text-white op-5">Total Tagihan Tanpa PV</span>
                                         </div>
                                     </div>
                                 </div>
@@ -771,8 +771,8 @@
                                             <i class="mdi mdi-star-circle text-white display-5 op-5"></i>
                                         </div>
                                         <div>
-                                            <h3 class="text-white mb-0">$769.08</h3>
-                                            <span class="text-white op-5">Refferal Earnings</span>
+                                            <h3 class="text-white mb-0">Rp 1,680,397</h3>
+                                            <span class="text-white op-5">Total Tagihan dengan PV</span>
                                         </div>
                                     </div>
                                 </div>
@@ -784,8 +784,8 @@
                                             <i class="mdi mdi-basket text-white display-5 op-5"></i>
                                         </div>
                                         <div>
-                                            <h3 class="text-white mb-0">5489</h3>
-                                            <span class="text-white op-5">Estimated Sales</span>
+                                            <h3 class="text-white mb-0">Rp 1,976,915</h3>
+                                            <span class="text-white op-5">Penghematan</span>
                                         </div>
                                     </div>
                                 </div>
@@ -823,13 +823,104 @@
                             <div class="tab-pane fade show active" id="month" role="tabpanel" aria-labelledby="pills-home-tab2">
                                 <div class="row">
                                     <div class="col-sm-12 col-lg-4">
-                                        <h1 class="font-bold mb-1">$6,890.68</h1>
+                                        <h1 class="font-bold mb-1">$6,890</h1>
                                         <h6 class="mb-3">Current Month Earnings</h6>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non pharetra ligula, sitametlaoreet arcu.</p>
                                         <button class="waves-effect waves-light mt-3 btn btn-lg btn-info">Last Month Summary</button>
                                     </div>
                                     <div class="col-sm-12 col-lg-8 border-left">
-                                        <div class="earnings ct-charts"></div>
+                                    <script>
+                                    window.onload = function () {
+
+                                    var chart = new CanvasJS.Chart("chartContainer", {
+                                        animationEnabled: true,
+                                        title:{
+                                            text: "Kurva Produksi Hari Ini"
+                                        },
+                                        axisY :{
+                                            title : ""
+                                        },
+                                        axisX: {
+                                            title: "Waktu"
+                                        },
+                                        toolTip: {
+                                            shared: true
+                                        },
+                                        data: [{        
+                                            type: "stackedArea",
+                                            showInLegend: true,
+                                            toolTipContent: "<span style=\"color:#4F81BC\"><strong>Pukul: <b> {x} <br><b> <strong>{name}: </strong></span> {y}",
+                                            name: "Daya Beban",
+                                            dataPoints: [
+                                             { x: 1, y: 87 },
+                                            { x: 2, y: 87 },
+                                            { x: 3, y: 71 },
+                                            { x: 4, y: 71 },
+                                            { x: 5, y: 165 },
+                                            { x: 6, y: 140 },
+                                            { x: 7,y: 146 },
+                                            { x: 8,y: 212 },
+                                            { x: 9, y: 167 },
+                                            { x: 10, y: 145 },
+                                            { x: 11, y: 185 },
+                                            { x: 12, y: 270 },
+                                            { x: 13, y: 268 },
+                                            { x: 14, y: 256 },
+                                            { x: 15, y: 225 },
+                                            { x: 16, y: 220 },
+                                            { x: 17, y: 143 },
+                                            { x: 18, y: 104 },
+                                            { x: 19, y: 144 },
+                                            { x: 20, y: 344 },
+                                            { x: 21, y: 120 },
+                                            { x: 22, y: 228 },
+                                            { x: 23, y: 192 },
+                                            { x: 24, y: 178 } 
+                                            ]
+                                        },
+                                        {        
+                                            type: "splineArea",  
+                                            name: "Daya PV",
+                                            toolTipContent: "<span style=\"color:#C0504E\"><strong>{name}: </strong></span> {y}",
+                                            showInLegend: true,
+                                            dataPoints: [
+                                            { x: 1, y: 0 },
+                                            { x: 2, y: 0 },
+                                            { x: 3, y: 0 },
+                                            { x: 4, y: 0 },
+                                            { x: 5, y: 0 },
+                                            { x: 6, y: 0 },
+                                            { x: 7, y: 0 },
+                                            { x: 8, y: 108 },
+                                            { x: 9, y: 360 },
+                                            { x: 10, y: 612 },
+                                            { x: 11, y: 738 },
+                                            { x: 12, y: 648 },
+                                            { x: 13, y: 1044 },
+                                            { x: 14, y: 900 },
+                                            { x: 15, y: 666 },
+                                            { x: 16, y: 612 },
+                                            { x: 17, y: 72 },
+                                            { x: 18, y: 0 },
+                                            { x: 19, y: 0 },
+                                            { x: 20, y: 0 },
+                                            { x: 21, y: 0 },
+                                            { x: 22, y: 0 },
+                                            { x: 23, y: 0 },
+                                            { x: 24, y: 0 }  
+                                            ]
+                                        }]
+                                    });
+                                    chart.render();
+
+                                    }
+                                    </script>
+                                    </head>
+                                    <body>
+                                    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+                                    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                                    </body>
+                                    </html>       
                                     </div>
                                 </div>
                             </div>
@@ -926,7 +1017,7 @@
                         </div>
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Monthly Sales</h4>
+                                <h4 class="card-title">Monthly Sas</h4>
                                 <div class="row">
                                     <div class="col-6 mt-5">
                                         <h2 class="mb-1">$3528</h2>
@@ -942,6 +1033,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <!-- ============================================================== -->
                 <!-- Projects of the month -->
                 <!-- ============================================================== -->
