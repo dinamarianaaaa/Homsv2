@@ -352,8 +352,8 @@
                                 <div class="d-flex no-block align-items-center p-15 bg-primary text-white mb-2">
                                     <div class=""><img src="<?php echo base_url(); ?>assets/image/users/2.jpg" alt="user" class="img-circle" width="60"></div>
                                     <div class="ml-2">
-                                        <h4 class="mb-0">Steave Jobs</h4>
-                                        <p class=" mb-0">varun@gmail.com</p>
+                                        <h4 class="mb-0"> Jobs</h4>
+                                        <p class=" mb-0">@gmail.com</p>
                                     </div>
                                 </div>
                                 <a class="dropdown-item" href="javascript:void(0)"><i class="ti-user mr-1 ml-1"></i> My Profile</a>
@@ -1182,7 +1182,7 @@
                         <li>
                             <div class="message-center chat-scroll">
                                 <a href="javascript:void(0)" class="message-item" id='chat_user_1' data-user-id='1'>
-                                    <span class="user-img"> <img src="<?php echo base_url(); ?>assets/image/users/1.jpg" alt="user" class="rounded-circle"> <span class="profile-status online pull-right"></span> </span>
+                                    <span class="user-img"> <img src="<?php echo base_url(); ?>assets/images/users/1.jpg" alt="user" class="rounded-circle"> <span class="profile-status online pull-right"></span> </span>
                                     <div class="mail-contnet">
                                         <h5 class="message-title">Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span> </div>
                                 </a>
