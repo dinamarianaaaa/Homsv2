@@ -824,7 +824,7 @@
                                 <div class="row">
                                     <div class="col-sm-12 col-lg-4">
                                         <h1 class="font-bold mb-1">Rp 1,475,627</h1>
-                                        <h6 class="mb-3">Total Pemasukan PV</h6>
+                                        <h6 class="mb-3">Pemasukan PV</h6>
                                         <p>Bulan April</p>
                                         <button class="waves-effect waves-light mt-3 btn btn-lg btn-info">Pemasukan Bulan Lalu</button>
                                     </div>
@@ -849,7 +849,7 @@
                                         data: [{        
                                             type: "stackedArea",
                                             showInLegend: true,
-                                            toolTipContent: "<span style=\"color:#4F81BC\"><strong>Pukul: <b> {x} <br><b> <strong>{name}: </strong></span> {y}",
+                                            toolTipContent: "<span style=\"color:#4fbc68\"><strong>Pukul: <b> {x} <br><b> <strong>{name}: </strong></span> {y}",
                                             name: "Daya Beban",
                                             dataPoints: [
                                              { x: 1, y: 87 },
@@ -969,6 +969,61 @@
                     </div>
                 </div>
                 <!-- ============================================================== -->
+                <!-- Revenue Statistics & Page Views -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <!-- column -->
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card bg-info">
+                            <div class="card-body">
+                                <h4 class="card-title text-white">Total Pemasukan PV</h4>
+                                <div class="d-flex align-items-center m-t-30">
+                                    <div class="" id="ravenue"></div>
+                                    <div class="ml-auto">
+                                        <h2 class="text-white m-b-0"></i>Rp 13,920,184</h2><span class="text-white op-5">1 Jan  - 3 April</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card bg-cyan">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <h4 class="card-title text-white">Total Hari Pemasangan</h4>
+                                        <h2 class="text-white m-b-0"></i> 93</h2>
+                                    </div>
+                                    <div class="ml-auto">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-t-20" id="views"></div>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card bg-white">
+                        <div class="card-body">
+                                <h4 class="card-title">Performa PV Kemarin</h4>
+                                <div class="row">
+                                    <div class="col-6 mt-5">
+                                        <h2 class="mb-1">0.88</h2>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="gaugejs-box text-right">
+                                            <canvas id="foo" class="gaugejs ml-auto" height="60" width="120">guage</canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-t-20" id="views"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                           
+                <!-- ============================================================== -->
                 <!-- Devices - Income - Sales -->
                 <!-- ============================================================== -->
                 <div class="row mt-4">
@@ -1026,42 +1081,113 @@
                             </div>
                             <div class="card-body border-top">
                                 <div class="row m-t-10">
-                    <!-- col -->
-                    <div class="col-sm-12 col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Sales Performance</h4>
-                                <div class="row">
-                                    <div class="col-6 mt-5">
-                                        <h2 class="mb-1">$4316</h2>
-                                        <span>(150-165 sales)</span>
-                                    </div>
-                                    <div class="col-6">
-                                        <div id="sales" class="ml-auto" style="height:115px; width:115px;">
+                    <!-- search traffic -->
+                    <div class="card-body border-top">
+                                <div class="row m-t-10">
+                                    <!-- Column -->
+                                    <div class="col-sm-12 col-md-6 col-lg-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="m-r-20">
+                                                <div data-label="20%" class="css-bar m-b-0 css-bar-primary css-bar-50"><i class="mdi mdi-magnify text-info"></i>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h3 class="m-b-0">90</h3><span>Daya PV</span></div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Monthly Sas</h4>
-                                <div class="row">
-                                    <div class="col-6 mt-5">
-                                        <h2 class="mb-1">$3528</h2>
-                                        <span>(150-165 sales)</span>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="gaugejs-box text-right">
-                                            <canvas id="foo" class="gaugejs ml-auto" height="60" width="120">guage</canvas>
+                                    <!-- Column -->
+                                    <!-- Column -->
+                                    <div class="col-sm-12 col-md-6 col-lg-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="m-r-20">
+                                                <div data-label="20%" class="css-bar m-b-0 css-bar-danger css-bar-30"><i class="mdi mdi-link text-danger"></i>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h3 class="m-b-0">231</h3><span>Daya Beban</span></div>
                                         </div>
                                     </div>
+                                    <!-- Column -->
+                                    <!-- Column -->
+                                    <div class="col-sm-12 col-md-6 col-lg-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="m-r-20">
+                                                <div data-label="20%" class="css-bar m-b-0 css-bar-success css-bar-10"><i class="mdi mdi-lightbulb-outline text-cyan"></i>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h3 class="m-b-0">0</h3><span>Daya Ekspor</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- Column -->
+                                    <!-- Column -->
+                                    <div class="col-sm-12 col-md-6 col-lg-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="m-r-20">
+                                                <div data-label="20%" class="css-bar m-b-0 css-bar-purple css-bar-10"><i class="mdi mdi-laptop-mac text-purple"></i>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h3 class="m-b-0">141</h3><span>Daya Impor</span></div>
+                                        </div>
                                 </div>
+                                <div class="col-sm-12 col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Cuaca Hari Ini</h4>
+                                <div class="d-flex align-items-center flex-row m-t-30">
+                                    <div class="display-5 text-info"><i class="wi wi-day-showers"></i> <span>24<sup>°</sup></span></div>
+                                    <div class="m-l-10">
+                                        <h3 class="m-b-0">Kamis</h3><small>Jakarta, Indonesia</small>
+                                    </div>
+                                </div>
+                                <table class="table no-border mini-table m-t-20">
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-muted">Kecepatan Angin</td>
+                                            <td class="font-medium">ESE 17 mph</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-muted">Kelembaban</td>
+                                            <td class="font-medium">89%</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-muted">Tekanan</td>
+                                            <td class="font-medium">28.56 in</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-muted">Jangkauan Awan</td>
+                                            <td class="font-medium">78%</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <ul class="row list-style-none text-center m-t-30">
+                                    <li class="col-3">
+                                        <h4 class="text-info"><i class="wi wi-day-sunny"></i></h4>
+                                        <span class="d-block text-muted">09:30</span>
+                                        <h3 class="m-t-5">25<sup>°</sup></h3>
+                                    </li>
+                                    <li class="col-3">
+                                        <h4 class="text-info"><i class="wi wi-day-cloudy"></i></h4>
+                                        <span class="d-block text-muted">11:30</span>
+                                        <h3 class="m-t-5">25<sup>°</sup></h3>
+                                    </li>
+                                    <li class="col-3">
+                                        <h4 class="text-info"><i class="wi wi-day-hail"></i></h4>
+                                        <span class="d-block text-muted">13:30</span>
+                                        <h3 class="m-t-5">29<sup>°</sup></h3>
+                                    </li>
+                                    <li class="col-3">
+                                        <h4 class="text-info"><i class="wi wi-day-sprinkle"></i></h4>
+                                        <span class="d-block text-muted">15:55</span>
+                                        <h3 class="m-t-5">26<sup>°</sup></h3>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                </div>
-                
+                                
+                   
                 <!-- ============================================================== -->
                 <!-- Projects of the month -->
                 <!-- ============================================================== -->
@@ -1199,7 +1325,7 @@
             <footer class="footer text-center">
        Copyright 2019 HOMS
        <a href="http://homstech.com">homstech</a>.
-</footer>
+            </footer>
             <!-- ============================================================== -->
             <!-- End footer -->
             <!-- ============================================================== -->
