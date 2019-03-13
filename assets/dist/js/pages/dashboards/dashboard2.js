@@ -9,8 +9,8 @@ $(function() {
     // ==============================================================
     // Real Time chart
     // ==============================================================
-    var data = [5, 10, 15, 20, 15, 30, 40],
-        totalPoints = 100;
+    var data = [630,612, 504, 522, 558, 576, 306, 180, 198, 126, 162, 126, 90],
+        totalPoints = 630;
 
     function getRandomData() {
         if (data.length > 0) data = data.slice(1);
@@ -39,7 +39,7 @@ $(function() {
         if (v && !isNaN(+v)) {
             updateInterval = +v;
             if (updateInterval < 1) {
-                updateInterval = 1;
+                updateInterval = 5;
             } else if (updateInterval > 3000) {
                 updateInterval = 3000;
             }
@@ -53,7 +53,7 @@ $(function() {
         },
         yaxis: {
             min: 0,
-            max: 100,
+            max: 500,
             show: true
         },
         xaxis: {
@@ -68,7 +68,7 @@ $(function() {
         },
         tooltip: true,
         tooltipOpts: {
-            content: "Visits: %x",
+            content: "Daya PV: %x",
             defaultTheme: false
         }
     });

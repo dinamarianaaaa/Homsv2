@@ -823,10 +823,10 @@
                             <div class="tab-pane fade show active" id="month" role="tabpanel" aria-labelledby="pills-home-tab2">
                                 <div class="row">
                                     <div class="col-sm-12 col-lg-4">
-                                        <h1 class="font-bold mb-1">$6,890</h1>
-                                        <h6 class="mb-3">Current Month Earnings</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non pharetra ligula, sitametlaoreet arcu.</p>
-                                        <button class="waves-effect waves-light mt-3 btn btn-lg btn-info">Last Month Summary</button>
+                                        <h1 class="font-bold mb-1">Rp 1,475,627</h1>
+                                        <h6 class="mb-3">Total Pemasukan PV</h6>
+                                        <p>Bulan April</p>
+                                        <button class="waves-effect waves-light mt-3 btn btn-lg btn-info">Pemasukan Bulan Lalu</button>
                                     </div>
                                     <div class="col-sm-12 col-lg-8 border-left">
                                     <script>
@@ -998,6 +998,34 @@
                             </div>
                         </div>
                     </div> -->
+                    <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <!-- title -->
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <h4 class="card-title">Real Time 60 Menit</h4>
+                                        <h5 class="card-subtitle">Pukul 14:55 - 15:55</h5>
+                                    </div>
+                                    <div class="ml-auto">
+                                        <div class="dl">
+                                            <select class="custom-select">
+                                                <option value="0" selected>Hourly</option>
+                                                <option value="1">Daily</option>
+                                                <option value="2">Weekly</option>
+                                                <option value="3">Yearly</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- title -->
+                                <div class="m-t-30">
+                                    <div id="placeholder" class="" style="width: 1000px;height:250px;"></div>
+                                </div>
+                            </div>
+                            <div class="card-body border-top">
+                                <div class="row m-t-10">
                     <!-- col -->
                     <div class="col-sm-12 col-lg-4">
                         <div class="card">
@@ -1425,6 +1453,16 @@
     <script src="<?php echo base_url(); ?>assets/libs/chart.js/dist/Chart.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/libs/gaugeJS/dist/gauge.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/dist/js/pages/dashboards/dashboard8.js"></script>
+    <script src="assets/extra-libs/c3/d3.min.js"></script>
+    <script src="assets/extra-libs/c3/c3.min.js"></script>
+    <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
+    <script src="assets/libs/gaugeJS/dist/gauge.min.js"></script>
+    <script src="assets/libs/flot/excanvas.min.js"></script>
+    <script src="assets/libs/flot/jquery.flot.js"></script>
+    <script src="assets/libs/jquery.flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
+    <script src="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="assets/dist/js/pages/dashboards/dashboard2.js"></script>
 </body>
 
 </html>
