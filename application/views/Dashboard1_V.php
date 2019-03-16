@@ -733,15 +733,15 @@
             <!-- ============================================================== -->
             <div class="card gredient-info-bg mt-0 mb-0">
                 <div class="card-body">
-                    <h4 class="card-title text-white">Welcome Jon Doe</h4>
+                    <h4 class="card-title text-white">Apakabar, Joe?</h4>
                     <h5 class="card-subtitle text-white op-5">Dashboard</h5>
                     <div class="row mt-4 mb-3">
                         <!-- col -->
                         <div class="col-sm-12 col-lg-4">
                             <div class="temp d-flex align-items-center flex-row">
-                                <div class="display-5 text-white"><i class="wi wi-day-showers"></i> <span>24<sup>°</sup></span></div>
+                                <div class="display-5 text-white"><i class="wi wi-day-showers"></i> <span>27<sup>°</sup></span></div>
                                 <div class="ml-2">
-                                    <h3 class="mb-0 text-white">Kamis</h3><small class="text-white op-5">Jakarta, Indonesia</small>
+                                    <h3 class="mb-0 text-white">Minggu</h3><small class="text-white op-5">Jakarta, Indonesia</small>
                                 </div>
                             </div>
                         </div>
@@ -755,7 +755,7 @@
                                             <i class="mdi mdi-wallet text-white display-5 op-5"></i>
                                         </div>
                                         <div>
-                                            <h3 class="text-white mb-0">Rp 3,657,312</h3>
+                                            <h3 class="text-white mb-0">Rp 676,453,-</h3>
                                             <span class="text-white op-5">Total Tagihan Tanpa PV</span>
                                         </div>
                                     </div>
@@ -768,7 +768,7 @@
                                             <i class="mdi mdi-star-circle text-white display-5 op-5"></i>
                                         </div>
                                         <div>
-                                            <h3 class="text-white mb-0">Rp 1,680,397</h3>
+                                            <h3 class="text-white mb-0">Rp 287,234,-</h3>
                                             <span class="text-white op-5">Total Tagihan dengan PV</span>
                                         </div>
                                     </div>
@@ -781,7 +781,7 @@
                                             <i class="mdi mdi-basket text-white display-5 op-5"></i>
                                         </div>
                                         <div>
-                                            <h3 class="text-white mb-0">Rp 1,976,915</h3>
+                                            <h3 class="text-white mb-0">Rp 1,332,137</h3>
                                             <span class="text-white op-5">Penghematan</span>
                                         </div>
                                     </div>
@@ -820,8 +820,8 @@
                             <div class="tab-pane fade show active" id="month" role="tabpanel" aria-labelledby="pills-home-tab2">
                                 <div class="row">
                                     <div class="col-sm-12 col-lg-4">
-                                        <h1 class="font-bold mb-1">Rp 1,475,627</h1>
-                                        <h6 class="mb-3">Pemasukan PV</h6>
+                                        <h1 class="font-bold mb-1">Rp 5,399,-</h1>
+                                        <h6 class="mb-3">Pendapatan Energi Surya</h6>
                                         <p>Bulan April</p>
                                         <button class="waves-effect waves-light mt-3 btn btn-lg btn-info">Pemasukan Bulan Lalu</button>
                                     </div>
@@ -846,38 +846,38 @@
                                         data: [{        
                                             type: "stackedArea",
                                             showInLegend: true,
-                                            toolTipContent: "<span style=\"color:#4fbc68\"><strong>Pukul: <b> {x} <br><b> <strong>{name}: </strong></span> {y}",
-                                            name: "Daya Beban",
+                                            toolTipContent: "<span style=\"color:#4f7cbc\"><strong>Pukul: <b> {x} <br><b> <strong>{name}: </strong></span> {y}",
+                                            name: "Daya Konsumsi",
                                             dataPoints: [
-                                             { x: 1, y: 87 },
-                                            { x: 2, y: 87 },
-                                            { x: 3, y: 71 },
-                                            { x: 4, y: 71 },
-                                            { x: 5, y: 165 },
-                                            { x: 6, y: 140 },
-                                            { x: 7,y: 146 },
-                                            { x: 8,y: 212 },
-                                            { x: 9, y: 167 },
-                                            { x: 10, y: 145 },
-                                            { x: 11, y: 185 },
-                                            { x: 12, y: 270 },
-                                            { x: 13, y: 268 },
-                                            { x: 14, y: 256 },
-                                            { x: 15, y: 225 },
-                                            { x: 16, y: 220 },
-                                            { x: 17, y: 143 },
-                                            { x: 18, y: 104 },
-                                            { x: 19, y: 144 },
-                                            { x: 20, y: 344 },
-                                            { x: 21, y: 120 },
-                                            { x: 22, y: 228 },
-                                            { x: 23, y: 192 },
-                                            { x: 24, y: 178 } 
+                                             { x: 1, y: 123 },
+                                            { x: 2, y: 98 },
+                                            { x: 3, y: 98 },
+                                            { x: 4, y: 156 },
+                                            { x: 5, y: 212 },
+                                            { x: 6, y: 143 },
+                                            { x: 7,y: 154 },
+                                            { x: 8,y: 98 },
+                                            { x: 9, y: 98 },
+                                            { x: 10, y: 289 },
+                                            { x: 11, y: 413 },
+                                            { x: 12, y: 378 },
+                                            { x: 13, y: 421 },
+                                            { x: 14, y: 156 },
+                                            { x: 15, y: 0 },
+                                            { x: 16, y: 0 },
+                                            { x: 17, y: 0 },
+                                            { x: 18, y: 0 },
+                                            { x: 19, y: 0 },
+                                            { x: 20, y: 0 },
+                                            { x: 21, y: 0 },
+                                            { x: 22, y: 0 },
+                                            { x: 23, y: 0 },
+                                            { x: 24, y: 0 } 
                                             ]
                                         },
                                         {        
                                             type: "splineArea",  
-                                            name: "Daya PV",
+                                            name: "Daya Panel Surya",
                                             toolTipContent: "<span style=\"color:#C0504E\"><strong>{name}: </strong></span> {y}",
                                             showInLegend: true,
                                             dataPoints: [
@@ -887,17 +887,17 @@
                                             { x: 4, y: 0 },
                                             { x: 5, y: 0 },
                                             { x: 6, y: 0 },
-                                            { x: 7, y: 0 },
-                                            { x: 8, y: 108 },
-                                            { x: 9, y: 360 },
-                                            { x: 10, y: 612 },
-                                            { x: 11, y: 738 },
-                                            { x: 12, y: 648 },
-                                            { x: 13, y: 1044 },
-                                            { x: 14, y: 900 },
-                                            { x: 15, y: 666 },
-                                            { x: 16, y: 612 },
-                                            { x: 17, y: 72 },
+                                            { x: 7, y: 162 },
+                                            { x: 8, y: 216 },
+                                            { x: 9, y: 324 },
+                                            { x: 10, y: 324 },
+                                            { x: 11, y: 522 },
+                                            { x: 12, y: 522 },
+                                            { x: 13, y: 360 },
+                                            { x: 14, y: 342 },
+                                            { x: 15, y: 288 },
+                                            { x: 16, y: 0 },
+                                            { x: 17, y: 0 },
                                             { x: 18, y: 0 },
                                             { x: 19, y: 0 },
                                             { x: 20, y: 0 },
@@ -977,7 +977,7 @@
                                 <div class="d-flex align-items-center m-t-30">
                                     <div class="" id="ravenue"></div>
                                     <div class="ml-auto">
-                                        <h2 class="text-white m-b-0"></i>Rp 13,920,184</h2><span class="text-white op-5">1 Jan  - 3 April</span>
+                                        <h2 class="text-white m-b-0"></i>Rp 22,625,-</h2><span class="text-white op-5">1 Jan  - 3 April</span>
                                     </div>
                                 </div>
                             </div>
@@ -990,7 +990,7 @@
                                 <div class="d-flex align-items-center">
                                     <div>
                                         <h4 class="card-title text-white">Total Hari Pemasangan</h4>
-                                        <h2 class="text-white m-b-0"></i> 93</h2>
+                                        <h2 class="text-white m-b-0"></i> 95</h2>
                                     </div>
                                     <div class="ml-auto">
                                     </div>
@@ -1003,10 +1003,11 @@
                     <div class="col-sm-12 col-lg-4">
                         <div class="card bg-white">
                         <div class="card-body">
-                                <h4 class="card-title">Performa PV Kemarin</h4>
+                                <h4 class="card-title">Performa Panel Surya Anda</h4>
                                 <div class="row">
                                     <div class="col-6 mt-5">
-                                        <h2 class="mb-1">0.88</h2>
+                                        <h2 class="mb-1">109.72%</h2>
+                                        <h4 class="mb-1">Great</h4>
                                     </div>
                                     <div class="col-6">
                                         <div class="gaugejs-box text-right">
@@ -1057,7 +1058,7 @@
                                 <!-- title -->
                                 <div class="d-flex align-items-center">
                                     <div>
-                                        <h4 class="card-title">Real Time 60 Menit</h4>
+                                        <h4 class="card-title">Real Time Monitoring</h4>
                                         <h5 class="card-subtitle">Pukul 14:55 - 15:55</h5>
                                     </div>
                                     <div class="ml-auto">
@@ -1089,7 +1090,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <h3 class="m-b-0">90</h3><span>Daya PV</span></div>
+                                                <h3 class="m-b-0">180 watt</h3><span>Daya Panel Surya</span></div>
                                         </div>
                                     </div>
                                     <!-- Column -->
@@ -1101,7 +1102,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <h3 class="m-b-0">231</h3><span>Daya Beban</span></div>
+                                                <h3 class="m-b-0">178 watt</h3><span>Daya Konsumsi</span></div>
                                         </div>
                                     </div>
                                     <!-- Column -->
@@ -1113,7 +1114,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <h3 class="m-b-0">0</h3><span>Daya Ekspor</span></div>
+                                                <h3 class="m-b-0">0 watt</h3><span>Daya Impor</span></div>
                                         </div>
                                     </div>
                                     <!-- Column -->
@@ -1125,58 +1126,58 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <h3 class="m-b-0">141</h3><span>Daya Impor</span></div>
+                                                <h3 class="m-b-0">2 watt</h3><span>Daya Ekspor</span></div>
                                         </div>
                                 </div>
                                 <div class="col-sm-12 col-lg-4">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Cuaca Hari Ini</h4>
+                                <h4 class="card-title">Ramalan Cuaca</h4>
                                 <div class="d-flex align-items-center flex-row m-t-30">
-                                    <div class="display-5 text-info"><i class="wi wi-day-showers"></i> <span>24<sup>°</sup></span></div>
+                                    <div class="display-5 text-info"><i class="wi wi-day-showers"></i> <span>27<sup>°</sup></span></div>
                                     <div class="m-l-10">
-                                        <h3 class="m-b-0">Kamis</h3><small>Jakarta, Indonesia</small>
+                                        <h3 class="m-b-0">Minggu</h3><small>Jakarta, Indonesia</small>
                                     </div>
                                 </div>
                                 <table class="table no-border mini-table m-t-20">
                                     <tbody>
                                         <tr>
-                                            <td class="text-muted">Kecepatan Angin</td>
-                                            <td class="font-medium">ESE 17 mph</td>
+                                            <td class="text-muted">Angin</td>
+                                            <td class="font-medium">17 mph</td>
                                         </tr>
                                         <tr>
                                             <td class="text-muted">Kelembaban</td>
-                                            <td class="font-medium">89%</td>
+                                            <td class="font-medium">75%</td>
                                         </tr>
                                         <tr>
                                             <td class="text-muted">Tekanan</td>
-                                            <td class="font-medium">28.56 in</td>
+                                            <td class="font-medium">28.5 in</td>
                                         </tr>
                                         <tr>
-                                            <td class="text-muted">Jangkauan Awan</td>
-                                            <td class="font-medium">78%</td>
+                                            <td class="text-muted">Awan</td>
+                                            <td class="font-medium">43%</td>
                                         </tr>
                                     </tbody>
                                 </table>
                                 <ul class="row list-style-none text-center m-t-30">
                                     <li class="col-3">
                                         <h4 class="text-info"><i class="wi wi-day-sunny"></i></h4>
-                                        <span class="d-block text-muted">09:30</span>
+                                        <span class="d-block text-muted">09:00</span>
                                         <h3 class="m-t-5">25<sup>°</sup></h3>
                                     </li>
                                     <li class="col-3">
                                         <h4 class="text-info"><i class="wi wi-day-cloudy"></i></h4>
-                                        <span class="d-block text-muted">11:30</span>
-                                        <h3 class="m-t-5">25<sup>°</sup></h3>
-                                    </li>
-                                    <li class="col-3">
-                                        <h4 class="text-info"><i class="wi wi-day-hail"></i></h4>
-                                        <span class="d-block text-muted">13:30</span>
+                                        <span class="d-block text-muted">12:00</span>
                                         <h3 class="m-t-5">29<sup>°</sup></h3>
                                     </li>
                                     <li class="col-3">
+                                        <h4 class="text-info"><i class="wi wi-day-hail"></i></h4>
+                                        <span class="d-block text-muted">15:00</span>
+                                        <h3 class="m-t-5">27<sup>°</sup></h3>
+                                    </li>
+                                    <li class="col-3">
                                         <h4 class="text-info"><i class="wi wi-day-sprinkle"></i></h4>
-                                        <span class="d-block text-muted">15:55</span>
+                                        <span class="d-block text-muted">18:00</span>
                                         <h3 class="m-t-5">26<sup>°</sup></h3>
                                     </li>
                                 </ul>
