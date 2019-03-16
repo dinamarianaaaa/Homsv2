@@ -825,7 +825,7 @@
                                         <h1 class="font-bold mb-1">Rp 5,399,-</h1>
                                         <h6 class="mb-3">Pendapatan Energi Surya</h6>
                                         <p>Bulan April</p>
-                                        <button class="waves-effect waves-light mt-3 btn btn-lg btn-info">Pemasukan Bulan Lalu</button>
+                                        <button class="waves-effect waves-light mt-3 btn btn-lg btn-info">Rincian Bulan Lalu</button>
                                     </div>
                                     <div class="col-sm-12 col-lg-8 border-left">
                                     <script>

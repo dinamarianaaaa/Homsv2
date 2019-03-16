@@ -734,15 +734,15 @@
             <!-- ============================================================== -->
             <div class="card gredient-info-bg mt-0 mb-0">
                 <div class="card-body">
-                    <h4 class="card-title text-white">Welcome Jon Doe</h4>
+                    <h4 class="card-title text-white">Apakabar, Joe?</h4>
                     <h5 class="card-subtitle text-white op-5">Dashboard</h5>
                     <div class="row mt-4 mb-3">
                         <!-- col -->
                         <div class="col-sm-12 col-lg-4">
                             <div class="temp d-flex align-items-center flex-row">
-                                <div class="display-5 text-white"><i class="wi wi-day-showers"></i> <span>24<sup>°</sup></span></div>
+                                <div class="display-5 text-white"><i class="wi wi-day-showers"></i> <span>27<sup>°</sup></span></div>
                                 <div class="ml-2">
-                                    <h3 class="mb-0 text-white">Kamis</h3><small class="text-white op-5">Jakarta, Indonesia</small>
+                                    <h3 class="mb-0 text-white">Minggu</h3><small class="text-white op-5">Jakarta, Indonesia</small>
                                 </div>
                             </div>
                         </div>
@@ -756,7 +756,7 @@
                                             <i class="mdi mdi-wallet text-white display-5 op-5"></i>
                                         </div>
                                         <div>
-                                            <h3 class="text-white mb-0">Rp 3,657,312</h3>
+                                            <h3 class="text-white mb-0">Rp 676,453,-</h3>
                                             <span class="text-white op-5">Total Tagihan Tanpa PV</span>
                                         </div>
                                     </div>
@@ -769,7 +769,7 @@
                                             <i class="mdi mdi-star-circle text-white display-5 op-5"></i>
                                         </div>
                                         <div>
-                                            <h3 class="text-white mb-0">Rp 1,680,397</h3>
+                                            <h3 class="text-white mb-0">Rp 287,234,-</h3>
                                             <span class="text-white op-5">Total Tagihan dengan PV</span>
                                         </div>
                                     </div>
@@ -782,7 +782,7 @@
                                             <i class="mdi mdi-basket text-white display-5 op-5"></i>
                                         </div>
                                         <div>
-                                            <h3 class="text-white mb-0">Rp 1,976,915</h3>
+                                            <h3 class="text-white mb-0">Rp 1,332,137</h3>
                                             <span class="text-white op-5">Penghematan</span>
                                         </div>
                                     </div>
@@ -798,270 +798,22 @@
             <!-- ============================================================== -->
             <div class="container-fluid">
                 <!-- ============================================================== -->
-                <!-- Earnings -->
+                <!-- Sales chart -->
                 <!-- ============================================================== -->
                 <div class="row">
-                    <!-- col -->
-                    <div class="col-sm-12">
-                        <ul class="nav nav-pills custom-pills" id="pills-tab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="pills-home-tab2" data-toggle="pill" href="#month" role="tab" aria-selected="true">Month Overview</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-profile-tab2" data-toggle="pill" href="#revenue" role="tab" aria-selected="false">Revenue</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-contact-tab2" data-toggle="pill" href="#conversion" role="tab" aria-selected="false">Conversions</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-session-tab2" data-toggle="pill" href="#session" role="tab" aria-selected="false">Sessions</a>
-                            </li>
-                        </ul>
-                        <div class="tab-content mt-4" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="month" role="tabpanel" aria-labelledby="pills-home-tab2">
-                                <div class="row">
-                                    <div class="col-sm-12 col-lg-4">
-                                        <h1 class="font-bold mb-1">Rp 1,475,627</h1>
-                                        <h6 class="mb-3">Pemasukan PV</h6>
-                                        <p>Bulan April</p>
-                                        <button class="waves-effect waves-light mt-3 btn btn-lg btn-info">Pemasukan Bulan Lalu</button>
-                                    </div>
-                                    <div class="col-sm-12 col-lg-8 border-left">
-                                    <script>
-                                    window.onload = function () {
-
-                                    var chart = new CanvasJS.Chart("chartContainer", {
-                                        animationEnabled: true,
-                                        title:{
-                                            text: "Kurva Produksi Hari Ini"
-                                        },
-                                        axisY :{
-                                            title : ""
-                                        },
-                                        axisX: {
-                                            title: "Waktu"
-                                        },
-                                        toolTip: {
-                                            shared: true
-                                        },
-                                        data: [{        
-                                            type: "stackedArea",
-                                            showInLegend: true,
-                                            toolTipContent: "<span style=\"color:#4fbc68\"><strong>Pukul: <b> {x} <br><b> <strong>{name}: </strong></span> {y}",
-                                            name: "Daya Beban",
-                                            dataPoints: [
-                                             { x: 1, y: 87 },
-                                            { x: 2, y: 87 },
-                                            { x: 3, y: 71 },
-                                            { x: 4, y: 71 },
-                                            { x: 5, y: 165 },
-                                            { x: 6, y: 140 },
-                                            { x: 7,y: 146 },
-                                            { x: 8,y: 212 },
-                                            { x: 9, y: 167 },
-                                            { x: 10, y: 145 },
-                                            { x: 11, y: 185 },
-                                            { x: 12, y: 270 },
-                                            { x: 13, y: 268 },
-                                            { x: 14, y: 256 },
-                                            { x: 15, y: 225 },
-                                            { x: 16, y: 220 },
-                                            { x: 17, y: 143 },
-                                            { x: 18, y: 104 },
-                                            { x: 19, y: 144 },
-                                            { x: 20, y: 344 },
-                                            { x: 21, y: 120 },
-                                            { x: 22, y: 228 },
-                                            { x: 23, y: 192 },
-                                            { x: 24, y: 178 } 
-                                            ]
-                                        },
-                                        {        
-                                            type: "splineArea",  
-                                            name: "Daya PV",
-                                            toolTipContent: "<span style=\"color:#C0504E\"><strong>{name}: </strong></span> {y}",
-                                            showInLegend: true,
-                                            dataPoints: [
-                                            { x: 1, y: 0 },
-                                            { x: 2, y: 0 },
-                                            { x: 3, y: 0 },
-                                            { x: 4, y: 0 },
-                                            { x: 5, y: 0 },
-                                            { x: 6, y: 0 },
-                                            { x: 7, y: 0 },
-                                            { x: 8, y: 108 },
-                                            { x: 9, y: 360 },
-                                            { x: 10, y: 612 },
-                                            { x: 11, y: 738 },
-                                            { x: 12, y: 648 },
-                                            { x: 13, y: 1044 },
-                                            { x: 14, y: 900 },
-                                            { x: 15, y: 666 },
-                                            { x: 16, y: 612 },
-                                            { x: 17, y: 72 },
-                                            { x: 18, y: 0 },
-                                            { x: 19, y: 0 },
-                                            { x: 20, y: 0 },
-                                            { x: 21, y: 0 },
-                                            { x: 22, y: 0 },
-                                            { x: 23, y: 0 },
-                                            { x: 24, y: 0 }  
-                                            ]
-                                        }]
-                                    });
-                                    chart.render();
-
-                                    }
-                                    </script>
-                                    </head>
-                                    <body>
-                                    <div id="chartContainer" style="height: 410px; width: 100%;"></div>
-                                    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-                                    </body>
-                                    </html>       
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="revenue" role="tabpanel" aria-labelledby="pills-profile-tab2">
-                                <div class="row">
-                                    <div class="col-sm-12 text-center">
-                                        <h1 class="font-bold mb-1">$6,890.68</h1>
-                                        <h6 class="mb-3">Current Month Earnings</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non
-                                            <br/>pharetra ligula, sitametlaoreet arcu.</p>
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <div class="w-100">
-                                            <div class="product-sales"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="conversion" role="tabpanel" aria-labelledby="pills-contact-tab2">
-                                <div class="row">
-                                    <div class="col-sm-12 col-lg-4">
-                                        <h1 class="font-bold mb-1">$6,890.68</h1>
-                                        <h6 class="mb-3">Current Month Earnings</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non pharetra ligula, sitametlaoreet arcu.</p>
-                                        <button class="waves-effect waves-light mt-3 btn btn-lg btn-info">Last Month Summary</button>
-                                    </div>
-                                    <div class="col-sm-12 col-lg-8 text-center border-left">
-                                        <div class="rate"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="session" role="tabpanel" aria-labelledby="pills-session-tab2">
-                                <div class="row">
-                                    <div class="col-sm-12 col-lg-4">
-                                        <h1 class="font-bold mb-1">$6,890.68</h1>
-                                        <h6 class="mb-3">Current Month Earnings</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non pharetra ligula, sitametlaoreet arcu.</p>
-                                        <button class="waves-effect waves-light mt-3 btn btn-lg btn-info">Last Month Summary</button>
-                                    </div>
-                                    <div class="col-sm-12 col-lg-8 text-center border-left">
-                                        <div class="status"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ============================================================== -->
-                <!-- Revenue Statistics & Page Views -->
-                <!-- ============================================================== -->
-                <div class="row">
-                    <!-- column -->
-                    <div class="col-sm-12 col-lg-4">
-                        <div class="card bg-info">
+                    <div class="col-12">
+                        <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title text-white">Total Pemasukan PV</h4>
-                                <div class="d-flex align-items-center m-t-30">
-                                    <div class="" id="ravenue"></div>
-                                    <div class="ml-auto">
-                                        <h2 class="text-white m-b-0"></i>Rp 13,920,184</h2><span class="text-white op-5">1 Jan  - 3 April</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- column -->
-                    <div class="col-sm-12 col-lg-4">
-                        <div class="card bg-cyan">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
+                                <div class="d-md-flex align-items-center">
                                     <div>
-                                        <h4 class="card-title text-white">Total Hari Pemasangan</h4>
-                                        <h2 class="text-white m-b-0"></i> 93</h2>
+                                        <h4 class="card-title">Statistik Bulanan</h4>
+                                        <h5 class="card-subtitle">April</h5>
                                     </div>
-                                    <div class="ml-auto">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="m-t-20" id="views"></div>
-                        </div>
-                    </div>
-                    <!-- column -->
-                    <div class="col-sm-12 col-lg-4">
-                        <div class="card bg-white">
-                        <div class="card-body">
-                                <h4 class="card-title">Performa PV Kemarin</h4>
-                                <div class="row">
-                                    <div class="col-6 mt-5">
-                                        <h2 class="mb-1">0.88</h2>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="gaugejs-box text-right">
-                                            <canvas id="foo" class="gaugejs ml-auto" height="60" width="120">guage</canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="m-t-20" id="views"></div>
-                        </div>
-                    </div>
-                    <div class="card">
-                           
-                <!-- ============================================================== -->
-                <!-- Devices - Income - Sales -->
-                <!-- ============================================================== -->
-                <div class="row mt-4">
-                    <!-- col -->
-                    <!-- <div class="col-sm-12 col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Device Variations</h4>
-                                <div id="visitor" style="height:267px; width:100%;" class="mt-3"></div>
-                                <ul class="list-inline text-center">
-                                    <li class="list-inline-item"><i class="fa fa-circle text-info"></i> Mobiles</li>
-                                    <li class="list-inline-item"><i class="fa fa-circle text-cyan"></i> Desktops</li>
-                                    <li class="list-inline-item"><i class="fa fa-circle text-orange"></i> Tablets</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- col -->
-                    <!-- <div class="col-sm-12 col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Net Income</h4>
-                                <div class="net-income mt-4 position-relative" style="height:257px;"></div>
-                                <ul class="list-inline text-center">
-                                    <li class="list-inline-item"><i class="fa fa-circle text-cyan"></i> Net Income</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> -->
-                    <div class="row">
-                    <div class="col-sm-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <!-- title -->
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <h4 class="card-title">Real Time 60 Menit</h4>
-                                        <h5 class="card-subtitle">Pukul 14:55 - 15:55</h5>
-                                    </div>
-                                    <div class="ml-auto">
+                                    <div class="ml-auto d-flex no-block align-items-center">
+                                        <ul class="list-inline font-12 dl m-r-15 m-b-0">
+                                            <li class="list-inline-item text-info"><i class="fa fa-circle"></i> Produksi Harian</li>
+                                            <li class="list-inline-item text-primary"><i class="fa fa-circle"></i> Konsumsi Harian</li>
+                                        </ul>
                                         <div class="dl">
                                             <select class="custom-select">
                                                 <option value="0" selected>Hourly</option>
@@ -1072,248 +824,108 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- title -->
-                                <div class="m-t-30">
-                                    <div id="placeholder" class="" style="width: 1000px;height:250px;"></div>
+                                <div class="row">
+                                    <!-- column -->
+                                    <div class="col-lg-4">
+                                        <h1 class="m-b-0 m-t-30">Rp 4,879,-</h1>
+                                        <h6 class="font-light text-muted">Pendapatan Energi Surya</h6>
+                                        <h3 class="m-t-30 m-b-0">3.75 kWatt</h3>
+                                        <h6 class="font-light text-muted">Total Produksi Energi Surya</h6>
+                                        <a class="btn btn-info m-t-20 p-15 p-l-25 p-r-25 m-b-20" href="javascript:void(0)">Rincian Bulan Lalu</a>
+                                    </div>
+                                    <!-- column -->
+                                    <div class="col-lg-8">
+                                        <div class="campaign ct-charts"></div>
+                                    </div>
+                                    <!-- column -->
                                 </div>
                             </div>
+                            <!-- ============================================================== -->
+                            <!-- Info Box -->
+                            <!-- ============================================================== -->
                             <div class="card-body border-top">
-                                <div class="row m-t-10">
-                    <!-- search traffic -->
-                    <div class="card-body border-top">
-                                <div class="row m-t-10">
-                                    <!-- Column -->
-                                    <div class="col-sm-12 col-md-6 col-lg-3">
+                                <div class="row m-b-0">
+                                    <!-- col -->
+                                    <div class="col-lg-3 col-md-6">
                                         <div class="d-flex align-items-center">
-                                            <div class="m-r-20">
-                                                <div data-label="20%" class="css-bar m-b-0 css-bar-primary css-bar-50"><i class="mdi mdi-magnify text-info"></i>
-                                                </div>
+                                            <div class="m-r-10"><span class="text-orange display-5"><i class="mdi mdi-wallet"></i></span></div>
+                                            <div><span>Tagihan Listrik Anda</span>
+                                                <h3 class="font-medium m-b-0">Rp 7,707</h3>
                                             </div>
-                                            <div>
-                                                <h3 class="m-b-0">90</h3><span>Daya PV</span></div>
                                         </div>
                                     </div>
-                                    <!-- Column -->
-                                    <!-- Column -->
-                                    <div class="col-sm-12 col-md-6 col-lg-3">
+                                    <!-- col -->
+                                    <!-- col -->
+                                    <div class="col-lg-3 col-md-6">
                                         <div class="d-flex align-items-center">
-                                            <div class="m-r-20">
-                                                <div data-label="20%" class="css-bar m-b-0 css-bar-danger css-bar-30"><i class="mdi mdi-link text-danger"></i>
-                                                </div>
+                                            <div class="m-r-10"><span class="text-cyan display-5"><i class="mdi mdi-star-circle"></i></span></div>
+                                            <div><span>Pemasukan Energi Surya Bulan Ini</span>
+                                                <h3 class="font-medium m-b-0">Rp 22,825.000</h3>
                                             </div>
-                                            <div>
-                                                <h3 class="m-b-0">231</h3><span>Daya Beban</span></div>
                                         </div>
                                     </div>
-                                    <!-- Column -->
-                                    <!-- Column -->
-                                    <div class="col-sm-12 col-md-6 col-lg-3">
+                                    <!-- col -->
+                                    <!-- col -->
+                                    <div class="col-lg-3 col-md-6">
                                         <div class="d-flex align-items-center">
-                                            <div class="m-r-20">
-                                                <div data-label="20%" class="css-bar m-b-0 css-bar-success css-bar-10"><i class="mdi mdi-lightbulb-outline text-cyan"></i>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <h3 class="m-b-0">0</h3><span>Daya Ekspor</span></div>
+                                            <div class="m-r-10"><span class="text-info display-5"><i class="mdi mdi-shopping"></i></span></div>
+                                            <div><span>Total Produksi Energi Surya</span>
+                                                <h3 class="font-medium m-b-0">13.602 kW</h3></div>
                                         </div>
                                     </div>
-                                    <!-- Column -->
-                                    <!-- Column -->
-                                    <div class="col-sm-12 col-md-6 col-lg-3">
+                                    <!-- col -->
+                                    <!-- col -->
+                                    <div class="col-lg-3 col-md-6">
                                         <div class="d-flex align-items-center">
-                                            <div class="m-r-20">
-                                                <div data-label="20%" class="css-bar m-b-0 css-bar-purple css-bar-10"><i class="mdi mdi-laptop-mac text-purple"></i>
-                                                </div>
+                                            <div class="m-r-10"><span class="text-primary display-5"><i class="mdi mdi-currency-usd"></i></span></div>
+                                            <div><span>Penjualan Energi Surya ke PLN</span>
+                                                <h3 class="font-medium m-b-0">Rp 7,009</h3>
                                             </div>
-                                            <div>
-                                                <h3 class="m-b-0">141</h3><span>Daya Impor</span></div>
-                                        </div>
-                                </div>
-                                <div class="col-sm-12 col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Cuaca Hari Ini</h4>
-                                <div class="d-flex align-items-center flex-row m-t-30">
-                                    <div class="display-5 text-info"><i class="wi wi-day-showers"></i> <span>24<sup>°</sup></span></div>
-                                    <div class="m-l-10">
-                                        <h3 class="m-b-0">Kamis</h3><small>Jakarta, Indonesia</small>
-                                    </div>
-                                </div>
-                                <table class="table no-border mini-table m-t-20">
-                                    <tbody>
-                                        <tr>
-                                            <td class="text-muted">Kecepatan Angin</td>
-                                            <td class="font-medium">ESE 17 mph</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-muted">Kelembaban</td>
-                                            <td class="font-medium">89%</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-muted">Tekanan</td>
-                                            <td class="font-medium">28.56 in</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-muted">Jangkauan Awan</td>
-                                            <td class="font-medium">78%</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <ul class="row list-style-none text-center m-t-30">
-                                    <li class="col-3">
-                                        <h4 class="text-info"><i class="wi wi-day-sunny"></i></h4>
-                                        <span class="d-block text-muted">09:30</span>
-                                        <h3 class="m-t-5">25<sup>°</sup></h3>
-                                    </li>
-                                    <li class="col-3">
-                                        <h4 class="text-info"><i class="wi wi-day-cloudy"></i></h4>
-                                        <span class="d-block text-muted">11:30</span>
-                                        <h3 class="m-t-5">25<sup>°</sup></h3>
-                                    </li>
-                                    <li class="col-3">
-                                        <h4 class="text-info"><i class="wi wi-day-hail"></i></h4>
-                                        <span class="d-block text-muted">13:30</span>
-                                        <h3 class="m-t-5">29<sup>°</sup></h3>
-                                    </li>
-                                    <li class="col-3">
-                                        <h4 class="text-info"><i class="wi wi-day-sprinkle"></i></h4>
-                                        <span class="d-block text-muted">15:55</span>
-                                        <h3 class="m-t-5">26<sup>°</sup></h3>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                                
-                   
-                <!-- ============================================================== -->
-                <!-- Projects of the month -->
-                <!-- ============================================================== -->
-                <!-- ============================================================== -->
-                <!-- Table -->
-                <!-- ============================================================== -->
-                <!-- <div class="row">
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="d-md-flex align-items-center">
-                                    <div>
-                                        <h4 class="card-title">Projects of the Month</h4>
-                                        <h5 class="card-subtitle">Overview of Latest Month</h5>
-                                    </div>
-                                    <div class="ml-auto d-flex no-block align-items-center">
-                                        <div class="dl">
-                                            <select class="custom-select">
-                                                <option value="0" selected="">Monthly</option>
-                                                <option value="1">Daily</option>
-                                                <option value="2">Weekly</option>
-                                                <option value="3">Yearly</option>
-                                            </select>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="table-responsive">
-                                    <table class="table no-wrap v-middle">
-                                        <thead>
-                                            <tr class="border-0">
-                                                <th class="border-0">Team Lead</th>
-                                                <th class="border-0">Project</th>
-                                                <th class="border-0">Team</th>
-                                                <th class="border-0">Status</th>
-                                                <th class="border-0">Weeks</th>
-                                                <th class="border-0">Budget</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <div class="d-flex no-block align-items-center">
-                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/d1.jpg" alt="user" class="rounded-circle" width="45"></div>
-                                                        <div class="">
-                                                            <h5 class="mb-0 font-16 font-medium">Hanna Gover</h5><span>hgover@gmail.com</span></div>
-                                                    </div>
-                                                </td>
-                                                <td>Elite Admin</td>
-                                                <td>
-                                                    <div class="popover-icon">
-                                                        <a class="btn-circle btn btn-info" href="javascript:void(0)">SS</a>
-                                                        <a class="btn-circle btn btn-cyan text-white popover-item" href="javascript:void(0)">DS</a>
-                                                        <a class="btn-circle btn p-0 popover-item" href="javascript:void(0)"><img src="<?php echo base_url(); ?>assets/image/users/1.jpg" alt="" class="rounded-circle" width="39"></a>
-                                                        <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
-                                                    </div>
-                                                </td>
-                                                <td><i class="fa fa-circle text-orange" data-toggle="tooltip" data-placement="top" title="" data-original-title="In Progress"></i></td>
-                                                <td>35</td>
-                                                <td class="blue-grey-text  text-darken-4 font-medium">$96K</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="d-flex no-block align-items-center">
-                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/d2.jpg" alt="user" class="rounded-circle" width="45"></div>
-                                                        <div class="">
-                                                            <h5 class="mb-0 font-16 font-medium">Daniel Kristeen</h5><span>Kristeen@gmail.com</span></div>
-                                                    </div>
-                                                </td>
-                                                <td>Elite Admin</td>
-                                                <td>
-                                                    <div class="popover-icon">
-                                                        <a class="btn-circle btn btn-info" href="javascript:void(0)">SS</a>
-                                                        <a class="btn-circle btn btn-primary text-white popover-item" href="javascript:void(0)">DS</a>
-                                                        <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
-                                                    </div>
-                                                </td>
-                                                <td><i class="fa fa-circle text-success" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></i></td>
-                                                <td>35</td>
-                                                <td class="blue-grey-text  text-darken-4 font-medium">$96K</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="d-flex no-block align-items-center">
-                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/d3.jpg" alt="user" class="rounded-circle" width="45"></div>
-                                                        <div class="">
-                                                            <h5 class="mb-0 font-16 font-medium">Julian Josephs</h5><span>Josephs@gmail.com</span></div>
-                                                    </div>
-                                                </td>
-                                                <td>Elite Admin</td>
-                                                <td>
-                                                    <div class="popover-icon">
-                                                        <a class="btn-circle btn btn-info" href="javascript:void(0)">SS</a>
-                                                        <a class="btn-circle btn btn-cyan text-white popover-item" href="javascript:void(0)">DS</a>
-                                                        <a class="btn-circle btn btn-orange text-white popover-item" href="javascript:void(0)">RP</a>
-                                                        <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
-                                                    </div>
-                                                </td>
-                                                <td><i class="fa fa-circle text-success" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></i></td>
-                                                <td>35</td>
-                                                <td class="blue-grey-text  text-darken-4 font-medium">$96K</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="d-flex no-block align-items-center">
-                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/2.jpg" alt="user" class="rounded-circle" width="45"></div>
-                                                        <div class="">
-                                                            <h5 class="mb-0 font-16 font-medium">Jan Petrovic</h5><span>hgover@gmail.com</span></div>
-                                                    </div>
-                                                </td>
-                                                <td>Elite Admin</td>
-                                                <td>
-                                                    <div class="popover-icon">
-                                                        <a class="btn-circle btn btn-orange text-white" href="javascript:void(0)">RP</a>
-                                                        <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
-                                                    </div>
-                                                </td>
-                                                <td><i class="fa fa-circle text-orange" data-toggle="tooltip" data-placement="top" title="" data-original-title="In Progress"></i></td>
-                                                <td>35</td>
-                                                <td class="blue-grey-text  text-darken-4 font-medium">$96K</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <!-- col -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> -->
+                <!-- ============================================================== -->
+                <!-- Product Sales -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-md-flex align-items-center">
+                                    <div>
+                                        <h4 class="card-title">Daya Real vs Daya Prediksi</h4>
+                                    </div>
+                                    <div class="ml-auto d-flex align-items-center">
+                                        <!-- Tabs -->
+                                        <ul class="nav nav-pills custom-pills" id="pills-tab" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" id="pills-home-tab2" data-toggle="pill" href="#day" role="tab" aria-selected="true">Month</a>
+                                            </li>
+                                        </ul>
+                                        <!-- Tabs -->
+                                    </div>
+                                </div>
+                                <div class="tab-content m-t-20" id="pills-tabContent2">
+                                    <div class="tab-pane fade show active" id="day" role="tabpanel" aria-labelledby="pills-home-tab2">
+                                        <div class="product-sales" style="height:400px; width:100%;"></div>
+                                    </div>
+                                    <div class="tab-pane fade" id="week" role="tabpanel" aria-labelledby="pills-profile-tab2">
+                                        <div class="rate" style="height:400px; width:100%;"></div>
+                                    </div>
+                                    <div class="tab-pane fade" id="month" role="tabpanel" aria-labelledby="pills-month-tab2">
+                                        <div class="revenue" style="height:400px; width:100%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
@@ -1587,6 +1199,11 @@
     <script src="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
     <script src="assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard2.js"></script>
+    <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
+    <script src="assets/dist/js/pages/dashboards/dashboard1.js"></script>
+    <script src="assets/extra-libs/c3/d3.min.js"></script>
+    <script src="assets/extra-libs/c3/c3.min.js"></script>
+    <script src="assets/dist/js/pages/dashboards/dashboard5.js"></script>
 </body>
 
 </html>

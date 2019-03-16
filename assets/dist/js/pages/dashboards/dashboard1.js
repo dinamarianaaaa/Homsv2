@@ -11,14 +11,14 @@ $(function() {
     // ============================================================== 
 
     var chart = new Chartist.Line('.campaign', {
-        labels: [1, 2, 3, 4, 5, 6, 7, 8],
+        labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
         series: [
-            [0, 5, 6, 8, 25, 9, 8, 24],
-            [0, 3, 1, 2, 8, 1, 5, 1]
+            [0, 0, 0, 0, 0, 0, 162, 216, 324, 324, 522, 522, 360, 342, 288],
+            [123, 98, 98, 156, 212, 143, 154, 98, 98, 289, 413, 378, 421, 276, 156]
         ]
     }, {
         low: 0,
-        high: 28,
+        high: 500,
 
         showArea: true,
         fullWidth: true,
@@ -30,7 +30,7 @@ $(function() {
             scaleMinSpace: 40,
             offset: 20,
             labelInterpolationFnc: function(value) {
-                return (value / 1) + 'k';
+                return (value / 1);
             }
         },
 
