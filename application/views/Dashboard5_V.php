@@ -414,7 +414,8 @@
                         <li class="nav-small-cap"><i class="mdi mdi-dots-horizontal"></i> <span class="hide-menu">Personal</span></li>
                         <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard </span></a>
                             <ul aria-expanded="false" class="collapse  first-level">
-                            <li class="sidebar-item"><a href="./produksi_pv_pln" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Produksi PV dan PLN </span></a></li>
+                                <li class="sidebar-item"><a href="./demo" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Produksi Harian </span></a></li>
+                                li class="sidebar-item"><a href="./produksi_pv_pln" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Produksi PV dan PLN </span></a></li>
                                 <li class="sidebar-item"><a href="./konsumsi" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Konsumsi </span></a></li>
                                 <li class="sidebar-item"><a href="./solar_performance" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Solar Performance </span></a></li>
                                 <li class="sidebar-item"><a href="./battery" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Battery </span></a></li>
