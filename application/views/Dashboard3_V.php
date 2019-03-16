@@ -792,6 +792,7 @@
                     </div>
                 </div>
             </div>
+            
             <!-- ============================================================== -->
             <!-- Container fluid  -->
             <!-- ============================================================== -->
@@ -815,15 +816,15 @@
                             <li class="nav-item">
                                 <a class="nav-link" id="pills-session-tab2" data-toggle="pill" href="#session" role="tab" aria-selected="false">Sessions</a>
                             </li>
-                        </ul>
-                        <!-- ============================================================== -->
-                <!-- Overview of the month -->
+                        </ul>   
+                <!-- ============================================================== -->
+                <!-- Sales chart -->
                 <!-- ============================================================== -->
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-12">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Kurva Kumulatif Produksi dan Konsumsi dalam 4 Hari</h4>
+                                <h4 class="card-title">Kurva Kumulatif (per jam) Produksi dan Konsumsi dalam 4 Hari</h4>
                                 <div class="tab-content" id="pills-tabContent">
                                     <div class="tab-pane fade show active" id="users" role="tabpanel" aria-labelledby="pills-home-tab">
                                         <div style="height:400px; width:100%;" class="m-t-20 overview1"></div>
@@ -839,179 +840,106 @@
                         </div>
                     </div>
                 </div>
-                            <div class="tab-pane fade" id="revenue" role="tabpanel" aria-labelledby="pills-profile-tab2">
-                                <div class="row">
-                                    <div class="col-sm-12 text-center">
-                                        <h1 class="font-bold mb-1">$6,890.68</h1>
-                                        <h6 class="mb-3">Current Month Earnings</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non
-                                            <br/>pharetra ligula, sitametlaoreet arcu.</p>
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <div class="w-100">
-                                            <div class="product-sales"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="conversion" role="tabpanel" aria-labelledby="pills-contact-tab2">
-                                <div class="row">
-                                    <div class="col-sm-12 col-lg-4">
-                                        <h1 class="font-bold mb-1">$6,890.68</h1>
-                                        <h6 class="mb-3">Current Month Earnings</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non pharetra ligula, sitametlaoreet arcu.</p>
-                                        <button class="waves-effect waves-light mt-3 btn btn-lg btn-info">Last Month Summary</button>
-                                    </div>
-                                    <div class="col-sm-12 col-lg-8 text-center border-left">
-                                        <div class="rate"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="session" role="tabpanel" aria-labelledby="pills-session-tab2">
-                                <div class="row">
-                                    <div class="col-sm-12 col-lg-4">
-                                        <h1 class="font-bold mb-1">$6,890.68</h1>
-                                        <h6 class="mb-3">Current Month Earnings</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non pharetra ligula, sitametlaoreet arcu.</p>
-                                        <button class="waves-effect waves-light mt-3 btn btn-lg btn-info">Last Month Summary</button>
-                                    </div>
-                                    <div class="col-sm-12 col-lg-8 text-center border-left">
-                                        <div class="status"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                   
-                <!-- ============================================================== -->
-                <!-- Projects of the month -->
                 <!-- ============================================================== -->
                 <!-- ============================================================== -->
-                <!-- Table -->
+                <!-- Email Campaigns -->
                 <!-- ============================================================== -->
-                <!-- <div class="row">
-                    <div class="col-lg-12">
+                <div class="row">
+                    <!-- column -->
+                    <div class="col-sm-12 col-lg-6">
                         <div class="card">
                             <div class="card-body">
                                 <div class="d-md-flex align-items-center">
                                     <div>
-                                        <h4 class="card-title">Projects of the Month</h4>
-                                        <h5 class="card-subtitle">Overview of Latest Month</h5>
+                                        <h4 class="card-title">Profil Beban Rumah</h4>
+                                        <h5 class="card-subtitle">Pantau Porsi Daya yang Dikonsumsi</h5>
                                     </div>
-                                    <div class="ml-auto d-flex no-block align-items-center">
+                                    <div class="ml-auto d-flex align-items-center">
                                         <div class="dl">
                                             <select class="custom-select">
-                                                <option value="0" selected="">Monthly</option>
+                                                <option value="0">Monthly</option>
                                                 <option value="1">Daily</option>
-                                                <option value="2">Weekly</option>
+                                                <option value="2" selected>Weekly</option>
                                                 <option value="3">Yearly</option>
                                             </select>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="table-responsive">
-                                    <table class="table no-wrap v-middle">
-                                        <thead>
-                                            <tr class="border-0">
-                                                <th class="border-0">Team Lead</th>
-                                                <th class="border-0">Project</th>
-                                                <th class="border-0">Team</th>
-                                                <th class="border-0">Status</th>
-                                                <th class="border-0">Weeks</th>
-                                                <th class="border-0">Budget</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <div class="d-flex no-block align-items-center">
-                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/d1.jpg" alt="user" class="rounded-circle" width="45"></div>
-                                                        <div class="">
-                                                            <h5 class="mb-0 font-16 font-medium">Hanna Gover</h5><span>hgover@gmail.com</span></div>
-                                                    </div>
-                                                </td>
-                                                <td>Elite Admin</td>
-                                                <td>
-                                                    <div class="popover-icon">
-                                                        <a class="btn-circle btn btn-info" href="javascript:void(0)">SS</a>
-                                                        <a class="btn-circle btn btn-cyan text-white popover-item" href="javascript:void(0)">DS</a>
-                                                        <a class="btn-circle btn p-0 popover-item" href="javascript:void(0)"><img src="<?php echo base_url(); ?>assets/image/users/1.jpg" alt="" class="rounded-circle" width="39"></a>
-                                                        <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
-                                                    </div>
-                                                </td>
-                                                <td><i class="fa fa-circle text-orange" data-toggle="tooltip" data-placement="top" title="" data-original-title="In Progress"></i></td>
-                                                <td>35</td>
-                                                <td class="blue-grey-text  text-darken-4 font-medium">$96K</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="d-flex no-block align-items-center">
-                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/d2.jpg" alt="user" class="rounded-circle" width="45"></div>
-                                                        <div class="">
-                                                            <h5 class="mb-0 font-16 font-medium">Daniel Kristeen</h5><span>Kristeen@gmail.com</span></div>
-                                                    </div>
-                                                </td>
-                                                <td>Elite Admin</td>
-                                                <td>
-                                                    <div class="popover-icon">
-                                                        <a class="btn-circle btn btn-info" href="javascript:void(0)">SS</a>
-                                                        <a class="btn-circle btn btn-primary text-white popover-item" href="javascript:void(0)">DS</a>
-                                                        <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
-                                                    </div>
-                                                </td>
-                                                <td><i class="fa fa-circle text-success" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></i></td>
-                                                <td>35</td>
-                                                <td class="blue-grey-text  text-darken-4 font-medium">$96K</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="d-flex no-block align-items-center">
-                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/d3.jpg" alt="user" class="rounded-circle" width="45"></div>
-                                                        <div class="">
-                                                            <h5 class="mb-0 font-16 font-medium">Julian Josephs</h5><span>Josephs@gmail.com</span></div>
-                                                    </div>
-                                                </td>
-                                                <td>Elite Admin</td>
-                                                <td>
-                                                    <div class="popover-icon">
-                                                        <a class="btn-circle btn btn-info" href="javascript:void(0)">SS</a>
-                                                        <a class="btn-circle btn btn-cyan text-white popover-item" href="javascript:void(0)">DS</a>
-                                                        <a class="btn-circle btn btn-orange text-white popover-item" href="javascript:void(0)">RP</a>
-                                                        <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
-                                                    </div>
-                                                </td>
-                                                <td><i class="fa fa-circle text-success" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></i></td>
-                                                <td>35</td>
-                                                <td class="blue-grey-text  text-darken-4 font-medium">$96K</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="d-flex no-block align-items-center">
-                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/2.jpg" alt="user" class="rounded-circle" width="45"></div>
-                                                        <div class="">
-                                                            <h5 class="mb-0 font-16 font-medium">Jan Petrovic</h5><span>hgover@gmail.com</span></div>
-                                                    </div>
-                                                </td>
-                                                <td>Elite Admin</td>
-                                                <td>
-                                                    <div class="popover-icon">
-                                                        <a class="btn-circle btn btn-orange text-white" href="javascript:void(0)">RP</a>
-                                                        <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
-                                                    </div>
-                                                </td>
-                                                <td><i class="fa fa-circle text-orange" data-toggle="tooltip" data-placement="top" title="" data-original-title="In Progress"></i></td>
-                                                <td>35</td>
-                                                <td class="blue-grey-text  text-darken-4 font-medium">$96K</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                <div class="row m-t-40 m-b-0">
+                                    <!-- column -->
+                                    <div class="col-sm-12 col-lg-6">
+                                        <div id="visitor" style="height:260px; width:100%;" class="m-t-20"></div>
+                                    </div>
+                                    <!-- column -->
+                                    <div class="col-sm-12 col-lg-6">
+                                        <span class="display-6 d-block text-info font-medium">34%</span>
+                                        <span class="text-muted">Peralatan ini Perlu Diwaspadai</span>
+                                        <ul class="list-style-none">
+                                            <li class="m-t-20"><i class="fa fa-circle m-r-5 text-info font-12"></i> Air Conditioner <span class="float-right">34%</span></li>
+                                            <li class="m-t-20"><i class="fa fa-circle m-r-5 text-cyan font-12"></i> Pump <span class="float-right">17%</span></li>
+                                            <li class="m-t-20"><i class="fa fa-circle m-r-5 text-orange font-12"></i> Other <span class="float-right">26%</span></li>
+                                            <li class="m-t-20"><i class="fa fa-circle m-r-5 text-purple font-12"></i> Heater <span class="float-right">23%</span></li>
+                                        </ul>
+                                    </div>
+                                    <!-- column -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Konsumsi Energi Minggu Ini (kW)</h4>
+                                <div class="net-income m-t-30 position-relative" style="height:285px;"></div>
+                                <ul class="list-inline text-center">
+                                    <li class="list-inline-item"><i class="fa fa-circle text-cyan"></i>Daya (kW)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                <!-- Notifications, Chart -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <!-- column -->
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <!-- Sales Summery -->
+
+                                        <!-- column -->
+                                        <!-- column -->
+                                        <div class="col-sm-12">
+                                            <div class="chart1" style="position: relative; height:250px;"></div>
+                                            <div class="row m-b-0 m-t-20 text-center">
+                                                <!-- col -->
+                                                <div class="col-sm-12 col-md-4 m-b-10">
+                                                    <span>Wallet Balance</span>
+                                                    <h3 class="m-b-0">$3,567.56</h3>
+                                                </div>
+                                                <!-- col -->
+                                                <!-- col -->
+                                                <div class="col-sm-12 col-md-4 m-b-10">
+                                                    <span>Referral Earnings</span>
+                                                    <h3 class="m-b-0">$769.08</h3>
+                                                </div>
+                                                <!-- col -->
+                                                <!-- col -->
+                                                <div class="col-sm-12 col-md-4 m-b-10">
+                                                    <span>Estimated Sales</span>
+                                                    <h3 class="m-b-0">5489</h3>
+                                                </div>
+                                                <!-- col -->
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> -->
+                </div>
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
@@ -1291,6 +1219,9 @@
     <script src="assets/extra-libs/c3/d3.min.js"></script>
     <script src="assets/extra-libs/c3/c3.min.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard4.js"></script>
+    <!--c3 charts db 4 -->
+    <script src="assets/extra-libs/c3/d3.min.js"></script>
+    <script src="assets/extra-libs/c3/c3.min.js"></script>
+    <script src="assets/dist/js/pages/dashboards/dashboard9.js"></script>
 </body>
-
 </html>
