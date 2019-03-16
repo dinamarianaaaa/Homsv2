@@ -415,15 +415,11 @@
                         <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard </span></a>
                             <ul aria-expanded="false" class="collapse  first-level">
                                 <li class="sidebar-item"><a href="./produksi_pv_pln" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Produksi PV dan PLN </span></a></li>
-                                <li class="sidebar-item"><a href="index2.html" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Analytical </span></a></li>
-                                <li class="sidebar-item"><a href="index3.html" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Cryptocurrency </span></a></li>
-                                <li class="sidebar-item"><a href="index4.html" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Overview </span></a></li>
-                                <li class="sidebar-item"><a href="index5.html" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> E-Commerce </span></a></li>
-                                <li class="sidebar-item"><a href="index6.html" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Sales </span></a></li>
-                                <li class="sidebar-item"><a href="index7.html" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> General </span></a></li>
-                                <li class="sidebar-item"><a href="index8.html" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Trendy </span></a></li>
-                                <li class="sidebar-item"><a href="index9.html" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Campaign </span></a></li>
-                                <li class="sidebar-item"><a href="index10.html" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Modern </span></a></li>
+                                <li class="sidebar-item"><a href="./konsumsi" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Konsumsi </span></a></li>
+                                <li class="sidebar-item"><a href="./solar_performance" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Solar Performance </span></a></li>
+                                <li class="sidebar-item"><a href="./battery" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Battery </span></a></li>
+                                <li class="sidebar-item"><a href="./total_investasi_sistem" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Total Investasi Sistem </span></a></li>
+                                <li class="sidebar-item"><a href="./total_carbon_reduction" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Total Carbon Reduction </span></a></li>
                             </ul>
                         </li>
                         <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-tune-vertical"></i><span class="hide-menu">Sidebar Type </span></a>
