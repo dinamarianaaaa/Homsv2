@@ -25,6 +25,11 @@ $(function() {
         axisX: {
             showGrid: false
         },
+        legend: {
+            hide: false
+            //or hide: 'data1'
+            //or hide: ['data1', 'data2']
+        },
         plugins: [
             Chartist.plugins.tooltip()
         ],
