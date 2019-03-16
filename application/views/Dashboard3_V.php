@@ -898,7 +898,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- ============================================================== -->
+                <!-- ============================================================== -->
                 <!-- Notifications, Chart -->
                 <!-- ============================================================== -->
                 <div class="row">
@@ -907,39 +907,21 @@
                         <div class="card">
                             <div class="card-body">
                                 <!-- Sales Summery -->
-
+                                <div class="p-t-20">
+                                    <div class="row">
+                                    <h4 class="card-title">Konsumsi Energi Surya vs Konsumsi Energi Impor</h4>
                                         <!-- column -->
-                                        <!-- column -->
-                                        <div class="col-sm-12">
+                                        <div class="col-12 ">
                                             <div class="chart1" style="position: relative; height:250px;"></div>
                                             <div class="row m-b-0 m-t-20 text-center">
-                                                <!-- col -->
-                                                <div class="col-sm-12 col-md-4 m-b-10">
-                                                    <span>Wallet Balance</span>
-                                                    <h3 class="m-b-0">$3,567.56</h3>
-                                                </div>
-                                                <!-- col -->
-                                                <!-- col -->
-                                                <div class="col-sm-12 col-md-4 m-b-10">
-                                                    <span>Referral Earnings</span>
-                                                    <h3 class="m-b-0">$769.08</h3>
-                                                </div>
-                                                <!-- col -->
-                                                <!-- col -->
-                                                <div class="col-sm-12 col-md-4 m-b-10">
-                                                    <span>Estimated Sales</span>
-                                                    <h3 class="m-b-0">5489</h3>
-                                                </div>
-                                                <!-- col -->
-                                            </div>
+                                         </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                </div>
+            
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
             <!-- ============================================================== -->

@@ -12,14 +12,14 @@ $(function() {
     new Chartist.Bar('.chart1', {
         labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
         series: [
-            [5, 4, 3, 7, 5, 10, 3, 5, 4, 3, 7, 10],
-            [2, 6, 5, 3, 4, 9, 6, 7, 3, 8, 10, 6]
+            [987.5, 1000.5, 971.21, 100.42, 0, 0, 0, 0, 0, 0, 0, 0],
+            [694.41, 602.47, 739.79, 104.69, 0, 0, 0, 0, 0, 0, 0, 0]
         ]
     }, {
         stackBars: true,
         axisY: {
             labelInterpolationFnc: function(value) {
-                return (value / 1) + 'k';
+                return (value / 1) + 'kW';
             }
         },
         axisX: {
