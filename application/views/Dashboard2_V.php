@@ -895,28 +895,110 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card">
-                            <div class="card-body">
-                                <div class="d-md-flex align-items-center">
-                                    <div>
-                                        <h4 class="card-title">Daya Real vs Daya Ekspektasi</h4>
-                                        <h5 class="card-subtitle">Total Earnings of the Month</h5>
-                                    </div>
-                                    <div class="ml-auto d-flex align-items-center">
-                                        <!-- Tabs -->
-                                        <ul class="nav nav-pills custom-pills" id="pills-tab" role="tablist">
-                                            <li class="nav-item">
-                                                <a class="nav-link active" id="pills-home-tab2" data-toggle="pill" href="#day" role="tab" aria-selected="true">Bulan</a>
-                                            </li>
-                                        </ul>
-                                        <!-- Tabs -->
-                                    </div>
-                                </div>
-                                <div class="tab-content m-t-20" id="pills-tabContent2">
-                                    <div class="tab-pane fade show active" id="day" role="tabpanel" aria-labelledby="pills-home-tab2">
-                                        <div class="product-sales" style="height:400px; width:100%;"></div>
-                                    </div>
-                                </div>
-                            </div>
+                        <html>
+                            <head>
+                            <script>
+                            window.onload = function () {
+
+                            var chart = new CanvasJS.Chart("chartContainer", {
+                                exportEnabled: true,
+                                animationEnabled: true,
+                                title:{
+                                    text: "Daya Real vs Daya Prediksi"
+                                },
+                                axisX: {
+                                    title: "Bulan"
+                                },
+                                axisY: {
+                                    titleFontColor: "#4F81BC",
+                                    lineColor: "#4F81BC",
+                                    labelFontColor: "#4F81BC",
+                                    tickColor: "#4F81BC"
+                                },
+                                axisY2: {
+                                    titleFontColor: "#C0504E",
+                                    lineColor: "#C0504E",
+                                    labelFontColor: "#C0504E",
+                                    tickColor: "#C0504E"
+                                },
+                                toolTip: {
+                                    shared: true
+                                },
+                                legend: {
+                                    cursor: "pointer",
+                                    itemclick: toggleDataSeries
+                                },
+                                data: [{
+                                    type: "column",
+                                    name: "Daya Real",
+                                    showInLegend: true,      
+                                    yValueFormatString: "#,##0.# Units",
+                                    dataPoints: [
+                                        { label: "Januari",  y: 1052.14 },
+                                        { label: "Februari", y: 912.83 },
+                                        { label: "Maret", y: 1120.9 },
+                                        { label: "April",  y: 136.02 },
+                                        { label: "Mei",  y: 0 },
+                                        { label: "Juni", y: 0 },
+                                        { label: "Juli", y: 0 },
+                                        { label: "Agustus",  y: 0 },
+                                        { label: "September",  y: 0 },
+                                        { label: "Oktober", y: 0 },
+                                        { label: "Nopember", y: 0 },
+                                        { label: "Desember",  y: 0 }
+                                    ]
+                                },
+                                {
+                                    type: "column",
+                                    name: "Daya Prediksi",
+                                    axisYType: "secondary",
+                                    showInLegend: true,
+                                    yValueFormatString: "#,##0.# Units",
+                                    dataPoints: [
+                                        { label: "Januari", y: 1054 },
+                                        { label: "Februari", y: 914 },
+                                        { label: "Maret", y: 1128 },
+                                        { label: "April", y: 1025 },
+                                        { label: "Mei", y: 0 },
+                                        { label: "Juni", y: 0 },
+                                        { label: "Juli", y: 0 },
+                                        { label: "Agustus", y: 0 },
+                                        { label: "September", y: 0 },
+                                        { label: "Oktober", y: 0 },
+                                        { label: "November", y: 0 },
+                                        { label: "Desember", y: 0 }
+                                    ]
+                                }]
+                            });
+                            chart.render();
+
+                            function toggleDataSeries(e) {
+                                if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+                                    e.dataSeries.visible = false;
+                                } else {
+                                    e.dataSeries.visible = true;
+                                }
+                                e.chart.render();
+                            }
+
+                            }
+                            </script>
+                            </head>
+                            <body>
+                            <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+                            <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                            </body>
+                            </html>
+                        </div>
+                    </div>
+                </div>
+            <!-- ============================================================== -->
+                <!-- Product Sales -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                        
                         </div>
                     </div>
                 </div>
