@@ -213,9 +213,9 @@ $(function() {
     // income
     // ============================================================== 
     var data = {
-        labels: ['1-3', '2-4', '3-5', '4-6', '5-7', '6-8', '7-9'],
+        labels: ['1', '2', '3', '4', '5', '6', '7'],
         series: [
-            [5, 4, 3, 7, 5, 10, 3]
+            [51, 61, 43, 66.71, 56.2, 49.2, 33]
         ]
     };
 
@@ -223,7 +223,7 @@ $(function() {
         axisX: {
             showGrid: false
         },
-        seriesBarDistance: 1,
+        seriesBarDistance: 5,
         chartPadding: {
             top: 15,
             right: 15,

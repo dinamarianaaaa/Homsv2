@@ -1131,60 +1131,64 @@
                                                 <h3 class="m-b-0">2 watt</h3><span>Daya Ekspor</span></div>
                                         </div>
                                 </div>
-                                <div class="col-sm-12 col-lg-4">
+                                
                         <!-- RAMALAN CUACA -->
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Ramalan Cuaca</h4>
-                                <div class="d-flex align-items-center flex-row m-t-30">
-                                    <div class="display-5 text-info"><i class="wi wi-day-showers"></i> <span>27<sup>°</sup></span></div>
-                                    <div class="m-l-10">
-                                        <h3 class="m-b-0">Minggu</h3><small>Jakarta, Indonesia</small>
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Ramalan Cuaca</h4>
+                                    <div class="d-flex align-items-center flex-row m-t-30">
+                                        <div class="display-5 text-info"><i class="wi wi-day-showers"></i> <span>27<sup>°</sup></span></div>
+                                        <div class="m-l-10">
+                                            <h3 class="m-b-0">Minggu</h3><small>Jakarta, Indonesia</small>
+                                        </div>
                                     </div>
+                                    <table class="table no-border mini-table m-t-20">
+                                        <tbody>
+                                            <tr>
+                                                <td class="text-muted">Angin</td>
+                                                <td class="font-medium">17 mph</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-muted">Kelembaban</td>
+                                                <td class="font-medium">75%</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-muted">Tekanan</td>
+                                                <td class="font-medium">28.5 in</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-muted">Awan</td>
+                                                <td class="font-medium">43%</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <ul class="row list-style-none text-center m-t-30">
+                                        <li class="col-3">
+                                            <h4 class="text-info"><i class="wi wi-day-sunny"></i></h4>
+                                            <span class="d-block text-muted">09:00</span>
+                                            <h3 class="m-t-5">25<sup>°</sup></h3>
+                                        </li>
+                                        <li class="col-3">
+                                            <h4 class="text-info"><i class="wi wi-day-cloudy"></i></h4>
+                                            <span class="d-block text-muted">12:00</span>
+                                            <h3 class="m-t-5">29<sup>°</sup></h3>
+                                        </li>
+                                        <li class="col-3">
+                                            <h4 class="text-info"><i class="wi wi-day-hail"></i></h4>
+                                            <span class="d-block text-muted">15:00</span>
+                                            <h3 class="m-t-5">27<sup>°</sup></h3>
+                                        </li>
+                                        <li class="col-3">
+                                            <h4 class="text-info"><i class="wi wi-day-sprinkle"></i></h4>
+                                            <span class="d-block text-muted">18:00</span>
+                                            <h3 class="m-t-5">26<sup>°</sup></h3>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <table class="table no-border mini-table m-t-20">
-                                    <tbody>
-                                        <tr>
-                                            <td class="text-muted">Angin</td>
-                                            <td class="font-medium">17 mph</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-muted">Kelembaban</td>
-                                            <td class="font-medium">75%</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-muted">Tekanan</td>
-                                            <td class="font-medium">28.5 in</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-muted">Awan</td>
-                                            <td class="font-medium">43%</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <ul class="row list-style-none text-center m-t-30">
-                                    <li class="col-3">
-                                        <h4 class="text-info"><i class="wi wi-day-sunny"></i></h4>
-                                        <span class="d-block text-muted">09:00</span>
-                                        <h3 class="m-t-5">25<sup>°</sup></h3>
-                                    </li>
-                                    <li class="col-3">
-                                        <h4 class="text-info"><i class="wi wi-day-cloudy"></i></h4>
-                                        <span class="d-block text-muted">12:00</span>
-                                        <h3 class="m-t-5">29<sup>°</sup></h3>
-                                    </li>
-                                    <li class="col-3">
-                                        <h4 class="text-info"><i class="wi wi-day-hail"></i></h4>
-                                        <span class="d-block text-muted">15:00</span>
-                                        <h3 class="m-t-5">27<sup>°</sup></h3>
-                                    </li>
-                                    <li class="col-3">
-                                        <h4 class="text-info"><i class="wi wi-day-sprinkle"></i></h4>
-                                        <span class="d-block text-muted">18:00</span>
-                                        <h3 class="m-t-5">26<sup>°</sup></h3>
-                                    </li>
-                                </ul>
                             </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
                             <div class="card-body">
                                 <h4 class="card-title">Bagaimana Produksi Energi Surya Hari Ini?</h4>
                                 <div id="visitor" style="height:267px; width:100%;" class="m-t-20"></div>
@@ -1204,6 +1208,7 @@
                         </div>
                         
                     </div>
+                </div>
                                 
                    
                 <!-- ============================================================== -->

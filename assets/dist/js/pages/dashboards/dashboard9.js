@@ -51,10 +51,10 @@ $(function() {
         bindto: '#visitor',
         data: {
             columns: [
-                ['Open', 45],
-                ['Clicked', 15],
-                ['Un-opened', 27],
-                ['Bounced', 18],
+                ['Air Conditioner', 34],
+                ['Pump', 17],
+                ['Other', 26],
+                ['Heater', 23],
             ],
 
             type: 'donut',
@@ -66,7 +66,7 @@ $(function() {
             label: {
                 show: false
             },
-            title: "Ratio",
+            title: "Rasio",
             width: 35,
 
         },

@@ -22,7 +22,7 @@ $(function () {
             y: {
                 show: true
                 , tick: {
-                    count: 0
+                    count: 3
                     , outer: false
                 }
             }
@@ -37,7 +37,7 @@ $(function () {
             , left: 20
         , }
         , point: {
-            r: 4
+            r: 0
         , }
         , legend: {
             hide: true
@@ -93,7 +93,7 @@ $(function () {
         bindto: '.conversation'
         , data: {
             columns: [
-                ['Site A', 5, 6, 3, 7, 9, 10, 14, 12, 11, 9, 8, 7, 10, 6, 12, 10, 8]
+                ['Site A', 5, 6, 3, 7, 9, 10, 14, 12, 11, 9, 8, 7, 10, 6, 12, 10, 10]
                 , ['Site B', 1, 2, 8, 3, 4, 5, 7, 6, 5, 6, 4, 3, 3, 12, 5, 6, 3]
             ]
             , type: 'spline'
