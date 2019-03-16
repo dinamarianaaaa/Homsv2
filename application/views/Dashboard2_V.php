@@ -898,13 +898,14 @@
                             <div class="card-body">
                                 <div class="d-md-flex align-items-center">
                                     <div>
-                                        <h4 class="card-title">Daya Real vs Daya Prediksi</h4>
+                                        <h4 class="card-title">Daya Real vs Daya Ekspektasi</h4>
+                                        <h5 class="card-subtitle">Total Earnings of the Month</h5>
                                     </div>
                                     <div class="ml-auto d-flex align-items-center">
                                         <!-- Tabs -->
                                         <ul class="nav nav-pills custom-pills" id="pills-tab" role="tablist">
                                             <li class="nav-item">
-                                                <a class="nav-link active" id="pills-home-tab2" data-toggle="pill" href="#day" role="tab" aria-selected="true">Month</a>
+                                                <a class="nav-link active" id="pills-home-tab2" data-toggle="pill" href="#day" role="tab" aria-selected="true">Bulan</a>
                                             </li>
                                         </ul>
                                         <!-- Tabs -->
@@ -914,18 +915,11 @@
                                     <div class="tab-pane fade show active" id="day" role="tabpanel" aria-labelledby="pills-home-tab2">
                                         <div class="product-sales" style="height:400px; width:100%;"></div>
                                     </div>
-                                    <div class="tab-pane fade" id="week" role="tabpanel" aria-labelledby="pills-profile-tab2">
-                                        <div class="rate" style="height:400px; width:100%;"></div>
-                                    </div>
-                                    <div class="tab-pane fade" id="month" role="tabpanel" aria-labelledby="pills-month-tab2">
-                                        <div class="revenue" style="height:400px; width:100%;"></div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
@@ -1201,6 +1195,29 @@
     <script src="assets/dist/js/pages/dashboards/dashboard2.js"></script>
     <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard1.js"></script>
+    <script src="assets/extra-libs/c3/d3.min.js"></script>
+     <!-- All Jquery Index 5 -->
+    <!-- ============================================================== -->
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- apps -->
+    <script src="assets/dist/js/app.min.js"></script>
+    <script src="assets/dist/js/app.init.overlay.js"></script>
+    <script src="assets/dist/js/app-style-switcher.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="assets/dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="assets/dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="assets/dist/js/custom.min.js"></script>
+    <!--This page JavaScript -->
+    <!--Morris JavaScript -->
+    <!--c3 charts -->
     <script src="assets/extra-libs/c3/d3.min.js"></script>
     <script src="assets/extra-libs/c3/c3.min.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard5.js"></script>

@@ -7,16 +7,14 @@ File: js
 $(window).on("load", function() {
     "use strict";
     
-   
     // ============================================================== 
     // product-sales
     // ============================================================== 
     var chart = c3.generate({
-        bindto: '.product-sales', 
-        data: {
+        bindto: '.product-sales'
+        , data: {
             columns: [
-                ['Daya Real', 10524.14, 912.83, 1120.9, 136.02, 9, 10, 14, 12, 11, 9, 8, 7, 10, 6, 12, 10, 8],
-                ['Daya Prediksi', 1, 2, 8, 3, 4, 5, 7, 6, 5, 6, 4, 3, 3, 12, 5, 6, 3]
+                
             ]
             , type: 'bar'
         }
@@ -24,7 +22,7 @@ $(window).on("load", function() {
             y: {
                 show: true
                 , tick: {
-                    count: 1
+                    count: 0
                     , outer: false
                 }
             }
@@ -37,13 +35,13 @@ $(window).on("load", function() {
             
         }
         , padding: {
-            top: 30
+            top: 40
             , right: 10
             , bottom: 0
             , left: 20
         , }
         , point: {
-            r: 1
+            r: 0
         , }
         , legend: {
             hide: true
@@ -56,6 +54,3 @@ $(window).on("load", function() {
     });
     
     
-    });
-    $(".sidebartoggler").on("click", function() { chart.resize() });
-});
