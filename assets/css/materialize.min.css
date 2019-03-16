@@ -5409,6 +5409,9 @@ small {
     .card .card-reveal .card-title {
       cursor: pointer;
       display: block; }
+  .card-columns {
+    column-count: 2;
+  }
 
 #toast-container {
   display: block;
@@ -7370,6 +7373,11 @@ ul.side-nav .collapsible-body li.active, ul.side-nav.fixed .collapsible-body li.
   .picker__select--month, .picker__select--year {
     margin-top: -0.5em; }
  }
+  .card-columns {
+     -webkit-column-count:3;
+        -moz-column-count:3;
+        column-count:3;
+  }
 
 .picker__select--month {
   width: 35%; }

@@ -18,6 +18,8 @@
     <link href="<?php echo base_url(); ?>assets/extra-libs/c3/c3.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="<?php echo base_url(); ?>assets/dist/css/style.min.css" rel="stylesheet">
+    <!-- kolom ccss -->
+    <link href="<?php echo base_url(); ?>assets/dist/css/materialize.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -1001,7 +1003,7 @@
                     </div>
                     <!-- column -->
                     <div class="col-sm-12 col-lg-4">
-                        <div class="card bg-white">
+                        <div class="card">
                         <div class="card-body">
                                 <h4 class="card-title">Performa Panel Surya Anda</h4>
                                 <div class="row">
@@ -1130,6 +1132,7 @@
                                         </div>
                                 </div>
                                 <div class="col-sm-12 col-lg-4">
+                        <!-- RAMALAN CUACA -->
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Ramalan Cuaca</h4>
@@ -1182,7 +1185,24 @@
                                     </li>
                                 </ul>
                             </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Bagaimana Produksi Energi Surya Hari Ini?</h4>
+                                <div id="visitor" style="height:267px; width:100%;" class="m-t-20"></div>
+                                <!-- row -->
+                                <div class="row m-t-30 m-b-15">
+                                    <!-- column -->
+                                    <div class="col-4 birder-right text-left">
+                                        <h4 class="m-b-0">54%<small></i></small></h4>Konsumsi dari Energi Surya</div>
+                                    <!-- column -->
+                                    <div class="col-4 birder-right text-center">
+                                        <h4 class="m-b-0">24%<small></i></small></h4>Energi Impor dari PLN</div>
+                                    <!-- column -->
+                                    <div class="col-4 text-right">
+                                        <h4 class="m-b-0">22%<small></i></small></h4>Energi Surya yang Diekspor</div>
+                                </div>
+                            </div>
                         </div>
+                        
                     </div>
                                 
                    

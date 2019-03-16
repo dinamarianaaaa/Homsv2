@@ -91,9 +91,9 @@ $(function() {
         bindto: '#visitor',
         data: {
             columns: [
-                ['Desktop', 60],
-                ['Tablet', 12],
-                ['Mobile', 28],
+                ['Konsumsi dari Energi Surya', 54],
+                ['Energi Impor dari PLN', 24],
+                ['Energi Surya yang Diekspor', 22],
 
             ],
 
@@ -106,8 +106,8 @@ $(function() {
             label: {
                 show: false
             },
-            title: "Visits",
-            width: 35,
+            title: "Daya Hari Ini",
+            width: 30,
 
         },
 
