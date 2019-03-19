@@ -1242,7 +1242,7 @@
     <script src="<?php echo base_url(); ?>assets/extra-libs/c3/c3.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/libs/chart.js/dist/Chart.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/libs/gaugeJS/dist/gauge.min.js"></script>
-    <script src="assets/dist/js/pages/dashboards/dashboard5.js"></script>
+    <script src="<?php echo base_url(); ?>assets/dist/js/pages/dashboards/dashboard5.js"></script>
     <script src="assets/extra-libs/c3/d3.min.js"></script>
     <script src="assets/extra-libs/c3/c3.min.js"></script>
     <script src="assets/libs/chart.js/dist/Chart.min.js"></script>

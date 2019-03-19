@@ -91,7 +91,7 @@ $(window).on("load", function() {
         bindto: '.product-sales'
         , data: {
             columns: [
-                ['Produk si', 40.31, 39.99, 31.66, 18.42, 54.7, 31.24]
+                ['Produkkkkkkkkk si', 40.31, 39.99, 31.66, 18.42, 54.7, 31.24]
                 , ['Energi Export', 13.71, 13.60, 10.76, 6.26, 18.60, 10.62]
                 , ['Energi yang Dikonsumsi', 26.60, 26.39, 20.90, 12.16, 36.10, 20.62]
             ]
