@@ -849,6 +849,27 @@
                         </div>
                     </div>
                 </div>
+                <!-- Row -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <ul class="list-inline float-right">
+                                    <li class="list-inline-item">
+                                        <h6 class="text-muted"><i class="fa fa-circle m-r-5 text-success"></i>Free</h6>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <h6 class="text-muted"><i class="fa fa-circle m-r-5 text-primary"></i>Premium</h6>
+                                    </li>
+                                </ul>
+                                <h4 class="card-title">Download Count</h4>
+                                <h5 class="card-subtitle">you can check the count</h5>
+                                <div class="download-state chartist-chart" style="height:300px"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row -->
                 <!-- ============================================================== -->
                 <!-- Sales Summery -->
                 <!-- ============================================================== -->
@@ -1246,7 +1267,37 @@
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- apps -->
+    <script src="assets/dist/js/app.min.js"></script>
+    <script src="assets/dist/js/app.init.overlay.js"></script>
+    <script src="assets/dist/js/app-style-switcher.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="assets/dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="assets/dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="assets/dist/js/custom.min.js"></script>
+    <!--This page JavaScript -->
+    <script src="assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="assets/libs/echarts/dist/echarts-en.min.js"></script>
+    <script src="assets/libs/flot/excanvas.min.js"></script>
+    <script src="assets/libs/flot/jquery.flot.js"></script>
+    <script src="assets/libs/jquery.flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
+    <script src="assets/extra-libs/c3/d3.min.js"></script>
+    <script src="assets/extra-libs/c3/c3.min.js"></script>
+    <script src="assets/libs/gaugeJS/dist/gauge.min.js"></script>
+    <script src="assets/dist/js/pages/widget/widget-charts.js"></script>
     <script src="<?php echo base_url(); ?>assets/libs/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
     <script src="<?php echo base_url(); ?>assets/libs/popper.js/dist/umd/popper.min.js"></script>
@@ -1265,16 +1316,15 @@
     <!--Custom JavaScript -->
     <script src="<?php echo base_url(); ?>assets/dist/js/custom.min.js"></script>
     <!--This page JavaScript -->
-    <script src="<?php echo base_url(); ?>assets/libs/chartist/dist/chartist.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/extra-libs/c3/d3.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/extra-libs/c3/c3.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/libs/chart.js/dist/Chart.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/libs/gaugeJS/dist/gauge.min.js"></script>
+    <script src="assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
     <script src="assets/extra-libs/c3/d3.min.js"></script>
     <script src="assets/extra-libs/c3/c3.min.js"></script>
     <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
     <script src="assets/libs/gaugeJS/dist/gauge.min.js"></script>
+    <script src="assets/extra-libs/c3/d3.min.js"></script>
+    <script src="assets/extra-libs/c3/c3.min.js"></script>
+    <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
     <script src="assets/libs/flot/excanvas.min.js"></script>
     <script src="assets/libs/flot/jquery.flot.js"></script>
     <script src="assets/libs/jquery.flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
@@ -1283,6 +1333,7 @@
     <script src="assets/libs/raphael/raphael.min.js"></script>
     <script src="assets/libs/morris.js/morris.min.js"></script>
     <!-- <script src="assets/extra-libs/DataTables/datatables.min.js"></script> -->
+    <script src="assets/dist/js/pages/widget/widget-charts.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard2.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard5.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard3.js"></script>
