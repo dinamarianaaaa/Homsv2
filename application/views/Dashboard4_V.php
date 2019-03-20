@@ -865,7 +865,7 @@
                                 <h4 class="card-title">Download Count</h4>
                                 <h5 class="card-subtitle">you can check the count</h5>
                                 <div class="download-state chartist-chart" style="height:300px"></div>
-                            </div>
+                            </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
                         </div>
                     </div>
                 </div>
