@@ -816,8 +816,8 @@
                                 <a class="nav-link" id="pills-session-tab2" data-toggle="pill" href="#session" role="tab" aria-selected="false">Sessions</a>
                             </li>
                         </ul>
-                        <!-- ============================================================== -->
-                <!-- Product Sales -->
+                <!-- ============================================================== -->
+                <!-- Product Sales1 -->
                 <!-- ============================================================== -->
                 <div class="row">
                     <div class="col-sm-12">
@@ -849,9 +849,37 @@
                         </div>
                     </div>
                 </div>
-            </div>
-                
-                        
+                <!-- ============================================================== -->
+                <!-- Sales Summery -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <!-- title -->
+                                <div class="d-md-flex align-items-center">
+                                    <div>
+                                        <h4 class="card-title">Performa Energi Surya</h4>
+                                        <h5 class="card-subtitle">Tiap Bulan</h5>
+                                    </div>
+                                    <div class="ml-auto d-flex align-items-center">
+                                        <div class="dl">
+                                            <select class="custom-select">
+                                                <option value="0" selected>Monthly</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- title -->
+                                <div class="m-t-30">
+                                    <div id="btc-eth-rip"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>         
+        </div>  
                 <!-- ============================================================== -->
                 <!-- Projects of the month -->
                 <!-- ============================================================== -->
@@ -1218,6 +1246,7 @@
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
+    
     <script src="<?php echo base_url(); ?>assets/libs/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
     <script src="<?php echo base_url(); ?>assets/libs/popper.js/dist/umd/popper.min.js"></script>
@@ -1242,7 +1271,6 @@
     <script src="<?php echo base_url(); ?>assets/extra-libs/c3/c3.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/libs/chart.js/dist/Chart.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/libs/gaugeJS/dist/gauge.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/dist/js/pages/dashboards/dashboard5.js"></script>
     <script src="assets/extra-libs/c3/d3.min.js"></script>
     <script src="assets/extra-libs/c3/c3.min.js"></script>
     <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
@@ -1252,7 +1280,12 @@
     <script src="assets/libs/jquery.flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
     <script src="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
     <script src="assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="assets/libs/raphael/raphael.min.js"></script>
+    <script src="assets/libs/morris.js/morris.min.js"></script>
+    <!-- <script src="assets/extra-libs/DataTables/datatables.min.js"></script> -->
     <script src="assets/dist/js/pages/dashboards/dashboard2.js"></script>
+    <script src="assets/dist/js/pages/dashboards/dashboard5.js"></script>
+    <script src="assets/dist/js/pages/dashboards/dashboard3.js"></script>
 </body>
 
 </html>

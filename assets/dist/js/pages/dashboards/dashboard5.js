@@ -85,13 +85,13 @@ $(window).on("load", function() {
     });
     
     // ============================================================== 
-    // product-sales
+    // product-sales1
     // ============================================================== 
     var chart = c3.generate({
         bindto: '.product-sales'
         , data: {
             columns: [
-                ['Produkkkkkkkkk si', 40.31, 39.99, 31.66, 18.42, 54.7, 31.24]
+                ['Produk si', 40.31, 39.99, 31.66, 18.42, 54.7, 31.24]
                 , ['Energi Export', 13.71, 13.60, 10.76, 6.26, 18.60, 10.62]
                 , ['Energi yang Dikonsumsi', 26.60, 26.39, 20.90, 12.16, 36.10, 20.62]
             ]
@@ -131,7 +131,53 @@ $(window).on("load", function() {
             pattern: ['#2961ff', '#40c4ff', '#ff821c', '#7e74fb']
         }
     });
-    
+    // ============================================================== 
+    // product-sales2
+    // ============================================================== 
+    var chart = c3.generate({
+        bindto: '.product-sales2'
+        , data: {
+            columns: [
+                ['Produqqqqqqq si', 40.31, 39.99, 31.66, 18.42, 54.7, 31.24]
+                , ['Energi Export', 13.71, 13.60, 10.76, 6.26, 18.60, 10.62]
+                , ['Energi yang Dikonsumsi', 26.60, 26.39, 20.90, 12.16, 36.10, 20.62]
+            ]
+            , type: 'bar'
+        }
+        , axis: {
+            y: {
+                show: true
+                , tick: {
+                    count: 0
+                    , outer: false
+                }
+            }
+            , x: {
+                show: true
+            , }
+        },bar: {
+          
+          width: 8
+            
+        }
+        , padding: {
+            top: 40
+            , right: 10
+            , bottom: 0
+            , left: 20
+        , }
+        , point: {
+            r: 0
+        , }
+        , legend: {
+            hide: true
+                //or hide: 'data1'
+                //or hide: ['data1', 'data2']
+        }
+        , color: {
+            pattern: ['#2961ff', '#40c4ff', '#ff821c', '#7e74fb']
+        }
+    });
     // ============================================================== 
     // Conversation Rate
     // ============================================================== 
