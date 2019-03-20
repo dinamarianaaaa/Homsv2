@@ -797,193 +797,217 @@
             <!-- ============================================================== -->
             <div class="container-fluid">
                 <!-- ============================================================== -->
-                <!-- User Data, Visits -->
+                <!-- Earnings -->
                 <!-- ============================================================== -->
                 <div class="row">
-                    <!-- column -->
+                    <!-- col -->
+                    <div class="col-sm-12">
+                        <ul class="nav nav-pills custom-pills" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="pills-home-tab2" data-toggle="pill" href="#month" role="tab" aria-selected="true">Month Overview</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-profile-tab2" data-toggle="pill" href="#revenue" role="tab" aria-selected="false">Revenue</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-contact-tab2" data-toggle="pill" href="#conversion" role="tab" aria-selected="false">Conversions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-session-tab2" data-toggle="pill" href="#session" role="tab" aria-selected="false">Sessions</a>
+                            </li>
+                        </ul>
+                <!-- ============================================================== -->
+                <!-- Product Sales1 -->
+                <!-- ============================================================== -->
+                <div class="row">
                     <div class="col-sm-12">
                         <div class="card">
-                            <div class="row">
-                                <!-- column -->
-                                <div class="col-sm-12 col-md-4">
-                                    <div class="border-right">
-                                        <div class="d-flex p-40 border-bottom justify-content-center">
-                                            <div class="text-center">
-                                                <h1 class="m-b-0 display-3">7580</h1> <h5>Watt </h5>
-                                                <span>Daya Tersimpan</span>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex align-items-center p-20 border-bottom">
-                                            <div class="m-r-20">
-                                                <div data-label="45%" class="css-bar m-b-0 css-bar-primary css-bar-45"><i class="mdi mdi-desktop-mac"></i>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <h3 class="m-b-0">180 Watt</h3><span>Daya Panel Surya</span>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex align-items-center p-20 border-bottom">
-                                            <div class="m-r-20">
-                                                <div data-label="90%" class="css-bar m-b-0 css-bar-danger css-bar-25"><i class="mdi mdi-cellphone-iphone"></i>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <h3 class="m-b-0">90%</h3><span>Daya Baterai</span>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex align-items-center p-20">
-                                            <div class="m-r-20">
-                                                <div data-label="20%" class="css-bar m-b-0 css-bar-success css-bar-35"><i class="mdi mdi-tablet-ipad"></i>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <h3 class="m-b-0">178 Watt</h3><span>Daya Dikonsumsi</span>
-                                            </div>
-                                        </div>
+                            <div class="card-body">
+                                <div class="d-md-flex align-items-center">
+                                    <div>
+                                        <h4 class="card-title">Performa Minggu Ini</h4>
+                                    </div>
+                                    <div class="ml-auto d-flex align-items-center">
+                                        <!-- Tabs -->
+                                        <ul class="nav nav-pills custom-pills" id="pills-tab" role="tablist">
+                                        </ul>
+                                        <!-- Tabs -->
                                     </div>
                                 </div>
-                                <!-- column -->
-                                <div class="col-sm-12 col-md-8">
-                                    <div class="card-body">
-                                        <div class="d-md-flex align-items-center">
-                                            <div>
-                                                <h4 class="card-title">Realtime Data</h4>
-                                                <h5 class="card-subtitle">Analysis of Visits</h5>
-                                            </div>
-                                            <div class="ml-auto d-flex align-items-center">
-                                                <ul class="list-inline font-12 dl m-r-10">
-                                                    <li class="list-inline-item"><i class="far fa-circle text-info"></i> Active Visit</li>
-                                                    <li class="list-inline-item"><i class="far fa-circle text-muted"></i> Page View</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="m-t-30">
-                                            <div id="placeholder" style="height:400px;"></div>
-                                        </div>
+                                <div class="tab-content m-t-20" id="pills-tabContent2">
+                                    <div class="tab-pane fade show active" id="day" role="tabpanel" aria-labelledby="pills-home-tab2">
+                                        <div class="product-sales" style="height:400px; width:100%;"></div>
+                                    </div>
+                                    <div class="tab-pane fade" id="week" role="tabpanel" aria-labelledby="pills-profile-tab2">
+                                        <div class="rate" style="height:400px; width:100%;"></div>
+                                    </div>
+                                    <div class="tab-pane fade" id="month" role="tabpanel" aria-labelledby="pills-month-tab2">
+                                        <div class="revenue" style="height:400px; width:100%;"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            <!-- ============================================================== -->
-                <!-- Email Campaign -->
+                <!-- ============================================================== -->
+                <!-- Sales Summery -->
                 <!-- ============================================================== -->
                 <div class="row">
-                    <!-- column -->
-                    <div class="col-sm-12 col-lg-8">
-                        <div class="card e-campaign">
+                    <div class="col-sm-12">
+                        <div class="card">
                             <div class="card-body">
-                                <div class="d-flex align-items-center">
+                                <!-- title -->
+                                <div class="d-md-flex align-items-center">
                                     <div>
-                                        <h5 class="card-title">Performa Baterai Anda</h5>
+                                        <h4 class="card-title">Performa Energi Surya</h4>
+                                        <h5 class="card-subtitle">Tiap Bulan</h5>
                                     </div>
-                                    <div class="ml-auto">
-                                        <!-- Tabs -->
-                                        <ul class="nav nav-pills custom-pills" id="pills-tab" role="tablist">
-                                            <li class="nav-item">
-                                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#current-month" role="tab" aria-selected="true">This Month</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#last-month" role="tab" aria-selected="false">Last Month</a>
-                                            </li>
-                                        </ul>
-                                        <!-- Tabs -->
+                                    <div class="ml-auto d-flex align-items-center">
+                                        <div class="dl">
+                                            <select class="custom-select">
+                                                <option value="0" selected>Monthly</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="tab-content m-t-20" id="pills-tabContent">
-                                    <div class="tab-pane fade show active" id="current-month" role="tabpanel" aria-labelledby="pills-home-tab">
-                                        <div class="row">
-                                            <div class="col-sm-12 col-md-6 text-center">
-                                                <div class="css-bar css-bar-75 css-bar-xlg css-bar-primary">
-                                                    <div class="data-text">
-                                                        <h1 class="success-rate text-info font-light">90<span class="icon">%</span></h1>
-                                                        <div class="rate-label font-15">Kapasitas Baterai</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-md-6">
-                                                <div class="w-75 c-cost">
-                                                    <div class="d-inline-block align-middle">
-                                                        <i class="mdi mdi-wallet text-info"></i>
-                                                    </div>
-                                                    <div class="d-inline-block align-middle m-l-10">
-                                                        <span class="text-muted font-14">Keuntungan Setelah Menambah Baterai</span>
-                                                        <h2 class="text-info font-bold m-b-0">Rp 356,994,-</h2>
-                                                    </div>
-                                                </div>
-                                                <ul class="list-style-none stats m-t-30">
-                                                    <li class="m-t-10"><i class="fa fa-circle m-r-5 text-success font-12"></i> 46.90% Energi Surya Dikonsumsi Sendiri </li>
-                                                    <li class="m-t-10"><i class="fa fa-circle m-r-5 text-info font-12"></i> 53.29% Energi Impor dari PLN </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane fade" id="last-month" role="tabpanel" aria-labelledby="pills-profile-tab">
-                                        <div class="row">
-                                            <div class="col-sm-12 col-md-6 text-center">
-                                                <div class="css-bar css-bar-75 css-bar-xlg css-bar-primary">
-                                                    <div class="data-text">
-                                                        <h1 class="success-rate text-info font-light">75<span class="icon">%</span></h1>
-                                                        <div class="rate-label font-15">Success Rate</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-md-6">
-                                                <div class="w-75 c-cost">
-                                                    <div class="d-inline-block align-middle">
-                                                        <i class="mdi mdi-wallet text-info"></i>
-                                                    </div>
-                                                    <div class="d-inline-block align-middle m-l-10">
-                                                        <span class="text-muted font-14">Campaign Cost</span>
-                                                        <h2 class="text-info font-bold m-b-0">$435.68</h2>
-                                                    </div>
-                                                </div>
-                                                <ul class="list-style-none stats m-t-30">
-                                                    <li class="m-t-10"><i class="fa fa-circle m-r-5 text-success font-12"></i> 25% Ads broke the target </li>
-                                                    <li class="m-t-10"><i class="fa fa-circle m-r-5 text-info font-12"></i> 75% Ads are Successfull </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <!-- title -->
+                                <div class="m-t-30">
+                                    <div id="btc-eth-rip"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- column -->
-                    <div class="col-sm-12 col-lg-4">
-                        <div class="card bg-info">
+                </div>
+            </div>         
+        </div>  
+                <!-- ============================================================== -->
+                <!-- Projects of the month -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Table -->
+                <!-- ============================================================== -->
+                <!-- <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title text-white">Revenue Statistics</h4>
-                                <div class="d-flex align-items-center m-t-30">
-                                    <div class="" id="ravenue"></div>
-                                    <div class="ml-auto">
-                                        <h3 class="text-white m-b-0"><i class="ti-arrow-up"></i>$351</h3>
-                                        <span class="text-white op-5">Jan 10  - Jan  20</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card bg-cyan">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
+                                <div class="d-md-flex align-items-center">
                                     <div>
-                                        <h5 class="card-title text-white">Page Views</h5>
-                                        <h3 class="text-white m-b-0"><i class="ti-arrow-up"></i> 6548</h3>
+                                        <h4 class="card-title">Projects of the Month</h4>
+                                        <h5 class="card-subtitle">Overview of Latest Month</h5>
                                     </div>
-                                    <div class="ml-auto">
-                                        <ul class="list-style-none m-b-0">
-                                            <li class="text-white"><i class="fa fa-circle m-r-5 text-white font-12 op-3"></i> Visit </li>
-                                            <li class="text-white"><i class="fa fa-circle m-r-5 text-white font-12"></i> Page Views </li>
-                                        </ul>
+                                    <div class="ml-auto d-flex no-block align-items-center">
+                                        <div class="dl">
+                                            <select class="custom-select">
+                                                <option value="0" selected="">Monthly</option>
+                                                <option value="1">Daily</option>
+                                                <option value="2">Weekly</option>
+                                                <option value="3">Yearly</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="table-responsive">
+                                    <table class="table no-wrap v-middle">
+                                        <thead>
+                                            <tr class="border-0">
+                                                <th class="border-0">Team Lead</th>
+                                                <th class="border-0">Project</th>
+                                                <th class="border-0">Team</th>
+                                                <th class="border-0">Status</th>
+                                                <th class="border-0">Weeks</th>
+                                                <th class="border-0">Budget</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex no-block align-items-center">
+                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/d1.jpg" alt="user" class="rounded-circle" width="45"></div>
+                                                        <div class="">
+                                                            <h5 class="mb-0 font-16 font-medium">Hanna Gover</h5><span>hgover@gmail.com</span></div>
+                                                    </div>
+                                                </td>
+                                                <td>Elite Admin</td>
+                                                <td>
+                                                    <div class="popover-icon">
+                                                        <a class="btn-circle btn btn-info" href="javascript:void(0)">SS</a>
+                                                        <a class="btn-circle btn btn-cyan text-white popover-item" href="javascript:void(0)">DS</a>
+                                                        <a class="btn-circle btn p-0 popover-item" href="javascript:void(0)"><img src="<?php echo base_url(); ?>assets/image/users/1.jpg" alt="" class="rounded-circle" width="39"></a>
+                                                        <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
+                                                    </div>
+                                                </td>
+                                                <td><i class="fa fa-circle text-orange" data-toggle="tooltip" data-placement="top" title="" data-original-title="In Progress"></i></td>
+                                                <td>35</td>
+                                                <td class="blue-grey-text  text-darken-4 font-medium">$96K</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex no-block align-items-center">
+                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/d2.jpg" alt="user" class="rounded-circle" width="45"></div>
+                                                        <div class="">
+                                                            <h5 class="mb-0 font-16 font-medium">Daniel Kristeen</h5><span>Kristeen@gmail.com</span></div>
+                                                    </div>
+                                                </td>
+                                                <td>Elite Admin</td>
+                                                <td>
+                                                    <div class="popover-icon">
+                                                        <a class="btn-circle btn btn-info" href="javascript:void(0)">SS</a>
+                                                        <a class="btn-circle btn btn-primary text-white popover-item" href="javascript:void(0)">DS</a>
+                                                        <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
+                                                    </div>
+                                                </td>
+                                                <td><i class="fa fa-circle text-success" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></i></td>
+                                                <td>35</td>
+                                                <td class="blue-grey-text  text-darken-4 font-medium">$96K</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex no-block align-items-center">
+                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/d3.jpg" alt="user" class="rounded-circle" width="45"></div>
+                                                        <div class="">
+                                                            <h5 class="mb-0 font-16 font-medium">Julian Josephs</h5><span>Josephs@gmail.com</span></div>
+                                                    </div>
+                                                </td>
+                                                <td>Elite Admin</td>
+                                                <td>
+                                                    <div class="popover-icon">
+                                                        <a class="btn-circle btn btn-info" href="javascript:void(0)">SS</a>
+                                                        <a class="btn-circle btn btn-cyan text-white popover-item" href="javascript:void(0)">DS</a>
+                                                        <a class="btn-circle btn btn-orange text-white popover-item" href="javascript:void(0)">RP</a>
+                                                        <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
+                                                    </div>
+                                                </td>
+                                                <td><i class="fa fa-circle text-success" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></i></td>
+                                                <td>35</td>
+                                                <td class="blue-grey-text  text-darken-4 font-medium">$96K</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="d-flex no-block align-items-center">
+                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/2.jpg" alt="user" class="rounded-circle" width="45"></div>
+                                                        <div class="">
+                                                            <h5 class="mb-0 font-16 font-medium">Jan Petrovic</h5><span>hgover@gmail.com</span></div>
+                                                    </div>
+                                                </td>
+                                                <td>Elite Admin</td>
+                                                <td>
+                                                    <div class="popover-icon">
+                                                        <a class="btn-circle btn btn-orange text-white" href="javascript:void(0)">RP</a>
+                                                        <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
+                                                    </div>
+                                                </td>
+                                                <td><i class="fa fa-circle text-orange" data-toggle="tooltip" data-placement="top" title="" data-original-title="In Progress"></i></td>
+                                                <td>35</td>
+                                                <td class="blue-grey-text  text-darken-4 font-medium">$96K</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
-                            <div class="m-t-20" id="views"></div>
                         </div>
                     </div>
-                </div>    
-            </div>
+                </div>
+            </div> -->
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
@@ -1222,6 +1246,7 @@
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
+    
     <script src="<?php echo base_url(); ?>assets/libs/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
     <script src="<?php echo base_url(); ?>assets/libs/popper.js/dist/umd/popper.min.js"></script>
@@ -1240,13 +1265,27 @@
     <!--Custom JavaScript -->
     <script src="<?php echo base_url(); ?>assets/dist/js/custom.min.js"></script>
     <!--This page JavaScript -->
+    <script src="<?php echo base_url(); ?>assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/extra-libs/c3/d3.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/extra-libs/c3/c3.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/libs/chart.js/dist/Chart.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/libs/gaugeJS/dist/gauge.min.js"></script>
+    <script src="assets/extra-libs/c3/d3.min.js"></script>
+    <script src="assets/extra-libs/c3/c3.min.js"></script>
+    <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
+    <script src="assets/libs/gaugeJS/dist/gauge.min.js"></script>
     <script src="assets/libs/flot/excanvas.min.js"></script>
     <script src="assets/libs/flot/jquery.flot.js"></script>
     <script src="assets/libs/jquery.flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
     <script src="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
     <script src="assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
-    <script src="assets/dist/js/pages/dashboards/dashboard10.js"></script>
-    <script src="assets/dist/js/pages/dashboards/dashboard6.js"></script>
+    <script src="assets/libs/raphael/raphael.min.js"></script>
+    <script src="assets/libs/morris.js/morris.min.js"></script>
+    <!-- <script src="assets/extra-libs/DataTables/datatables.min.js"></script> -->
+    <script src="assets/dist/js/pages/dashboards/dashboard2.js"></script>
+    <script src="assets/dist/js/pages/dashboards/dashboard5.js"></script>
+    <script src="assets/dist/js/pages/dashboards/dashboard3.js"></script>
 </body>
 
 </html>

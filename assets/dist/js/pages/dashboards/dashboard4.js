@@ -136,8 +136,8 @@ $(function () {
         bindto: '.rate',
         data: {
             columns: [
-                ['Conversation', 85],
-                ['other', 15],
+                ['Conversation', 0.47],
+                ['other', 99.53],
             ],
             
             type : 'donut',
@@ -149,7 +149,7 @@ $(function () {
             label: {
                 show: false
               },
-            title:"Coversation",
+            title:"Balik Modal",
             width:10,
             
         }
