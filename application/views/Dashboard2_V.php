@@ -890,6 +890,31 @@
                     </div>
                 </div>
                 <!-- ============================================================== -->
+                <!-- Overview of the month -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Aktifitas Energi Rumah Anda</h4>
+                                <ul class="nav nav-pills custom-pills owm" id="pills-tab" role="tablist">
+                                </ul>
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="users" role="tabpanel" aria-labelledby="pills-home-tab">
+                                        <div style="height:400px; width:100%;" class="m-t-20 overview2"></div>
+                                    </div>
+                                    <div class="tab-pane fade" id="revenue" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                        <div style="height:300px; width:100%;" class="m-t-40 revenue"></div>
+                                    </div>
+                                    <div class="tab-pane fade" id="conversion" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                        <div style="height:400px; width:100%;" class="m-t-20 conversation"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
                 <!-- Product Sales -->
                 <!-- ============================================================== -->
                 <div class="row">
@@ -926,7 +951,6 @@
                     </div>
                 </div>
             </div>
-                
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
@@ -1190,6 +1214,7 @@
     <script src="<?php echo base_url(); ?>assets/libs/chart.js/dist/Chart.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/libs/gaugeJS/dist/gauge.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/dist/js/pages/dashboards/dashboard8.js"></script>
+    <script src="<?php echo base_url(); ?>assets/dist/js/pages/dashboards/dashboard4.js"></script>
     <script src="assets/extra-libs/c3/d3.min.js"></script>
     <script src="assets/extra-libs/c3/c3.min.js"></script>
     <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
