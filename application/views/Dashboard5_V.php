@@ -843,26 +843,19 @@
                                     </div>
                                 </div>
                                 <!-- column -->
-                                <div class="col-sm-12 col-md-8">
-                                    <div class="card-body">
-                                        <div class="d-md-flex align-items-center">
-                                            <div>
-                                                <h4 class="card-title">Realtime Data</h4>
-                                                <h5 class="card-subtitle">Analysis of Visits</h5>
-                                            </div>
-                                            <div class="ml-auto d-flex align-items-center">
-                                                <ul class="list-inline font-12 dl m-r-10">
-                                                    <li class="list-inline-item"><i class="far fa-circle text-info"></i> Active Visit</li>
-                                                    <li class="list-inline-item"><i class="far fa-circle text-muted"></i> Page View</li>
-                                                </ul>
-                                            </div>
+                                <!-- Start Area chart -->
+                                    <div class="col-sm-12 col-md-8">
+                                        <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Persentase Energi Tersimpan di Baterai (per jam)</h4>
+                                            <div class="ct-area-ln-chart" style="height: 400px;"></div>
                                         </div>
-                                        <div class="m-t-30">
-                                            <div id="placeholder" style="height:400px;"></div>
                                         </div>
                                     </div>
                                 </div>
+                        <!-- End Area chart -->    
                             </div>
+                        
                         </div>
                     </div>
                 </div>
@@ -952,34 +945,13 @@
                     </div>
                     <!-- column -->
                     <div class="col-sm-12 col-lg-4">
-                        <div class="card bg-info">
+                        <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title text-white">Revenue Statistics</h4>
-                                <div class="d-flex align-items-center m-t-30">
-                                    <div class="" id="ravenue"></div>
-                                    <div class="ml-auto">
-                                        <h3 class="text-white m-b-0"><i class="ti-arrow-up"></i>$351</h3>
-                                        <span class="text-white op-5">Jan 10  - Jan  20</span>
-                                    </div>
-                                </div>
+                                <h4 class="card-title">Kalkulator Investasi Baterai</h4>
+                                <h6 class="card-subtitle">Pastikan rumah anda sudah layak untuk penambahan baterai dan investasi baterai</h6>
+                                <img src="<?php echo base_url(); ?>assets/images/surya.jpg"/>
+                                <button class="btn btn-info justify-content-start waves-effect waves-light m-t-15">Hitung Sekarang</button>\
                             </div>
-                        </div>
-                        <div class="card bg-cyan">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <h5 class="card-title text-white">Page Views</h5>
-                                        <h3 class="text-white m-b-0"><i class="ti-arrow-up"></i> 6548</h3>
-                                    </div>
-                                    <div class="ml-auto">
-                                        <ul class="list-style-none m-b-0">
-                                            <li class="text-white"><i class="fa fa-circle m-r-5 text-white font-12 op-3"></i> Visit </li>
-                                            <li class="text-white"><i class="fa fa-circle m-r-5 text-white font-12"></i> Page Views </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="m-t-20" id="views"></div>
                         </div>
                     </div>
                 </div>    
@@ -1247,6 +1219,13 @@
     <script src="assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard10.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard6.js"></script>
+    <!-- This Page Plugins -->
+    <script src="assets/extra-libs/c3/d3.min.js"></script>
+    <script src="assets/extra-libs/c3/c3.min.js"></script>
+    <!-- This Page JS -->
+    <script src="assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="assets/dist/js/pages/chartist/chartist-plugin-tooltip.js"></script>
+    <script src="assets/dist/js/pages/chartist/chartist-init.js"></script>
 </body>
 
 </html>

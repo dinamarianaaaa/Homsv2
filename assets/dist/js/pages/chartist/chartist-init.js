@@ -23,9 +23,9 @@ new Chartist.Line('.ct-sm-line-chart', {
 // line chart with area
 
 new Chartist.Line('.ct-area-ln-chart', {
-  labels: [1, 2, 3, 4, 5, 6, 7, 8],
+  labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
   series: [
-    [5, 9, 7, 8, 5, 3, 5, 4]
+    [29.41, 28.06 , 26.76, 25.27, 22.85, 20.52, 18.9, 19.96, 22.12, 23.66, 25.40, 26.25, 27.33, 27.81, 29.16]
   ]
 }, {
   low: 0,
