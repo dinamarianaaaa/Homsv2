@@ -796,6 +796,19 @@
             <!-- Container fluid  -->
             <!-- ============================================================== -->
             <div class="container-fluid">
+                <!-- Start Area chart -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Energi Surya Konsumsi vs Ekspor (per hari)</h4>
+                                <h6 class="card-subtitle">Statistik Jual Beli Anda</h6>
+                                <div id="area-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Area chart -->
                 <!-- ============================================================== -->
                 <!-- Earnings, Sale Locations -->
                 <!-- ============================================================== -->
@@ -1104,6 +1117,11 @@
     <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
     <script src="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
     <script src="assets/extra-libs/jvector/jquery-jvectormap-us-aea-en.js"></script>
+    <!-- This Page Plugins -->
+    <script src="assets/extra-libs/c3/d3.min.js"></script>
+    <script src="assets/extra-libs/c3/c3.min.js"></script>
+    <!-- line chart -->
+    <script src="assets/dist/js/pages/c3-chart/line/c3-area.js"></script>
     <!--This page JavaScript -->
     <script src="assets/dist/js/pages/dashboards/dashboard6.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard4.js"></script>
