@@ -19,7 +19,7 @@ $(function() {
 
             ]
         },
-        axis: { x: { type: "timeseries", localtime: !1, tick: { format: "%Y-%m-%d %H:%M:%S" } } },
+        axis: { x: { type: "timeseries", localtime: !1, tick: { format: "%H:%M:%S" } } },
         grid: { y: { show: !0 } }
     });
 });

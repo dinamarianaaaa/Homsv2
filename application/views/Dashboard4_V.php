@@ -797,30 +797,10 @@
             <!-- ============================================================== -->
             <div class="container-fluid">
                 <!-- ============================================================== -->
-                <!-- Earnings -->
-                <!-- ============================================================== -->
-                <div class="row">
-                    <!-- col -->
-                    <div class="col-sm-12">
-                        <ul class="nav nav-pills custom-pills" id="pills-tab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="pills-home-tab2" data-toggle="pill" href="#month" role="tab" aria-selected="true">Month Overview</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-profile-tab2" data-toggle="pill" href="#revenue" role="tab" aria-selected="false">Revenue</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-contact-tab2" data-toggle="pill" href="#conversion" role="tab" aria-selected="false">Conversions</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-session-tab2" data-toggle="pill" href="#session" role="tab" aria-selected="false">Sessions</a>
-                            </li>
-                        </ul>
-                <!-- ============================================================== -->
                 <!-- Product Sales1 -->
                 <!-- ============================================================== -->
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-8">
                         <div class="card">
                             <div class="card-body">
                                 <div class="d-md-flex align-items-center">
@@ -899,8 +879,19 @@
                         </div>
                     </div>
                 </div>
-            </div>         
-        </div>  
+            </div>   
+            <!-- Start X axis timezone Chart -->
+            <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">X axis timezone Chart</h4>
+                                <div id="axis-timezone"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End X axis timezone Chart -->        
                 <!-- ============================================================== -->
                 <!-- Projects of the month -->
                 <!-- ============================================================== -->
@@ -1334,6 +1325,7 @@
     <script src="assets/libs/morris.js/morris.min.js"></script>
     <!-- <script src="assets/extra-libs/DataTables/datatables.min.js"></script> -->
     <script src="assets/dist/js/pages/widget/widget-charts.js"></script>
+    <script src="assets/dist/js/pages/c3-chart/axis/c3-timezone.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard2.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard5.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard3.js"></script>

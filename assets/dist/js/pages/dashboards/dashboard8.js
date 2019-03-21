@@ -10,16 +10,16 @@ $(function() {
     // Earnings
     // ============================================================== 
     var data1 = {
-        labels: [0, 16, 17, 18, 19, 20, 21, 22],
+        labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
         series: [
-            [0, 5, 6, 8, 25, 9, 8, 24],
-            [0, 3, 1, 2, 8, 1, 5, 1]
+            ['Kurva Daya PV', 0, 0, 0, 0, 0, 0, 162, 216, 324, 324, 522, 522, 360, 342, 288],
+            ['Kurva Daya Beban', 123, 98, 98, 156, 212, 143, 154, 98, 98, 289, 413, 378, 421, 276, 156]
         ]
     };
 
     var options1 = {
         low: 0,
-        high: 28,
+        high: 530,
         showArea: true,
         fullWidth: true,
         chartPadding: {
@@ -36,7 +36,7 @@ $(function() {
             scaleMinSpace: 40,
             offset: 20,
             labelInterpolationFnc: function(value) {
-                return (value) + 'k';
+                return (value) + 'KWh';
             }
         }
     };

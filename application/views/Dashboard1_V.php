@@ -18,8 +18,6 @@
     <link href="<?php echo base_url(); ?>assets/extra-libs/c3/c3.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="<?php echo base_url(); ?>assets/dist/css/style.min.css" rel="stylesheet">
-    <!-- kolom ccss -->
-    <link href="<?php echo base_url(); ?>assets/dist/css/materialize.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -416,7 +414,8 @@
                         <li class="nav-small-cap"><i class="mdi mdi-dots-horizontal"></i> <span class="hide-menu">Personal</span></li>
                         <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard </span></a>
                             <ul aria-expanded="false" class="collapse  first-level">
-                                <li class="sidebar-item"><a href="./demo" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Produksi Harian </span></a></li>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                               <li class="sidebar-item"><a href="./demo" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Produksi Harian </span></a></li>
                                 <li class="sidebar-item"><a href="./produksi_pv_pln" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Produksi PV dan PLN </span></a></li>
                                 <li class="sidebar-item"><a href="./konsumsi" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Konsumsi </span></a></li>
                                 <li class="sidebar-item"><a href="./solar_performance" class="sidebar-link"><i class="mdi mdi-adjust"></i><span class="hide-menu"> Solar Performance </span></a></li>
@@ -799,168 +798,21 @@
             <!-- ============================================================== -->
             <div class="container-fluid">
                 <!-- ============================================================== -->
-                <!-- Earnings -->
+                <!-- Sales chart -->
                 <!-- ============================================================== -->
                 <div class="row">
-                    <!-- col -->
                     <div class="col-sm-12">
-                        <ul class="nav nav-pills custom-pills" id="pills-tab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="pills-home-tab2" data-toggle="pill" href="#month" role="tab" aria-selected="true">Month Overview</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-profile-tab2" data-toggle="pill" href="#revenue" role="tab" aria-selected="false">Revenue</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-contact-tab2" data-toggle="pill" href="#conversion" role="tab" aria-selected="false">Conversions</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-session-tab2" data-toggle="pill" href="#session" role="tab" aria-selected="false">Sessions</a>
-                            </li>
-                        </ul>
-                        <div class="tab-content mt-4" id="pills-tabContent">
+                    <div class="tab-content m-t-30" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="month" role="tabpanel" aria-labelledby="pills-home-tab2">
                                 <div class="row">
                                     <div class="col-sm-12 col-lg-4">
-                                        <h1 class="font-bold mb-1">Rp 5,399,-</h1>
-                                        <h6 class="mb-3">Pendapatan Energi Surya</h6>
+                                        <h1 class="font-bold m-b-5">Rp 5,399,-</h1>
+                                        <h6 class="m-b-20">Pendapatan Energi Surya</h6>
                                         <p>Bulan April</p>
-                                        <button class="waves-effect waves-light mt-3 btn btn-lg btn-info">Rincian Bulan Lalu</button>
+                                        <button class="waves-effect waves-light m-t-20 btn btn-lg btn-info">Rincian Bulan Lalu</button>
                                     </div>
                                     <div class="col-sm-12 col-lg-8 border-left">
-                                    <script>
-                                    window.onload = function () {
-
-                                    var chart = new CanvasJS.Chart("chartContainer", {
-                                        animationEnabled: true,
-                                        title:{
-                                            text: "Kurva Produksi Hari Ini"
-                                        },
-                                        axisY :{
-                                            title : ""
-                                        },
-                                        axisX: {
-                                            title: "Waktu"
-                                        },
-                                        toolTip: {
-                                            shared: true
-                                        },
-                                        data: [{        
-                                            type: "stackedArea",
-                                            showInLegend: true,
-                                            toolTipContent: "<span style=\"color:#4f7cbc\"><strong>Pukul: <b> {x} <br><b> <strong>{name}: </strong></span> {y}",
-                                            name: "Daya Konsumsi",
-                                            dataPoints: [
-                                             { x: 1, y: 123 },
-                                            { x: 2, y: 98 },
-                                            { x: 3, y: 98 },
-                                            { x: 4, y: 156 },
-                                            { x: 5, y: 212 },
-                                            { x: 6, y: 143 },
-                                            { x: 7,y: 154 },
-                                            { x: 8,y: 98 },
-                                            { x: 9, y: 98 },
-                                            { x: 10, y: 289 },
-                                            { x: 11, y: 413 },
-                                            { x: 12, y: 378 },
-                                            { x: 13, y: 421 },
-                                            { x: 14, y: 156 },
-                                            { x: 15, y: 0 },
-                                            { x: 16, y: 0 },
-                                            { x: 17, y: 0 },
-                                            { x: 18, y: 0 },
-                                            { x: 19, y: 0 },
-                                            { x: 20, y: 0 },
-                                            { x: 21, y: 0 },
-                                            { x: 22, y: 0 },
-                                            { x: 23, y: 0 },
-                                            { x: 24, y: 0 } 
-                                            ]
-                                        },
-                                        {        
-                                            type: "splineArea",  
-                                            name: "Daya Panel Surya",
-                                            toolTipContent: "<span style=\"color:#C0504E\"><strong>{name}: </strong></span> {y}",
-                                            showInLegend: true,
-                                            dataPoints: [
-                                            { x: 1, y: 0 },
-                                            { x: 2, y: 0 },
-                                            { x: 3, y: 0 },
-                                            { x: 4, y: 0 },
-                                            { x: 5, y: 0 },
-                                            { x: 6, y: 0 },
-                                            { x: 7, y: 162 },
-                                            { x: 8, y: 216 },
-                                            { x: 9, y: 324 },
-                                            { x: 10, y: 324 },
-                                            { x: 11, y: 522 },
-                                            { x: 12, y: 522 },
-                                            { x: 13, y: 360 },
-                                            { x: 14, y: 342 },
-                                            { x: 15, y: 288 },
-                                            { x: 16, y: 0 },
-                                            { x: 17, y: 0 },
-                                            { x: 18, y: 0 },
-                                            { x: 19, y: 0 },
-                                            { x: 20, y: 0 },
-                                            { x: 21, y: 0 },
-                                            { x: 22, y: 0 },
-                                            { x: 23, y: 0 },
-                                            { x: 24, y: 0 }  
-                                            ]
-                                        }]
-                                    });
-                                    chart.render();
-
-                                    }
-                                    </script>
-                                    </head>
-                                    <body>
-                                    <div id="chartContainer" style="height: 410px; width: 100%;"></div>
-                                    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-                                    </body>
-                                    </html>       
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="revenue" role="tabpanel" aria-labelledby="pills-profile-tab2">
-                                <div class="row">
-                                    <div class="col-sm-12 text-center">
-                                        <h1 class="font-bold mb-1">$6,890.68</h1>
-                                        <h6 class="mb-3">Current Month Earnings</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non
-                                            <br/>pharetra ligula, sitametlaoreet arcu.</p>
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <div class="w-100">
-                                            <div class="product-sales"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="conversion" role="tabpanel" aria-labelledby="pills-contact-tab2">
-                                <div class="row">
-                                    <div class="col-sm-12 col-lg-4">
-                                        <h1 class="font-bold mb-1">$6,890.68</h1>
-                                        <h6 class="mb-3">Current Month Earnings</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non pharetra ligula, sitametlaoreet arcu.</p>
-                                        <button class="waves-effect waves-light mt-3 btn btn-lg btn-info">Last Month Summary</button>
-                                    </div>
-                                    <div class="col-sm-12 col-lg-8 text-center border-left">
-                                        <div class="rate"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="session" role="tabpanel" aria-labelledby="pills-session-tab2">
-                                <div class="row">
-                                    <div class="col-sm-12 col-lg-4">
-                                        <h1 class="font-bold mb-1">$6,890.68</h1>
-                                        <h6 class="mb-3">Current Month Earnings</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non pharetra ligula, sitametlaoreet arcu.</p>
-                                        <button class="waves-effect waves-light mt-3 btn btn-lg btn-info">Last Month Summary</button>
-                                    </div>
-                                    <div class="col-sm-12 col-lg-8 text-center border-left">
-                                        <div class="status"></div>
+                                        <div class="earnings ct-charts"></div>
                                     </div>
                                 </div>
                             </div>
@@ -1022,39 +874,8 @@
                         </div>
                     </div>
                     <div class="card">
-                           
-                <!-- ============================================================== -->
-                <!-- Devices - Income - Sales -->
-                <!-- ============================================================== -->
-                <div class="row mt-4">
-                    <!-- col -->
-                    <!-- <div class="col-sm-12 col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Device Variations</h4>
-                                <div id="visitor" style="height:267px; width:100%;" class="mt-3"></div>
-                                <ul class="list-inline text-center">
-                                    <li class="list-inline-item"><i class="fa fa-circle text-info"></i> Mobiles</li>
-                                    <li class="list-inline-item"><i class="fa fa-circle text-cyan"></i> Desktops</li>
-                                    <li class="list-inline-item"><i class="fa fa-circle text-orange"></i> Tablets</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- col -->
-                    <!-- <div class="col-sm-12 col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Net Income</h4>
-                                <div class="net-income mt-4 position-relative" style="height:257px;"></div>
-                                <ul class="list-inline text-center">
-                                    <li class="list-inline-item"><i class="fa fa-circle text-cyan"></i> Net Income</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> -->
                     <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-12">
                         <div class="card">
                             <div class="card-body">
                                 <!-- title -->
@@ -1131,214 +952,10 @@
                                                 <h3 class="m-b-0">2 watt</h3><span>Daya Ekspor</span></div>
                                         </div>
                                 </div>
-                                
-                        <!-- RAMALAN CUACA -->
-                        <div class="col-sm-12 col-lg-6">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title">Ramalan Cuaca</h4>
-                                    <div class="d-flex align-items-center flex-row m-t-30">
-                                        <div class="display-5 text-info"><i class="wi wi-day-showers"></i> <span>27<sup>°</sup></span></div>
-                                        <div class="m-l-10">
-                                            <h3 class="m-b-0">Minggu</h3><small>Jakarta, Indonesia</small>
-                                        </div>
-                                    </div>
-                                    <table class="table no-border mini-table m-t-20">
-                                        <tbody>
-                                            <tr>
-                                                <td class="text-muted">Angin</td>
-                                                <td class="font-medium">17 mph</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-muted">Kelembaban</td>
-                                                <td class="font-medium">75%</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-muted">Tekanan</td>
-                                                <td class="font-medium">28.5 in</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-muted">Awan</td>
-                                                <td class="font-medium">43%</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <ul class="row list-style-none text-center m-t-30">
-                                        <li class="col-3">
-                                            <h4 class="text-info"><i class="wi wi-day-sunny"></i></h4>
-                                            <span class="d-block text-muted">09:00</span>
-                                            <h3 class="m-t-5">25<sup>°</sup></h3>
-                                        </li>
-                                        <li class="col-3">
-                                            <h4 class="text-info"><i class="wi wi-day-cloudy"></i></h4>
-                                            <span class="d-block text-muted">12:00</span>
-                                            <h3 class="m-t-5">29<sup>°</sup></h3>
-                                        </li>
-                                        <li class="col-3">
-                                            <h4 class="text-info"><i class="wi wi-day-hail"></i></h4>
-                                            <span class="d-block text-muted">15:00</span>
-                                            <h3 class="m-t-5">27<sup>°</sup></h3>
-                                        </li>
-                                        <li class="col-3">
-                                            <h4 class="text-info"><i class="wi wi-day-sprinkle"></i></h4>
-                                            <span class="d-block text-muted">18:00</span>
-                                            <h3 class="m-t-5">26<sup>°</sup></h3>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-lg-6">
-                            <div class="card-body">
-                                <h4 class="card-title">Bagaimana Produksi Energi Surya Hari Ini?</h4>
-                                <div id="visitor" style="height:267px; width:100%;" class="m-t-20"></div>
-                                <!-- row -->
-                                <div class="row m-t-30 m-b-15">
-                                    <!-- column -->
-                                    <div class="col-4 birder-right text-left">
-                                        <h4 class="m-b-0">54%<small></i></small></h4>Konsumsi dari Energi Surya</div>
-                                    <!-- column -->
-                                    <div class="col-4 birder-right text-center">
-                                        <h4 class="m-b-0">24%<small></i></small></h4>Energi Impor dari PLN</div>
-                                    <!-- column -->
-                                    <div class="col-4 text-right">
-                                        <h4 class="m-b-0">22%<small></i></small></h4>Energi Surya yang Diekspor</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                                
-                   
-                <!-- ============================================================== -->
-                <!-- Projects of the month -->
-                <!-- ============================================================== -->
-                <!-- ============================================================== -->
-                <!-- Table -->
-                <!-- ============================================================== -->
-                <!-- <div class="row">
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="d-md-flex align-items-center">
-                                    <div>
-                                        <h4 class="card-title">Projects of the Month</h4>
-                                        <h5 class="card-subtitle">Overview of Latest Month</h5>
-                                    </div>
-                                    <div class="ml-auto d-flex no-block align-items-center">
-                                        <div class="dl">
-                                            <select class="custom-select">
-                                                <option value="0" selected="">Monthly</option>
-                                                <option value="1">Daily</option>
-                                                <option value="2">Weekly</option>
-                                                <option value="3">Yearly</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="table-responsive">
-                                    <table class="table no-wrap v-middle">
-                                        <thead>
-                                            <tr class="border-0">
-                                                <th class="border-0">Team Lead</th>
-                                                <th class="border-0">Project</th>
-                                                <th class="border-0">Team</th>
-                                                <th class="border-0">Status</th>
-                                                <th class="border-0">Weeks</th>
-                                                <th class="border-0">Budget</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <div class="d-flex no-block align-items-center">
-                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/d1.jpg" alt="user" class="rounded-circle" width="45"></div>
-                                                        <div class="">
-                                                            <h5 class="mb-0 font-16 font-medium">Hanna Gover</h5><span>hgover@gmail.com</span></div>
-                                                    </div>
-                                                </td>
-                                                <td>Elite Admin</td>
-                                                <td>
-                                                    <div class="popover-icon">
-                                                        <a class="btn-circle btn btn-info" href="javascript:void(0)">SS</a>
-                                                        <a class="btn-circle btn btn-cyan text-white popover-item" href="javascript:void(0)">DS</a>
-                                                        <a class="btn-circle btn p-0 popover-item" href="javascript:void(0)"><img src="<?php echo base_url(); ?>assets/image/users/1.jpg" alt="" class="rounded-circle" width="39"></a>
-                                                        <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
-                                                    </div>
-                                                </td>
-                                                <td><i class="fa fa-circle text-orange" data-toggle="tooltip" data-placement="top" title="" data-original-title="In Progress"></i></td>
-                                                <td>35</td>
-                                                <td class="blue-grey-text  text-darken-4 font-medium">$96K</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="d-flex no-block align-items-center">
-                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/d2.jpg" alt="user" class="rounded-circle" width="45"></div>
-                                                        <div class="">
-                                                            <h5 class="mb-0 font-16 font-medium">Daniel Kristeen</h5><span>Kristeen@gmail.com</span></div>
-                                                    </div>
-                                                </td>
-                                                <td>Elite Admin</td>
-                                                <td>
-                                                    <div class="popover-icon">
-                                                        <a class="btn-circle btn btn-info" href="javascript:void(0)">SS</a>
-                                                        <a class="btn-circle btn btn-primary text-white popover-item" href="javascript:void(0)">DS</a>
-                                                        <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
-                                                    </div>
-                                                </td>
-                                                <td><i class="fa fa-circle text-success" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></i></td>
-                                                <td>35</td>
-                                                <td class="blue-grey-text  text-darken-4 font-medium">$96K</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="d-flex no-block align-items-center">
-                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/d3.jpg" alt="user" class="rounded-circle" width="45"></div>
-                                                        <div class="">
-                                                            <h5 class="mb-0 font-16 font-medium">Julian Josephs</h5><span>Josephs@gmail.com</span></div>
-                                                    </div>
-                                                </td>
-                                                <td>Elite Admin</td>
-                                                <td>
-                                                    <div class="popover-icon">
-                                                        <a class="btn-circle btn btn-info" href="javascript:void(0)">SS</a>
-                                                        <a class="btn-circle btn btn-cyan text-white popover-item" href="javascript:void(0)">DS</a>
-                                                        <a class="btn-circle btn btn-orange text-white popover-item" href="javascript:void(0)">RP</a>
-                                                        <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
-                                                    </div>
-                                                </td>
-                                                <td><i class="fa fa-circle text-success" data-toggle="tooltip" data-placement="top" title="" data-original-title="Active"></i></td>
-                                                <td>35</td>
-                                                <td class="blue-grey-text  text-darken-4 font-medium">$96K</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="d-flex no-block align-items-center">
-                                                        <div class="mr-2"><img src="<?php echo base_url(); ?>assets/image/users/2.jpg" alt="user" class="rounded-circle" width="45"></div>
-                                                        <div class="">
-                                                            <h5 class="mb-0 font-16 font-medium">Jan Petrovic</h5><span>hgover@gmail.com</span></div>
-                                                    </div>
-                                                </td>
-                                                <td>Elite Admin</td>
-                                                <td>
-                                                    <div class="popover-icon">
-                                                        <a class="btn-circle btn btn-orange text-white" href="javascript:void(0)">RP</a>
-                                                        <a class="btn-circle btn btn-outline-secondary" href="javascript:void(0)">+</a>
-                                                    </div>
-                                                </td>
-                                                <td><i class="fa fa-circle text-orange" data-toggle="tooltip" data-placement="top" title="" data-original-title="In Progress"></i></td>
-                                                <td>35</td>
-                                                <td class="blue-grey-text  text-darken-4 font-medium">$96K</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+                    
+            </div>
+    </div>
+    </div>     
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
@@ -1601,7 +1218,7 @@
     <script src="<?php echo base_url(); ?>assets/extra-libs/c3/c3.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/libs/chart.js/dist/Chart.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/libs/gaugeJS/dist/gauge.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/dist/js/pages/dashboards/dashboard8.js"></script>
+    
     <script src="assets/extra-libs/c3/d3.min.js"></script>
     <script src="assets/extra-libs/c3/c3.min.js"></script>
     <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
@@ -1611,6 +1228,39 @@
     <script src="assets/libs/jquery.flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
     <script src="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
     <script src="assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="assets/dist/js/pages/dashboards/dashboard1.js"></script>
+    <script src="assets/dist/js/pages/dashboards/dashboard2.js"></script>
+    <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
+    <script src="assets/extra-libs/c3/d3.min.js"></script>
+     <!-- All Jquery Index 5 -->
+    <!-- ============================================================== -->
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- apps -->
+    <script src="assets/dist/js/app.min.js"></script>
+    <script src="assets/dist/js/app.init.overlay.js"></script>
+    <script src="assets/dist/js/app-style-switcher.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="assets/dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="assets/dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="assets/dist/js/custom.min.js"></script>
+    <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
+    <script src="assets/libs/gaugeJS/dist/gauge.min.js"></script>
+    <script src="assets/libs/flot/excanvas.min.js"></script>
+    <script src="assets/libs/flot/jquery.flot.js"></script>
+    <script src="assets/libs/jquery.flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
+    <script src="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="assets/extra-libs/c3/d3.min.js"></script>
+    <script src="assets/extra-libs/c3/c3.min.js"></script>
+    <script src="assets/dist/js/pages/dashboards/dashboard8.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard2.js"></script>
 </body>
 
