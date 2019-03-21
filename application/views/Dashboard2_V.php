@@ -848,7 +848,7 @@
                                     <!-- col -->
                                     <div class="col-lg-3 col-md-6">
                                         <div class="d-flex align-items-center">
-                                            <div class="m-r-10"><span class="text-orange display-5"><i class="mdi mdi-wallet"></i></span></div>
+                                            <div class="m-r-10"><span class="text-orange display-5"><img src="<?php echo base_url(); ?>assets/images/dayapv.jpg"></span></div>
                                             <div><span>Tagihan Listrik Anda</span>
                                                 <h3 class="font-medium m-b-0">Rp 7,707</h3>
                                             </div>
@@ -858,7 +858,7 @@
                                     <!-- col -->
                                     <div class="col-lg-3 col-md-6">
                                         <div class="d-flex align-items-center">
-                                            <div class="m-r-10"><span class="text-cyan display-5"><i class="mdi mdi-star-circle"></i></span></div>
+                                            <div class="m-r-10"><span class="text-cyan display-5"><img src="<?php echo base_url(); ?>assets/images/pemasukan.jpg"></span></div>
                                             <div><span>Pemasukan Energi Surya Bulan Ini</span>
                                                 <h3 class="font-medium m-b-0">Rp 22,825.000</h3>
                                             </div>
@@ -868,7 +868,7 @@
                                     <!-- col -->
                                     <div class="col-lg-3 col-md-6">
                                         <div class="d-flex align-items-center">
-                                            <div class="m-r-10"><span class="text-info display-5"><i class="mdi mdi-shopping"></i></span></div>
+                                            <div class="m-r-10"><span class="text-info display-5"><img src="<?php echo base_url(); ?>assets/images/produksi.jpg"></span></div>
                                             <div><span>Total Produksi Energi Surya</span>
                                                 <h3 class="font-medium m-b-0">13.602 kW</h3></div>
                                         </div>
@@ -877,7 +877,7 @@
                                     <!-- col -->
                                     <div class="col-lg-3 col-md-6">
                                         <div class="d-flex align-items-center">
-                                            <div class="m-r-10"><span class="text-primary display-5"><i class="mdi mdi-currency-usd"></i></span></div>
+                                            <div class="m-r-10"><span class="text-primary display-5"><img src="<?php echo base_url(); ?>assets/images/penjualan.jpg"></span></div>
                                             <div><span>Penjualan Energi Surya ke PLN</span>
                                                 <h3 class="font-medium m-b-0">Rp 7,009</h3>
                                             </div>
