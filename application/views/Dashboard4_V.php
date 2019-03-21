@@ -828,28 +828,40 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Row -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <ul class="list-inline float-right">
-                                    <li class="list-inline-item">
-                                        <h6 class="text-muted"><i class="fa fa-circle m-r-5 text-success"></i>Free</h6>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <h6 class="text-muted"><i class="fa fa-circle m-r-5 text-primary"></i>Premium</h6>
-                                    </li>
-                                </ul>
-                                <h4 class="card-title">Download Count</h4>
-                                <h5 class="card-subtitle">you can check the count</h5>
-                                <div class="download-state chartist-chart" style="height:300px"></div>
-                            </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                    <!-- Active Visitors -->
+                <div class="col-lg-4 col-xl-6">
+                        <div class="card card-hover">
+                            <div class="card-body" style="background:url(../../assets/images/background/active-bg.png) no-repeat top center;">
+                                <div class="p-t-20 text-center">
+                                    <img src="<?php echo base_url(); ?>assets/images/gauge.jpg">
+                                    <span class="display-4 d-block font-medium">77</span>
+                                    <span>Hari Panel Suryamu Bekerja dengan Baik</span>
+                                    <!-- Progress -->
+                                    <div class="progress m-t-40" style="height:4px;">
+                                        <div class="progress-bar bg-info" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar bg-orange" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 65%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <!-- Progress -->
+                                    <!-- row -->
+                                    <div class="row m-t-30 m-b-20">
+                                        <!-- column -->
+                                        <div class="col-4 border-right text-left">
+                                            <h3 class="m-b-0 font-medium">81%</h3>Great Performance</div>
+                                        <!-- column -->
+                                        <div class="col-4 border-right">
+                                            <h3 class="m-b-0 font-medium">6.32%</h3>Poor Performance</div>
+                                        <!-- column -->
+                                        <div class="col-4 text-right">
+                                            <h3 class="m-b-0 font-medium">13.68%</h3>Bad Performance</div>
+                                    </div>
+                                    <a href="javascript:void(0)" class="waves-effect waves-light m-t-20 btn btn-lg btn-info accent-4 m-b-20">Rincian</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- Row -->
+            </div>
                 <!-- ============================================================== -->
                 <!-- Sales Summery -->
                 <!-- ============================================================== -->
@@ -878,19 +890,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>   
-            <!-- Start X axis timezone Chart -->
-            <div class="row">
-                    <div class="col-sm-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">X axis timezone Chart</h4>
-                                <div id="axis-timezone"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div>   
                 <!-- End X axis timezone Chart -->        
                 <!-- ============================================================== -->
                 <!-- Projects of the month -->
@@ -1329,6 +1329,7 @@
     <script src="assets/dist/js/pages/dashboards/dashboard2.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard5.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard3.js"></script>
+    <script src="assets/dist/js/pages/dashboards/dashboard1.js"></script>
 </body>
 
 </html>
