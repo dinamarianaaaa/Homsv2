@@ -862,35 +862,19 @@
                     </div>
                 </div>
             </div>
-                <!-- ============================================================== -->
-                <!-- Sales Summery -->
+            <!-- Start Page Content -->
                 <!-- ============================================================== -->
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card">
-                            <div class="card-body">
-                                <!-- title -->
-                                <div class="d-md-flex align-items-center">
-                                    <div>
-                                        <h4 class="card-title">Performa Energi Surya</h4>
-                                        <h5 class="card-subtitle">Tiap Bulan</h5>
-                                    </div>
-                                    <div class="ml-auto d-flex align-items-center">
-                                        <div class="dl">
-                                            <select class="custom-select">
-                                                <option value="0" selected>Monthly</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- title -->
-                                <div class="m-t-30">
-                                    <div id="btc-eth-rip"></div>
-                                </div>
+                            <div class="card-body analytics-info">
+                                <h4 class="card-title">Performa Energi Surya Tiap Bulan</h4>
+                                <div id="basic-bar" style="height:400px;"></div>
                             </div>
                         </div>
                     </div>
-                </div>   
+                </div>
+                   
                 <!-- End X axis timezone Chart -->        
                 <!-- ============================================================== -->
                 <!-- Projects of the month -->
@@ -1326,6 +1310,7 @@
     <!-- <script src="assets/extra-libs/DataTables/datatables.min.js"></script> -->
     <script src="assets/dist/js/pages/widget/widget-charts.js"></script>
     <script src="assets/dist/js/pages/c3-chart/axis/c3-timezone.js"></script>
+    <script src="assets/dist/js/pages/echarts/bar/bar.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard2.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard5.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard3.js"></script>
