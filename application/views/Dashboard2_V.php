@@ -914,43 +914,19 @@
                         </div>
                     </div>
                 </div>
-                <!-- ============================================================== -->
-                <!-- Product Sales -->
+                <!-- Start Page Content -->
                 <!-- ============================================================== -->
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card">
                             <div class="card-body">
-                                <div class="d-md-flex align-items-center">
-                                    <div>
-                                        <h4 class="card-title">Daya Real vs Daya Prediksi</h4>
-                                    </div>
-                                    <div class="ml-auto d-flex align-items-center">
-                                        <!-- Tabs -->
-                                        <ul class="nav nav-pills custom-pills" id="pills-tab" role="tablist">
-                                            <li class="nav-item">
-                                                <a class="nav-link active" id="pills-home-tab2" data-toggle="pill" href="#day" role="tab" aria-selected="true">Month</a>
-                                            </li>
-                                        </ul>
-                                        <!-- Tabs -->
-                                    </div>
-                                </div>
-                                <div class="tab-content m-t-20" id="pills-tabContent2">
-                                    <div class="tab-pane fade show active" id="day" role="tabpanel" aria-labelledby="pills-home-tab2">
-                                        <div class="product-sales" style="height:400px; width:100%;"></div>
-                                    </div>
-                                    <div class="tab-pane fade" id="week" role="tabpanel" aria-labelledby="pills-profile-tab2">
-                                        <div class="rate" style="height:400px; width:100%;"></div>
-                                    </div>
-                                    <div class="tab-pane fade" id="month" role="tabpanel" aria-labelledby="pills-month-tab2">
-                                        <div class="revenue" style="height:400px; width:100%;"></div>
-                                    </div>
-                                </div>
+                                <h4 class="card-title">Daya Real vs Daya Prediksi</h4>
+                                <div id="basic-bar" style="height:400px;"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
@@ -1247,6 +1223,8 @@
     <script src="assets/dist/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
     <script src="assets/dist/js/custom.min.js"></script>
+    <script src="assets/dist/js/pages/echarts/bar/bar2.js"></script>
+    <script src="assets/libs/echarts/dist/echarts-en.min.js"></script>
 </body>
 
 </html>

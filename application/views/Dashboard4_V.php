@@ -867,7 +867,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card">
-                            <div class="card-body analytics-info">
+                            <div class="card-body">
                                 <h4 class="card-title">Performa Energi Surya Tiap Bulan</h4>
                                 <div id="basic-bar" style="height:400px;"></div>
                             </div>

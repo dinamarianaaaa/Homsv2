@@ -1,72 +1,11 @@
 $(function() {
     "use strict";
-    // ------------------------------
-    // Basic bar chart
-    // ------------------------------
-    // based on prepared DOM, initialize echarts instance
-        var myChart = echarts.init(document.getElementById('basic-bar'));
-
-        // specify chart configuration item and data
-        var option = {
-                // Setup grid
-                grid: {
-                    left: '1%',
-                    right: '2%',
-                    bottom: '3%',
-                    containLabel: true
-                },
-
-                // Add Tooltip
-                tooltip : {
-                    trigger: 'axis'
-                },
-
-                legend: {
-                    data:['2018','2019']
-                },
-                toolbox: {
-                    show : true,
-                    feature : {
-
-                        magicType : {show: true, type: ['line', 'bar']},
-                        restore : {show: true},
-                        saveAsImage : {show: true}
-                    }
-                },
-                color: ["#2962FF", "#4fc3f7"],
-                calculable : true,
-                xAxis : [
-                    {
-                        type : 'category',
-                        data : ['Jan','Feb','Mar','Apr','May','Jun','July','Aug','Sept','Oct','Nov','Dec']
-                    }
-                ],
-                yAxis : [
-                    {
-                        type : 'value'
-                    }
-                ],
-                series : [
-                    {
-                        name:'2018',
-                        type:'bar',
-                        data:[101, 89, 115, 116, 121, 119, 123, 124, 121, 118, 116, 110],
-                    },
-                    {
-                        name:'2019',
-                        type:'bar',
-                        data:[105.21, 91.28, 112.09, 118.33],
-                    }
-                ]
-            };
-        // use configuration item and data specified to show chart
-        myChart.setOption(option);
     
     // ------------------------------
     // Basic bar chart
     // ------------------------------
     // based on prepared DOM, initialize echarts instance
-    var myChart = echarts.init(document.getElementById('basic-bar2'));
+    var myChart = echarts.init(document.getElementById('basic-bar'));
 
     // specify chart configuration item and data
     var option = {
