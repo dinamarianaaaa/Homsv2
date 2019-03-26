@@ -819,8 +819,8 @@
                             <div class="card-body">
                                 <h4 class="card-title">Investasi</h4>
                                 <h5 class="card-subtitle">Total Investasi Awal</h5>
-                                <h3 class="text-info font-bold m-b-5">Rp 105,756,000,-</h3>
-                                <span class="font-bold text-muted">0.47% (95 hari) <i class="fas fa-arrow-up text-info font-bold"></i></span>
+                                <h3 class="text-info font-bold m-b-5">Rp 17.650.000,-</h3>
+                                <span class="font-bold text-muted">2.86% (95 hari) <i class="fas fa-arrow-up text-info font-bold"></i></span>
                                 <div class="m-t-20 m-b-30 text-center">
                                     <div id="active-users"></div>
                                 </div>

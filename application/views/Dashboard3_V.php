@@ -914,6 +914,10 @@
                                         <div class="col-12 ">
                                             <div class="chart1" style="position: relative; height:250px;"></div>
                                             <div class="row m-b-0 m-t-20 text-center">
+                                            <ul class="list-inline text-center">
+                                            <li class="list-inline-item"><i class="fa fa-circle text-blue"></i>Energi Impor PLN</li>
+                                            <li class="list-inline-item"><i class="fa fa-circle text-cyan"></i>Energi Surya (kW)</li>
+                                         </ul>
                                          </div>
                                         </div>
                                     </div>

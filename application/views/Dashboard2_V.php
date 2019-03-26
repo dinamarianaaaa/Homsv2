@@ -849,7 +849,7 @@
                                     <div class="col-lg-3 col-md-6">
                                         <div class="d-flex align-items-center">
                                             <div class="m-r-10"><span class="text-orange display-5"><img src="<?php echo base_url(); ?>assets/images/dayapv.jpg"></span></div>
-                                            <div><span>Tagihan Listrik Anda</span>
+                                            <div><span>Tagihan Listrik Bulan Ini</span>
                                                 <h3 class="font-medium m-b-0">Rp 7,707</h3>
                                             </div>
                                         </div>
@@ -860,7 +860,7 @@
                                         <div class="d-flex align-items-center">
                                             <div class="m-r-10"><span class="text-cyan display-5"><img src="<?php echo base_url(); ?>assets/images/pemasukan.jpg"></span></div>
                                             <div><span>Pemasukan Energi Surya Bulan Ini</span>
-                                                <h3 class="font-medium m-b-0">Rp 22,825.000</h3>
+                                                <h3 class="font-medium m-b-0">Rp 22,825</h3>
                                             </div>
                                         </div>
                                     </div>
