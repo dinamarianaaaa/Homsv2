@@ -179,8 +179,8 @@ $(function () {
         bindto: '.rate',
         data: {
             columns: [
-                ['Conversation', 0.47],
-                ['other', 99.53],
+                ['Conversation', 2.86],
+                ['other', 97.14],
             ],
             
             type : 'donut',
