@@ -889,27 +889,14 @@
                         </div>
                     </div>
                 </div>
-                <!-- ============================================================== -->
-                <!-- Overview of the month -->
-                <!-- ============================================================== -->
+                <!-- Area Chart -->
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-lg-12">
                         <div class="card">
-                            <div class="card-body">
+                            <div class="card-body analytics-info">
                                 <h4 class="card-title">Aktifitas Energi Rumah Anda</h4>
-                                <ul class="nav nav-pills custom-pills owm" id="pills-tab" role="tablist">
-                                </ul>
-                                <div class="tab-content" id="pills-tabContent">
-                                    <div class="tab-pane fade show active" id="users" role="tabpanel" aria-labelledby="pills-home-tab">
-                                        <div style="height:400px; width:100%;" class="m-t-20 overview2"></div>
-                                    </div>
-                                    <div class="tab-pane fade" id="revenue" role="tabpanel" aria-labelledby="pills-profile-tab">
-                                        <div style="height:300px; width:100%;" class="m-t-40 revenue"></div>
-                                    </div>
-                                    <div class="tab-pane fade" id="conversion" role="tabpanel" aria-labelledby="pills-contact-tab">
-                                        <div style="height:400px; width:100%;" class="m-t-20 conversation"></div>
-                                    </div>
-                                </div>
+                                <div id="basic-area" style="height:0px;"></div>
+                                <img src="<?php echo base_url(); ?>assets/images/linechart.jpg">
                             </div>
                         </div>
                     </div>
@@ -1222,6 +1209,7 @@
     <!--Menu sidebar -->
     <script src="assets/dist/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
+    <script src="assets/dist/js/pages/echarts/line/line-charts.js"></script>
     <script src="assets/dist/js/custom.min.js"></script>
     <script src="assets/dist/js/pages/echarts/bar/bar2.js"></script>
     <script src="assets/libs/echarts/dist/echarts-en.min.js"></script>
