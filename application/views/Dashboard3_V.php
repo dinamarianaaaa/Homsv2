@@ -886,25 +886,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Extra Area Chart</h4>
-                                <ul class="list-inline text-center m-t-40">
-                                    <li class="list-inline-item">
-                                        <h5><i class="fa fa-circle m-r-5 text-info"></i>Site A</h5>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <h5><i class="fa fa-circle m-r-5 text-inverse"></i>Site B</h5>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <h5><i class="fa fa-circle m-r-5 text-success"></i>Site C</h5>
-                                    </li>
-                                </ul>
-                                <div id="extra-area-chart"></div>
-                            </div>
-                        </div>
-                    </div>
+                   
                     <!-- column -->
                     <div class="col-sm-12 col-lg-6">
                         <div class="card">
@@ -945,7 +927,7 @@
                             </div>
                         </div>
                     </div>
-            
+            </div>
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
