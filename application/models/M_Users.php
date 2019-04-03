@@ -8,5 +8,10 @@ class M_Users extends CI_Model {
 		$res = $this -> db -> insert($tableName,$data);
 		return $res;
 	}
+	function getUser($email){
+		$this->db->where('email', $email);
+		$this->db->from('users');
+		return $this->db->get()->row();
+	}
 
 }
