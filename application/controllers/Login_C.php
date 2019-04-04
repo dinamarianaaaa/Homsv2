@@ -22,6 +22,7 @@ class Login_C extends CI_Controller {
 		}
 		else{
 			$password = sha1(md5($this->input->post('pass'))); //encrypt the password using sha1 and md5
+			//$password = $this->input->post('pass');
 			$where = array(
 				'email' => $this->input->post('email'),
 				'password' => $password,
@@ -37,11 +38,13 @@ class Login_C extends CI_Controller {
 					'password' => $password,
 					'is_aktif' => 1
 				);
-				$aktif = $this->M_Users->cek_login("Users",$whereAktif)->num_rows();
+				$aktif = $this->M_Users->cek_login("users",$whereAktif)->num_rows();
 				if($aktif < 1){
 					$data['err_message'] = "Your Account is Inactive. Please check your email ". $this->input->post('email');
 				}else{
 					//redirect kemana?
+					header("Location: ./demo");
+					
 				}
 			}
 		}
