@@ -18,6 +18,13 @@ class PowerHistories
         $min_date = isset($_GET['min_date']) ? $_GET['min_date'] : date("Y-m-d H:i:s");
         $max_date = isset($_GET['max_date']) ? $_GET['max_date'] : date("Y-m-d H:i:s");
 
+        if($min_date == ''){
+            $min_date = date("Y-m-d H:i:s");
+        }
+        if($max_date == ''){
+            $max_date = date("Y-m-d H:i:s");
+        }
+
 		$stmt = $this->db
         ->call("sp_power_history_get")
         ->data([$id, $min_date, $max_date])
@@ -34,7 +41,7 @@ class PowerHistories
         $current = isset($_GET['i']) ? (double) $_GET['i'] : 0;
 
 		$stmt = $this->db
-        ->call("sp_power_create")
+        ->call("sp_power_history_create")
         ->data([$id, $pass_device, $power, $voltage, $current])
         ->view()[0];
 
