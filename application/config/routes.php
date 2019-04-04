@@ -50,6 +50,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'Homepage_C';
+// $route['login'] = 'Login_C';
+$route['login'] = 'Login_C/loginAction';
+// $route['register'] = 'Register_C/index';
+$route['register'] = 'Register_C/registerAction';
+$route['question'] = 'Homepage_C/addQuestion';
+$route['subscribe'] = 'Homepage_C/addSubscribe';
+$route['order'] = 'Homepage_C/addOrder';
+$route['demo'] = 'Dashboard1_C';
+$route['produksi_pv_pln'] = 'Dashboard2_C';
+$route['konsumsi'] = 'Dashboard3_C';
+$route['solar_performance'] = 'Dashboard4_C';
+$route['battery'] = 'Dashboard5_C';
+$route['total_investasi_sistem'] = 'Dashboard6_C';
+$route['total_carbon_reduction'] = 'Dashboard7_C';
 $route['booking-now'] = 'Booking_Now';
 $route['mitra'] = 'Mitra';
 $route['404_override'] = '';

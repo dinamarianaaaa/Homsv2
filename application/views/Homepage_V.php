@@ -72,7 +72,9 @@ Author:   Webstrot
                                       <li class="dropdown_hover"><a href="index_3.html" title=""> home 3</a></li>
 								</ul>
                                 </li> -->
-                                <li><a href="#" title="">Demo</a>
+                                <li><a href="./demo" title="">Demo</a>
+                                </li>
+                                <li><a href="./login" title="">Login</a>
                                 </li>
                                 <li><a href="#" title="">Tentang Kami</a>
                                 </li>
@@ -167,7 +169,7 @@ Author:   Webstrot
                             <!-- Menu -->
                             <!--search -->
                         </ul>
-                        <div class="header_right_inner_page">
+                        <!-- <div class="header_right_inner_page">
                             <div class="search-wrapper">
                                 <div class="et_navbar_search_wrapper hidden-xs">
                                     <div class="et_search_bar" id="search_button">
@@ -178,21 +180,21 @@ Author:   Webstrot
                                         <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="sw_icon_bar">
-                                <ul class="tc_login_btn_wrapper">
-                                    <li class="dropdown tc_login_btn">
+                            </div> -->
+                            <!-- <div class="sw_icon_bar">
+                                <ul class="tc_login_btn_wrapper"> -->
+                                    <!-- <li class="dropdown tc_login_btn">
                                         <a class="dropdown-toggle hvr-float-shadow active waves-effect waves-light" data-toggle="dropdown" href="#"><i class="fa fa-ellipsis-v"></i></a>
-                                        <ul class="dropdown-menu tc_menu_fixed_border">
+                                        <ul class="dropdown-menu tc_menu_fixed_border"> -->
                                             <!-- <li class="dropdown_hover"><a href="#">FAQ's</a></li>
                                             <li class="dropdown_hover"><a href="#">Track Order</a></li> -->
-                                            <li class="dropdown_hover"><a href="#">Register</a></li>
+                                            <!-- <li class="dropdown_hover"><a href="#">Register</a></li>
                                             <li class="dropdown_hover"><a href="#">Login</a></li>
-                                            <li class="dropdown_hover hidden-lg"><a href="#">Join Us</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
+                                            <li class="dropdown_hover hidden-lg"><a href="#">Join Us</a></li> -->
+                                        <!-- </ul>
+                                    </li> -->
+                                <!-- </ul>
+                            </div> -->
 
                         </div>
 
@@ -210,53 +212,53 @@ Author:   Webstrot
                                     <nav>
                                         <ul class="nav">
                                             <li><a href="index.html">Home</a>
-												 <ul>
+												 <!-- <ul>
 													 <li><a href="index.html" title=""> home 1</a></li>
 													  <li><a href="index_2.html" title=""> home 2</a></li>
 													  <li><a href="index_3.html" title=""> home 3</a></li>
-												</ul>
+												</ul> -->
                                                 </li>
-                                                <li><a href="about_us.html">about us</a>
+                                                <li><a href="about_us.html">Demo</a>
                                                 </li>
-                                                <li><a href="services.html">services</a>
+                                                <li><a href="services.html">Login</a>
                                                 </li>
-                                                <li><a href="project_2.html">projects</a>
-												 <ul>
+                                                <li><a href="project_2.html">Tentang Kami</a>
+												 <!-- <ul>
 													<li><a href="project_2.html" title=""> project 2</a></li>
 													<li><a href="project_3.html" title=""> project 3</a></li>
 													<li><a href="project_4.html" title=""> project 4</a></li>
 													<li><a href="project_fullwidth.html" title="">project fullwidth</a></li>
 													<li><a href="project_single.html" title=""> project single</a></li>
 
-												</ul>
+												</ul> -->
                                                 </li>
-                                                <li><a href="team.html">team</a>
+                                                <!-- <li><a href="team.html">team</a>
                                                     <ul>
 														<li><a href="team.html" title=""> team</a></li>
 														<li><a href="team_details.html" title="">team details</a></li>
 													</ul>
-                                                </li>
-                                                <li><a href="blog_single.html" title="">blog</a>
+                                                </li> -->
+                                                <!-- <li><a href="blog_single.html" title="">blog</a>
                                                      <ul>
 														<li><a href="blog_categories.html" title=""> blog categories</a></li>
 														<li><a href="blog_category.html" title=""> blog category</a></li>
 														<li><a href="blog_single.html" title=""> blog single</a></li>
 													</ul>
-                                                </li>
-                                                <li><a href="shop_sidebar.html" title="">shop</a>
+                                                </li> -->
+                                                <!-- <li><a href="shop_sidebar.html" title="">shop</a>
                                                    <ul>
 														<li><a href="shop_sidebar.html" title="">shop sidebar</a></li>
 														<li><a href="shop_fullwidth.html" title=""> shop fullwidth</a></li>
 														<li><a href="shop_single.html" title=""> shop single</a></li>
 													</ul>
-                                                </li>
-                                                <li><a href="contact_us.html"> contact us</a>
+                                                </li> -->
+                                                <!-- <li><a href="contact_us.html"> contact us</a>
 												 <ul>
 													  <li><a href="contact_us.html" title="">contact us</a></li>
 													  <li><a href="error.html" title=""> 404 error</a></li>
 												</ul>
-                                                </li>
-                                            <li class="caret_btn">
+                                                </li> -->
+                                            <!-- <li class="caret_btn">
                                                 <a href="#"><i class="fa fa-shopping-basket"></i><span>2</span></a>
                                                 <ul>
                                                     <li>
@@ -270,8 +272,8 @@ Author:   Webstrot
                                                                 <h5><i class="fa fa-times"></i></h5>
                                                             </div>
                                                         </div>
-                                                    </li>
-                                                    <li>
+                                                    </li> -->
+                                                    <!-- <li>
                                                         <div class="cc_cart_wrapper1 menu-button">
                                                             <div class="cc_cart_img_wrapper">
                                                                 <img src="<?php echo base_url(); ?>/assets/images/cart_2.png" alt="cart_img" />
@@ -282,8 +284,8 @@ Author:   Webstrot
                                                                 <h5><i class="fa fa-times"></i></h5>
                                                             </div>
                                                         </div>
-                                                    </li>
-                                                    <li>
+                                                    </li> -->
+                                                    <!-- <li>
                                                         <div class="cc_cart_wrapper1 menu-button">
                                                             <div class="cc_cart_img_wrapper">
                                                                 <img src="<?php echo base_url(); ?>/assets/images/cart_3.png" alt="cart_img" />
@@ -303,7 +305,7 @@ Author:   Webstrot
                                                             <a href="#!" class="waves-effect waves-light waves-ripple">checkout</a>
 
                                                         </div>
-                                                    </li>
+                                                    </li> -->
 
                                                 </ul>
                                             </li>
@@ -344,10 +346,10 @@ Author:   Webstrot
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 2 -->
-                            <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-2" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/index_2_img.png" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div>
+                            <!-- <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-2" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/index_2_img.png" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div> -->
 
                             <!-- LAYER NR. 7 -->
-                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-3" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">Innovative Solar <br>Solutions for <br> Your Home 
+                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-3" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">HOMSTECH <br>CARA BARU <br> HIDUP HEMAT! 
                             </div>
 
                             <!-- LAYER NR. 10 -->
@@ -365,10 +367,10 @@ Author:   Webstrot
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 2 -->
-                            <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-7" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/leads.gif" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div>
+                            <!-- <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-7" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/leads.gif" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div> -->
 
                             <!-- LAYER NR. 7 -->
-                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-8" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">Innovative Solar <br>Solutions for <br> Your Home 
+                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-8" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">HOMSTECH <br>CARA BARU <br> MENANAM POHON!
                             </div>
 
                             <!-- LAYER NR. 10 -->
@@ -386,10 +388,10 @@ Author:   Webstrot
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 2 -->
-                            <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-12" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/vi.gif" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div>
+                            <!-- <div class="tp-caption   tp-resizeme sec_off_img hidden-xs" id="slide-2938-layer-12" data-x="['left','left','center','center']" data-hoffset="['728','465','570','60']" data-y="['top','top','top','bottom']" data-voffset="['70','0','0','0']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2350,"ease":"Power3.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-margintop="[0,-150,-100,-100]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" style="z-index:6;border-width:0px;"><img src="<?php echo base_url(); ?>/assets/images/preloader.gif" alt="" data-ww="['653px','653px','330px','230px']" data-hh="['908px','908px','906px','944px']" data-no-retina> </div> -->
 
                             <!-- LAYER NR. 7 -->
-                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-13" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">Innovative Solar <br>Solutions for <br> Your Home 
+                            <div class="tp-caption WebProduct-Title   tp-resizeme sec_off_heading_background" id="slide-2938-layer-13" data-x="['left','left','center','center']" data-hoffset="['105','90','0','0']" data-y="['middle','middle','top','top']" data-voffset="['-50','-180','130','200']" data-fontsize="['50','50','40','30']" data-lineheight="['75','75','75','60']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; white-space: nowrap;text-transform:capitalize; color:#ffffff; font-weight:400; font-family: 'Montserrat', sans-serif; letter-spacing:1px;">HOMSTECH <br>CARA BARU <br> HIDUP BERSAMA!
                             </div>
 
                             <!-- LAYER NR. 10 -->
@@ -421,14 +423,14 @@ Author:   Webstrot
                     <div class="sw_disc_txt_wrapper">
 
                         <div class="sw_left_heading_wraper">
-                            <h1>Apa Keuntungan Surya Atap?</h1>
+                            <h1>Sudah Kenal Surya Atap Belum?</h1>
                             <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
                             <p>Pemasangan Surya Atap dapat Menghemat Konsumsi Energi Listrik di Rumah Anda. 
                                 Selain itu, Energi Surya juga Aman dan Ramah Lingkungan. </p>
                         </div>
                         <div class="sw_desc_btm_txt">
                             <div class="sw_disc_image">
-                                 <i class="flaticon-sun"></i>
+                                 <i class="flaticon-wind-turbine"></i>
                             </div>
                             <div class="sw_disc_head_text">
                                 <h5><a href="#">Pemasangan Mudah & Murah</a></h5>
@@ -438,9 +440,9 @@ Author:   Webstrot
                         </div>
                         <div class="sw_desc_btm_txt">
                             <div class="sw_disc_image">
-                                 <i class="flaticon-wind-turbine"></i>
+                                 <i class="flaticon-power"></i>
                             </div>
-                            <div class="sw_disc_head_text">
+                                                    <div class="sw_disc_head_text">
                                 <h5><a href="#">Investasi Yang Menguntungkan</a></h5>
                                 <p>Umur Panel Surya dapat Bertahan hingga 25 Tahun dan 
                                     <br> Perawatannya pun Sederhana.</p>
@@ -448,8 +450,8 @@ Author:   Webstrot
                         </div>
                         <div class="sw_desc_btm_txt">
                             <div class="sw_disc_image">
-                                 <i class="flaticon-power"></i>
-                            </div>
+                                 <i class="flaticon-sun"></i>
+                            </div>          
                             <div class="sw_disc_head_text">
                                 <h5><a href="#">Pembangkit Energi Abadi</a></h5>
                                 <p>Sampai Kutub Utara Mencair pun Energi Surya Tidak
@@ -550,9 +552,9 @@ Author:   Webstrot
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
                     <div class="sw_left_heading_wraper sw_center_heading_wrapper">
-                        <h1>HOMS Monitoring App</h1>
+                        <h1>HOMS Monitoring</h1>
                         <img src="<?php echo base_url(); ?>/assets/images/heading_line.png" alt="title">
-                        <p>Punya Panel Surya tapi Tidak Ada Monitoring? Mana bisa tau HEMAT berapa ... </p>
+                        <p>Sekarang anda Dapat Menghemat Tagihan Listrik dengan HOMS Monitoring </p>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-4 col-xs-12 col-sm-12">
@@ -564,8 +566,8 @@ Author:   Webstrot
                             </div>
 
                             <div class="chose_icon_content_left">
-                                <h4><a href="#">Produksi Energi Surya</a></h4>
-                                <p>Dapatkan aplikasi monitoring produksi dan daya panel surya beserta konsumsi anda secara real time</p>
+                                <h4><a href="#">Solar Production Analytic</a></h4>
+                                <p>Dapatkan aplikasi monitoring produksi dan daya panel surya beserta konsumsi anda secara real time.</p>
                             </div>
 
                         </div>
@@ -576,8 +578,8 @@ Author:   Webstrot
                             </div>
 
                             <div class="chose_icon_content_left">
-                                <h4><a href="#">Estimasi Balik Modal</a></h4>
-                                <p>Perhitungan balik modal investasi panel surya yang akurat berdasarkan data produksi energi surya anda.</p>
+                                <h4><a href="#">Payback Estimation</a></h4>
+                                <p>Bagi anda pengguna surya atap dapat menikmati perhitungan estimasi balik modal yang akurat.</p>
                             </div>
 
                         </div>
@@ -588,8 +590,8 @@ Author:   Webstrot
                             </div>
 
                             <div class="chose_icon_content_left">
-                                <h4><a href="#">Battery Monitoring</a></h4>
-                                <p>Teknologi monitoring akurat kapasitas battery secara berkala.</p>
+                                <h4><a href="#">Power Monitoring</a></h4>
+                                <p>Amati aktifitas energi dari baterai hingga peralatan terboros di rumah anda.</p>
                             </div>
 
                         </div>
@@ -604,8 +606,8 @@ Author:   Webstrot
                     <div class="chose_text_wrapper_right">
                         <div class="chose_icon_wrapper_list">
                             <div class="icon_content_right">
-                                <h4><a href="#">Ramalan Cuaca</a></h4>
-                                <p>Ramalan cuaca sesuai kondisi geografis di Indonesia.</p>
+                                <h4><a href="#">Energy Forecast</a></h4>
+                                <p>Dapatkan layanan Prediksi Konsumsi dan Produksi Energi di Rumah Anda.</p>
                             </div>
 
                             <div class="chose_icon_img_list">
@@ -616,8 +618,8 @@ Author:   Webstrot
                         <div class="chose_icon_wrapper_list">
 
                             <div class="icon_content_right">
-                                <h4><a href="#">Perhitungan Efisiensi</a></h4>
-                                <p>Dapatkan perhitungan penghematan energi akurat di rumah anda setelah memasang panel surya.</p>
+                                <h4><a href="#">Smart Saving Analytic</a></h4>
+                                <p>Anda tidak perlu pusing memikirkan berapa besar penghematan dari panel surya anda.</p>
                             </div>
 
                             <div class="chose_icon_img_list">
@@ -628,8 +630,8 @@ Author:   Webstrot
                         <div class="chose_icon_wrapper_list">
 
                             <div class="icon_content_right">
-                                <h4><a href="#">Kontribusi Reduksi CO<sup>2</sup></a></h4>
-                                <p>Ketahuilah kontribusi anda dalam Upaya menyelamatkan lingkungan dari polusi karbon.</p>
+                                <h4><a href="#">Carbon Footprint Record</a></h4>
+                                <p>Pastikan anda mengetahui berapa kontribusi pelestarian yang telah anda lakukan.</p>
                             </div>
 
                             <div class="chose_icon_img_list">
@@ -687,7 +689,7 @@ Author:   Webstrot
         <div class="container">
             <div class="sw_nl_heading_wrapper">
                <i class="flaticon-rocket"></i>
-                <h2>Ingin mendapatkan Aplikasi HOMS Monitoring di atas?</h2>
+                <h2>Tagihan Listrik di Rumah Anda Membengkak? Buruan Install HOMS Monitoring Platform!</h2>
 
             </div>
 
@@ -1195,7 +1197,7 @@ Author:   Webstrot
                                         <div class="panel-body">
 
                                             <div class="panel_cont">
-                                                <p>Sebesar 88% Kebutuhan Energi Listrik di Pasok dari Energi Fosil yang Menimbulkan Polusi & Pemanasan Global .</p>
+                                                <p>Sebesar 88% Kebutuhan Energi Listrik di Pasok dari Energi Fosil yang Menimbulkan Polusi & Pemanasan Global.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1246,7 +1248,7 @@ Author:   Webstrot
     </div>
     <!-- sw leads section end-->
 	 <!-- sw pricing section start-->
-    <div class="sw_pricing_wrapper">
+    <!-- <div class="sw_pricing_wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
@@ -1367,7 +1369,7 @@ Author:   Webstrot
 
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- sw pricing section end-->
 	 <!-- sw contact form section start-->
     <div class="sw_contact_form_wrapper sw_contact_form_padder sw_contact_index">
@@ -1385,9 +1387,8 @@ Author:   Webstrot
                        <br> Kapan lagi dapat Konsultasi Gratis. </p>
                     </div>
                     <div class="row">
-                        <form>
+                        <form method="POST" class="register-form" id="register-form" action="<?php echo base_url('question'); ?>">
                             <div class="cont_main_section">
-
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="contect_form1">
                                         <input type="text" name="full_name" placeholder="Nama*" class="require">
@@ -1395,7 +1396,7 @@ Author:   Webstrot
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="contect_form1">
-                                        <input type="number" name="Nomor HP" placeholder="Nomor HP" pattern="[0-9]" maxlength="13" class="require">
+                                        <input type="number" name="no_hp" placeholder="Nomor HP" pattern="[0-9]" maxlength="13" class="require">
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -1411,7 +1412,8 @@ Author:   Webstrot
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="response"></div>
                                     <div class="cntct_2_btn_wrapper">
-                                        <button type="button" class="submitForm waves-effect waves-light waves-ripple">Kirim</button>
+                                        <button type="submit" class="submitForm waves-effect waves-light waves-ripple">Kirim</button>
+                                        <!-- <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/> -->
                                     </div>
                                 </div>
                             </div>
@@ -1526,8 +1528,8 @@ about decarbonising heat?</h5>
                         <h6>Dapatkan Penawaran & Berita Terbaru... Siapa Cepat, Dia Dapat...</h6>
 
                         <div class="prs_newsletter_field">
-                            <form method="POST" action=<?php echo base_url(); ?> /application/views/subscription.php>
-                                <input type="text" name='Email' placeholder="Alamat Email*">
+                            <form method="POST" action=<?php echo base_url('subscribe'); ?>>
+                                <input type="text" name='email' placeholder="Alamat Email*">
                                 <button type="submit" class="waves-effect waves-light waves-        ripple">Submit</button>
                             </form>
                         </div>
@@ -1546,7 +1548,7 @@ about decarbonising heat?</h5>
     </div>
     <!-- sw our newsletter section end-->
     <!-- sw partners section start-->
-    <div class="sw_partners_wrapper">
+    <!-- <div class="sw_partners_wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
@@ -1558,35 +1560,35 @@ about decarbonising heat?</h5>
                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 sw_spectrm_padding">
                     <div class="partners_slider_wrapper">
                         <div class="owl-carousel owl-theme">
-                            <div class="item">
-                                <div class="lr_prt_img_wrapper">
+                            <div class="item"> -->
+                                <!-- <div class="lr_prt_img_wrapper">
                                     <img src="<?php echo base_url(); ?>/assets/images/partner_1.png" alt="partner_img">
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="lr_prt_img_wrapper">
+                                <!-- <div class="lr_prt_img_wrapper">
                                     <img src="<?php echo base_url(); ?>/assets/images/partner_2.png" alt="partner_img">
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="lr_prt_img_wrapper">
+                                <!-- <div class="lr_prt_img_wrapper">
                                     <img src="<?php echo base_url(); ?>/assets/images/partner_3.png" alt="partner_img">
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="lr_prt_img_wrapper">
+                                <!-- <div class="lr_prt_img_wrapper">
                                     <img src="<?php echo base_url(); ?>/assets/images/partner_4.png" alt="partner_img">
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="lr_prt_img_wrapper">
+                                <!-- <div class="lr_prt_img_wrapper">
                                     <img src="<?php echo base_url(); ?>/assets/images/partner_5.png" alt="partner_img">
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="lr_prt_img_wrapper">
+                                <!-- <div class="lr_prt_img_wrapper">
                                     <img src="<?php echo base_url(); ?>/assets/images/partner_2.png" alt="partner_img">
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -1629,10 +1631,10 @@ about decarbonising heat?</h5>
 
                         <div class="col-lg-2 col-md-2 col-xs-12 col-sm-4">
                             <div class="wrapper_second_useful">
-                                <h4>useful links </h4>
+                                <!-- <h4>useful links </h4>
                                 <img src="<?php echo base_url(); ?>/assets/images/hd_line_dark.png" alt="title" class="pd_btm_3">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i>About us</a>
+                                <ul> -->
+                                    <!-- <li><a href="#"><i class="fa fa-angle-right"></i>About us</a>
                                     </li>
                                     <li><a href="#"><i class="fa fa-angle-right"></i>events </a>
                                     </li>
@@ -1640,8 +1642,8 @@ about decarbonising heat?</h5>
                                     </li>
                                     <li><a href="#"><i class="fa fa-angle-right"></i>history</a>
                                     </li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i>news</a> </li>
-                                </ul>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i>news</a> </li> -->
+                                <!-- </ul> -->
 
                             </div>
                         </div>
@@ -1649,7 +1651,7 @@ about decarbonising heat?</h5>
                             <div class="wrapper_second_useful wrapper_second_links">
 
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i>sitemap</a>
+                                    <!-- <li><a href="#"><i class="fa fa-angle-right"></i>sitemap</a>
                                     </li>
                                     <li><a href="#"><i class="fa fa-angle-right"></i>FAQ </a>
                                     </li>
@@ -1657,7 +1659,7 @@ about decarbonising heat?</h5>
                                     </li>
                                     <li><a href="#"><i class="fa fa-angle-right"></i>tstimonials</a>
                                     </li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i>career</a> </li>
+                                    <li><a href="#"><i class="fa fa-angle-right"></i>career</a> </li> -->
                                 </ul>
 
                             </div>
@@ -1669,10 +1671,10 @@ about decarbonising heat?</h5>
                                 <img src="<?php echo base_url(); ?>/assets/images/hd_line_dark.png" alt="title" class="pd_btm_3">
                                 <ul>
 									<li>
-                                     <h1>+89 61 333 144</h1></li>
+                                     <h1>+62 8961 333 144</h1></li>
 									 <li><a href="#"><i class="flaticon-new-email-outline"></i>marketing-homs@gmail.com</a>
                                     </li>
-									 <li><a href="#"><i class="flaticon-internet"></i>www.homsttech.com</a>
+									 <li><a href="#"><i class="flaticon-internet"></i>www.homstech.com</a>
                                     </li>
                                   
                                     <li><i class="flaticon-placeholder"></i>Lt.8 Gedung Research Center - ITS, Surabaya
