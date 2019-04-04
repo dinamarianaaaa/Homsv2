@@ -849,7 +849,7 @@
                                     <div class="col-lg-3 col-md-6">
                                         <div class="d-flex align-items-center">
                                             <div class="m-r-10"><span class="text-orange display-5"><img src="<?php echo base_url(); ?>assets/images/dayapv.jpg"></span></div>
-                                            <div><span>Tagihan Listrik Anda</span>
+                                            <div><span>Tagihan Listrik Bulan Ini</span>
                                                 <h3 class="font-medium m-b-0">Rp 7,707</h3>
                                             </div>
                                         </div>
@@ -860,7 +860,7 @@
                                         <div class="d-flex align-items-center">
                                             <div class="m-r-10"><span class="text-cyan display-5"><img src="<?php echo base_url(); ?>assets/images/pemasukan.jpg"></span></div>
                                             <div><span>Pemasukan Energi Surya Bulan Ini</span>
-                                                <h3 class="font-medium m-b-0">Rp 22,825.000</h3>
+                                                <h3 class="font-medium m-b-0">Rp 22,825</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -889,68 +889,31 @@
                         </div>
                     </div>
                 </div>
-                <!-- ============================================================== -->
-                <!-- Overview of the month -->
-                <!-- ============================================================== -->
+                <!-- Area Chart -->
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-lg-12">
                         <div class="card">
-                            <div class="card-body">
+                            <div class="card-body analytics-info">
                                 <h4 class="card-title">Aktifitas Energi Rumah Anda</h4>
-                                <ul class="nav nav-pills custom-pills owm" id="pills-tab" role="tablist">
-                                </ul>
-                                <div class="tab-content" id="pills-tabContent">
-                                    <div class="tab-pane fade show active" id="users" role="tabpanel" aria-labelledby="pills-home-tab">
-                                        <div style="height:400px; width:100%;" class="m-t-20 overview2"></div>
-                                    </div>
-                                    <div class="tab-pane fade" id="revenue" role="tabpanel" aria-labelledby="pills-profile-tab">
-                                        <div style="height:300px; width:100%;" class="m-t-40 revenue"></div>
-                                    </div>
-                                    <div class="tab-pane fade" id="conversion" role="tabpanel" aria-labelledby="pills-contact-tab">
-                                        <div style="height:400px; width:100%;" class="m-t-20 conversation"></div>
-                                    </div>
-                                </div>
+                                <div id="basic-area" style="height:0px;"></div>
+                                <img src="<?php echo base_url(); ?>assets/images/linechart.jpg">
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- ============================================================== -->
-                <!-- Product Sales -->
+                <!-- Start Page Content -->
                 <!-- ============================================================== -->
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card">
                             <div class="card-body">
-                                <div class="d-md-flex align-items-center">
-                                    <div>
-                                        <h4 class="card-title">Daya Real vs Daya Prediksi</h4>
-                                    </div>
-                                    <div class="ml-auto d-flex align-items-center">
-                                        <!-- Tabs -->
-                                        <ul class="nav nav-pills custom-pills" id="pills-tab" role="tablist">
-                                            <li class="nav-item">
-                                                <a class="nav-link active" id="pills-home-tab2" data-toggle="pill" href="#day" role="tab" aria-selected="true">Month</a>
-                                            </li>
-                                        </ul>
-                                        <!-- Tabs -->
-                                    </div>
-                                </div>
-                                <div class="tab-content m-t-20" id="pills-tabContent2">
-                                    <div class="tab-pane fade show active" id="day" role="tabpanel" aria-labelledby="pills-home-tab2">
-                                        <div class="product-sales" style="height:400px; width:100%;"></div>
-                                    </div>
-                                    <div class="tab-pane fade" id="week" role="tabpanel" aria-labelledby="pills-profile-tab2">
-                                        <div class="rate" style="height:400px; width:100%;"></div>
-                                    </div>
-                                    <div class="tab-pane fade" id="month" role="tabpanel" aria-labelledby="pills-month-tab2">
-                                        <div class="revenue" style="height:400px; width:100%;"></div>
-                                    </div>
-                                </div>
+                                <h4 class="card-title">Daya Real vs Daya Prediksi</h4>
+                                <div id="basic-bar" style="height:400px;"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
@@ -1246,7 +1209,10 @@
     <!--Menu sidebar -->
     <script src="assets/dist/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
+    <script src="assets/dist/js/pages/echarts/line/line-charts.js"></script>
     <script src="assets/dist/js/custom.min.js"></script>
+    <script src="assets/dist/js/pages/echarts/bar/bar2.js"></script>
+    <script src="assets/libs/echarts/dist/echarts-en.min.js"></script>
 </body>
 
 </html>

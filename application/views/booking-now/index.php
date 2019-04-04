@@ -29,74 +29,76 @@
 				</md-toolbar>
 				<div layout-padding="">
 						<div></div>
-						<form name="userForm" method="POST" action="" ng-submit="user.submit(userForm.$valid)" enctype="multipart/form-data">
-								<input type="hidden" name="action" value="signup" />
+						<form name="userForm" method="POST"  enctype="multipart/form-data" action="<?php echo base_url('order'); ?>">
+								<!-- <input type="hidden" name="action" value="signup" /> -->
 								<div layout="row" layout-sm="column">
 										<md-input-container flex-gt-sm="">
 												<label>Nama Lengkap</label>
-												<input ng-model="user.first_name" name="first_name" required type="text" ng-pattern="/^[a-zA-Z'. -]+$/" placeholder="Tulis Nama Anda">
-												<div ng-if="userForm.first_name.$dirty" ng-messages="userForm.first_name.$error" role="alert">
+												<input name="nama_lengkap" required type="text" placeholder="Tulis Nama Anda">
+												<!-- <div ng-if="userForm.first_name.$dirty" ng-messages="userForm.first_name.$error" role="alert">
 														<div ng-message="required" class="my-message">Lengkapi Nama Anda</div>
 														<div ng-message="pattern" class="my-message">Masukkan Nama dengan Benar</div>
-												</div>
+												</div> -->
 										</md-input-container>
 										<md-input-container flex-gt-sm="">
 												<label>Alamat Rumah</label>
-												<input ng-model="user.last_name" name="last_name" required type="text" ng-pattern="/^[a-zA-Z'. -]+$/" placeholder="Tulis Alamat Rumah">
-												<div ng-if="userForm.last_name.$dirty" ng-messages="userForm.last_name.$error" role="alert">
+												<input name="alamat_rumah" required type="text" placeholder="Tulis Alamat Rumah">
+												<!-- <div ng-if="userForm.last_name.$dirty" ng-messages="userForm.last_name.$error" role="alert">
 														<div ng-message="required" class="my-message">Lengkapi Alamat Rumah</div>
 														<div ng-message="pattern" class="my-message">Masukkan Alamat dengan Benar</div>
-												</div>
+												</div> -->
 										</md-input-container>
 								</div>
 								<div layout="row" layout-sm="column">
 										<p style="font-size: 12px; margin-left: 3px; margin-top: 18px;">Kapasitas Listrik Rumah Anda: </p>
-										<input type="hidden" name="gender" value="{{user.gender}}" />
-										<md-radio-group style="margin: 12px 0 19px;" ng-model="user.gender" required>
-												<md-radio-button value="Male" class="md-primary">900 - 3.500VA</md-radio-button>
-												<md-radio-button value="Female">4.400 - 11.000VA</md-radio-button>
+										<!-- <input type="hidden" name="kapasitas_listrik"/> -->
+										<md-radio-group style="margin: 12px 0 19px;" name="kapasitas_listrik" required>
+												<!-- <md-radio-button value="900" name="kapasitas_listrik" class="md-primary">900 - 3.500VA</md-radio-button> -->
+												<!-- <md-radio-button value="4400" name="kapasitas_listrik">4.400 - 11.000VA</md-radio-button> -->
+												<input type="radio" name="kapasitas_listrik" value="900" class="md-primary">900 - 3.500VA <br>
+												<input type="radio" name="kapasitas_listrik" value="4400" class="md-primary">4.400 - 11.000VA
 										</md-radio-group>
 										<md-input-container flex-gt-sm="60">
 												<label>Jumlah Pemesanan</label>
-												<input required type="number" step="any" name="age" ng-model="user.age" min="0" max="10" placeholder="1" />
-												<div ng-if="userForm.age.$dirty" ng-messages="userForm.age.$error" role="alert" multiple>
+												<input required type="number" name="jumlah_pesan" min="0" max="10" placeholder="TUliskan jumlah pesanan anda. Maksimal Pesanan Sebanyak 10 Buah" />
+												<!-- <div ng-if="userForm.age.$dirty" ng-messages="userForm.age.$error" role="alert" multiple>
 														<div ng-message="required">Lengkapi Jumlah Pemesanan.</div>
 														<div ng-message="min">Masukkan Jumlah Pemesanan.</div>
 														<div ng-message="max">Maaf {{userForm.age.$viewValue}} Jumlah Pesanan Maksimal 10 Pesanan.</div>
-												</div>
+												</div> -->
 										</md-input-container>
 								</div>
 								<div layout="row" layout-sm="column">
 										<md-input-container flex-gt-sm="">
 												<label>Email Anda</label>
-												<input required type="email" name="email" ng-model="user.email" ng-pattern="/^[_a-z0-9-+]+(\.[_a-z0-9-+]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/" placeholder="email.anda@domain.com" />
-												<div ng-if="userForm.email.$dirty" ng-messages="userForm.email.$error" role="alert">
+												<input required type="email" name="email" placeholder="email.anda@domain.com" />
+												<!-- <div ng-if="userForm.email.$dirty" ng-messages="userForm.email.$error" role="alert">
 														<div ng-message="required" class="my-message">Lengkapi Email Anda.</div>
 														<div ng-message="pattern" class="my-message">Masukkan Email dengan Benar. </div>
 														<div ng-message="email" class="my-message">Masukkan Email dengan Benar. </div>
-												</div>
+												</div> -->
 										</md-input-container>
 								</div>
 								<div layout="row" layout-sm="column">
 										<md-input-container flex-gt-sm="">
 												<label>No. Handphone</label>
-												<input name="password" ng-model="user.password" type="password" minlength="8" maxlength="100" ng-pattern="/(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/" required placeholder="Masukkan Nomor Handphone">
-												<div ng-if="userForm.password.$dirty" ng-messages="userForm.password.$error" role="alert" multiple>
+												<input name="no_hp" type="text"  required placeholder="Masukkan Nomor Handphone">
+												<!-- <div ng-if="userForm.password.$dirty" ng-messages="userForm.password.$error" role="alert" multiple>
 														<div ng-message="required">Lengkapi Nomor Handphone.</div>
 														<div ng-message="pattern">Masukkan Nomor HP dengan Benar.</div>
-												</div>
+												</div> -->
 										</md-input-container>
 										<md-input-container flex-gt-sm="">
 												<label>Alasan Pemesanan</label>
-												<input name="confmPassword" ng-model="user.confmPassword" type="password" minlength="8" maxlength="100" ng-pattern="/(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/" required compare-to="user.password" placeholder="Alasan Membeli HOMS Monitoring">
-												<div ng-if="userForm.confmPassword.$dirty" ng-messages="userForm.confmPassword.$error" role="alert">
+												<input name="alasan_pesan" type="text" placeholder="Alasan Membeli HOMS Monitoring">
+												<!-- <div ng-if="userForm.confmPassword.$dirty" ng-messages="userForm.confmPassword.$error" role="alert">
 														<div ng-message="required">Masukkan Alasan Anda.</div>
 														<div ng-message="compareTo">Masukkan Alasan Anda.</div>
-												</div>
+												</div> -->
 										</md-input-container>
 								</div>
-								<md-button class="md-raised md-primary" style="width:100%; margin: 0px 0px;" type="submit" ng-disabled="userForm.$invalid" name="submit">Pesan</md-button>
-								<md-button class="md-raised md-primary" ng-href="https://codepen.io/faizanrupani/pen/QjzMJp" target="_blank" style="width:100%; margin: 15px 0px 0px 0px;">Daftar Akun</md-button>
+								<md-button class="md-raised md-primary" style="width:100%; margin: 0px 0px;" type="submit" name="submit">Pesan</md-button>
+								<!-- <md-button class="md-raised md-primary" ng-href="https://codepen.io/faizanrupani/pen/QjzMJp" target="_blank" style="width:100%; margin: 15px 0px 0px 0px;">Daftar Akun</md-button> -->
 						</form>
 				</div>
 		</md-content>

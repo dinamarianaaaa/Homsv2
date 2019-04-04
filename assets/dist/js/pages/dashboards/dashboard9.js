@@ -19,7 +19,7 @@ $(function() {
         stackBars: true,
         axisY: {
             labelInterpolationFnc: function(value) {
-                return (value / 1) + 'kW';
+                return (value / 1) ;
             }
         },
         axisX: {

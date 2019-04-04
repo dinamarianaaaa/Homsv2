@@ -809,7 +809,7 @@
                                     <div class="border-right">
                                         <div class="d-flex p-40 border-bottom justify-content-center">
                                             <div class="text-center">
-                                                <h1 class="m-b-0 display-3">7580</h1> <h5>Watt </h5>
+                                                <h2 class="m-b-0 display-3">2524.14</h2> <h5>Watt </h5>
                                                 <span>Daya Tersimpan</span>
                                             </div>
                                         </div>
@@ -828,7 +828,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <h3 class="m-b-0">90%</h3><span>Daya Baterai</span>
+                                                <h3 class="m-b-0">30%</h3><span>Daya Baterai</span>
                                             </div>
                                         </div>
                                         <div class="d-flex align-items-center p-20">

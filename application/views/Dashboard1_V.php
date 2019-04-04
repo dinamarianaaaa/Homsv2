@@ -801,7 +801,7 @@
                 <!-- Sales chart -->
                 <!-- ============================================================== -->
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-12">
                     <div class="tab-content m-t-30" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="month" role="tabpanel" aria-labelledby="pills-home-tab2">
                                 <div class="row">
@@ -819,32 +819,29 @@
                         </div>
                     </div>
                 </div>
-                <!-- ============================================================== -->
-                <!-- Revenue Statistics & Page Views -->
-                <!-- ============================================================== -->
+                <!-- Revenue Statistics -->
                 <div class="row">
-                    <!-- column -->
                     <div class="col-sm-12 col-lg-4">
                         <div class="card bg-info">
                             <div class="card-body">
-                                <h4 class="card-title text-white">Total Pemasukan PV</h4>
+                                <h4 class="card-title text-white">Pendapatan Energi Surya Bulan Ini</h4>
                                 <div class="d-flex align-items-center m-t-30">
                                     <div class="" id="ravenue"></div>
                                     <div class="ml-auto">
-                                        <h2 class="text-white m-b-0"></i>Rp 22,625,-</h2><span class="text-white op-5">1 Jan  - 3 April</span>
+                                        <h3 class="text-white m-b-0">Rp 22,625,-</h3>
+                                        <span class="text-white op-5">Rupiah</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- column -->
                     <div class="col-sm-12 col-lg-4">
                         <div class="card bg-cyan">
                             <div class="card-body">
                                 <div class="d-flex align-items-center">
                                     <div>
-                                        <h4 class="card-title text-white">Total Hari Pemasangan</h4>
-                                        <h2 class="text-white m-b-0"></i> 95</h2>
+                                        <h5 class="card-title text-white">Lama Hari Sejak Pemasangan</h5>
+                                        <h3 class="text-white m-b-0"> 95 Hari</h3>
                                     </div>
                                     <div class="ml-auto">
                                     </div>
@@ -853,41 +850,42 @@
                             <div class="m-t-20" id="views"></div>
                         </div>
                     </div>
-                    <!-- column -->
                     <div class="col-sm-12 col-lg-4">
                         <div class="card">
-                        <div class="card-body">
+                            <div class="card-body">
                                 <h4 class="card-title">Performa Panel Surya Anda</h4>
                                 <div class="row">
-                                    <div class="col-6 mt-5">
-                                        <h2 class="mb-1">109.72%</h2>
-                                        <h4 class="mb-1">Great</h4>
+                                    <div class="col-6 m-t-40">
+                                        <h2 class="m-b-5">1097.72%</h2>
+                                        <span>Great</span>
                                     </div>
                                     <div class="col-6">
                                         <div class="gaugejs-box text-right">
-                                            <canvas id="foo" class="gaugejs ml-auto" height="60" width="120">guage</canvas>
+                                            <canvas id="foo" class="gaugejs ml-auto" height="77" width="125">guage</canvas>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="m-t-20" id="views"></div>
                         </div>
                     </div>
-                    <div class="card">
-                    <div class="row">
-                    <div class="col-12">
+                </div>
+                <!-- ============================================================== -->
+                <!-- Sales Summery -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-sm-12">
                         <div class="card">
                             <div class="card-body">
                                 <!-- title -->
                                 <div class="d-flex align-items-center">
                                     <div>
-                                        <h4 class="card-title">Real Time Monitoring</h4>
-                                        <h5 class="card-subtitle">Pukul 14:55 - 15:55</h5>
+                                        <h4 class="card-title">Realtime Monitoring</h4>
+                                        <h5 class="card-subtitle">Amati Daya Panel Suryamu Sobat</h5>
                                     </div>
                                     <div class="ml-auto">
                                         <div class="dl">
                                             <select class="custom-select">
-                                                <option value="0" selected>Hourly</option>
+                                                <option value="0" selected>Monthly</option>
                                                 <option value="1">Daily</option>
                                                 <option value="2">Weekly</option>
                                                 <option value="3">Yearly</option>
@@ -897,13 +895,10 @@
                                 </div>
                                 <!-- title -->
                                 <div class="m-t-30">
-                                    <div id="placeholder" class="" style="width: 1000px;height:250px;"></div>
+                                    <div id="placeholder" class="" style="height:250px;"></div>
                                 </div>
                             </div>
                             <div class="card-body border-top">
-                                <div class="row m-t-10">
-                    <!-- search traffic -->
-                    <div class="card-body border-top">
                                 <div class="row m-t-10">
                                     <!-- Column -->
                                     <div class="col-sm-12 col-md-6 col-lg-3">
@@ -913,7 +908,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <h3 class="m-b-0">180 watt</h3><span>Daya Panel Surya</span></div>
+                                                <h3 class="m-b-0">180 Watt</h3><span>Daya Panel Surya</span></div>
                                         </div>
                                     </div>
                                     <!-- Column -->
@@ -925,7 +920,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <h3 class="m-b-0">178 watt</h3><span>Daya Konsumsi</span></div>
+                                                <h3 class="m-b-0">178 Watt</h3><span>Daya Konsumsi</span></div>
                                         </div>
                                     </div>
                                     <!-- Column -->
@@ -937,7 +932,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <h3 class="m-b-0">0 watt</h3><span>Daya Impor</span></div>
+                                                <h3 class="m-b-0">0 Watt</h3><span>Daya Impor</span></div>
                                         </div>
                                     </div>
                                     <!-- Column -->
@@ -949,18 +944,34 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <h3 class="m-b-0">2 watt</h3><span>Daya Ekspor</span></div>
+                                                <h3 class="m-b-0">2 Watt</h3><span>Daya Expor</span></div>
                                         </div>
                                     </div>
+                                    <!-- Column -->
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>     
-            <!-- RAMALAN CUACA -->
-            <div class = 'row'>
-            <div class="col-sm-12 col-lg-6">
-                            <div class="card">
+                </div>
+                <!-- ============================================================== -->
+                <!-- Pole Chart -->
+                <!-- ============================================================== -->
+                <div class = 'row'>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Bagaimana Produksi Energi Surya Hari Ini</h4>
+                                <div id="visitor" style="height:267px; width:100%;" class="m-t-20"></div>
+                                <ul class="list-inline text-center">
+                                    <li class="list-inline-item"><i class="fa fa-circle text-info"></i> Energi Impor dari PLN</li>
+                                    <li class="list-inline-item"><i class="fa fa-circle text-cyan"></i> Konsumsi dari Energi Surya</li>
+                                    <li class="list-inline-item"><i class="fa fa-circle text-orange"></i> Energi Surya yang Di Ekspor</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="card">
                                 <div class="card-body">
                                     <h4 class="card-title">Ramalan Cuaca</h4>
                                     <div class="d-flex align-items-center flex-row m-t-30">
@@ -1014,29 +1025,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-lg-6">
-                            <div class="card-body">
-                                <h4 class="card-title">Bagaimana Produksi Energi Surya Hari Ini?</h4>
-                                <div id="visitor" style="height:267px; width:100%;" class="m-t-20"></div>
-                                <!-- row -->
-                                <div class="row m-t-30 m-b-15">
-                                    <!-- column -->
-                                    <div class="col-4 birder-right text-left">
-                                        <h4 class="m-b-0">54%<small></i></small></h4>Konsumsi dari Energi Surya</div>
-                                    <!-- column -->
-                                    <div class="col-4 birder-right text-center">
-                                        <h4 class="m-b-0">24%<small></i></small></h4>Energi Impor dari PLN</div>
-                                    <!-- column -->
-                                    <div class="col-4 text-right">
-                                        <h4 class="m-b-0">22%<small></i></small></h4>Energi Surya yang Diekspor</div>
-                                </div>
-                            </div>
-                        </div>
-                        
                     </div>
                 </div>
-            </div>
-
+                
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
@@ -1272,7 +1263,7 @@
         </div>
     </aside>
     <div class="chat-windows"></div>
-    <!-- ============================================================== -->
+        <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
     <script src="<?php echo base_url(); ?>assets/libs/jquery/dist/jquery.min.js"></script>
@@ -1310,7 +1301,7 @@
     <script src="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
     <script src="assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard1.js"></script>
-    <script src="assets/dist/js/pages/dashboards/dashboard2.js"></script>
+    <!-- <script src="assets/dist/js/pages/dashboards/dashboard2.js"></script> -->
     <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
     <script src="assets/extra-libs/c3/d3.min.js"></script>
      <!-- All Jquery Index 5 -->
@@ -1341,8 +1332,10 @@
     <script src="assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
     <script src="assets/extra-libs/c3/d3.min.js"></script>
     <script src="assets/extra-libs/c3/c3.min.js"></script>
+    <script src="assets/libs/echarts/dist/echarts-en.min.js"></script>
+    <script src="assets/dist/js/pages/echarts/pie-doughnut/pie-doghnut.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard8.js"></script>
-    <script src="assets/dist/js/pages/dashboards/dashboard2.js"></script>
+    <script src="assets/dist/js/pages/dashboards/dashboard11.js"></script>
 </body>
 
 </html>

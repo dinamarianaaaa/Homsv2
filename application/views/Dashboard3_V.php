@@ -886,6 +886,7 @@
                             </div>
                         </div>
                     </div>
+                   
                     <!-- column -->
                     <div class="col-sm-12 col-lg-6">
                         <div class="card">
@@ -898,6 +899,7 @@
                             </div>
                         </div>
                     </div>
+                </div>
                 <!-- ============================================================== -->
                 <!-- Notifications, Chart -->
                 <!-- ============================================================== -->
@@ -914,6 +916,10 @@
                                         <div class="col-12 ">
                                             <div class="chart1" style="position: relative; height:250px;"></div>
                                             <div class="row m-b-0 m-t-20 text-center">
+                                            <ul class="list-inline text-center">
+                                            <li class="list-inline-item"><i class="fa fa-circle text-blue"></i>Energi Impor PLN</li>
+                                            <li class="list-inline-item"><i class="fa fa-circle text-cyan"></i>Energi Surya (kW)</li>
+                                         </ul>
                                          </div>
                                         </div>
                                     </div>
@@ -921,7 +927,7 @@
                             </div>
                         </div>
                     </div>
-            
+            </div>
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
@@ -1197,6 +1203,9 @@
     <script src="assets/dist/js/pages/dashboards/dashboard2.js"></script>
     <!--Custom JavaScript -->
     <script src="assets/dist/js/custom.min.js"></script>
+    <script src="assets/libs/raphael/raphael.min.js"></script>
+    <script src="assets/libs/morris.js/morris.min.js"></script>
+    <script src="assets/dist/js/pages/morris/morris-data.js"></script>
     <!--This page JavaScript -->
     <script src="assets/extra-libs/c3/d3.min.js"></script>
     <script src="assets/extra-libs/c3/c3.min.js"></script>
@@ -1205,5 +1214,6 @@
     <script src="assets/extra-libs/c3/d3.min.js"></script>
     <script src="assets/extra-libs/c3/c3.min.js"></script>
     <script src="assets/dist/js/pages/dashboards/dashboard9.js"></script>
+    
 </body>
 </html>

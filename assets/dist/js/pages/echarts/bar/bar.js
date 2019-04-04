@@ -22,7 +22,7 @@ $(function() {
                 },
 
                 legend: {
-                    data:['Site A','Site B']
+                    data:['2018','2019']
                 },
                 toolbox: {
                     show : true,
@@ -48,43 +48,81 @@ $(function() {
                 ],
                 series : [
                     {
-                        name:'Site A',
+                        name:'2018',
                         type:'bar',
-                        data:[2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3],
-                        markPoint : {
-                            data : [
-                                {type : 'max', name: 'Max'},
-                                {type : 'min', name: 'Min'}
-                            ]
-                        },
-                        markLine : {
-                            data : [
-                                {type : 'average', name: 'Average'}
-                            ]
-                        }
+                        data:[101, 89, 115, 116, 121, 119, 123, 124, 121, 118, 116, 110],
                     },
                     {
-                        name:'Site B',
+                        name:'2019',
                         type:'bar',
-                        data:[2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3],
-                        markPoint : {
-                            data : [
-                                {name : 'The highest year', value : 182.2, xAxis: 7, yAxis: 183, symbolSize:18},
-                                {name : 'Year minimum', value : 2.3, xAxis: 11, yAxis: 3}
-                            ]
-                        },
-                        markLine : {
-                            data : [
-                                {type : 'average', name : 'Average'}
-                            ]
-                        }
+                        data:[105.21, 91.28, 112.09, 118.33],
                     }
                 ]
             };
         // use configuration item and data specified to show chart
         myChart.setOption(option);
     
-    
+    // ------------------------------
+    // Basic bar chart
+    // ------------------------------
+    // based on prepared DOM, initialize echarts instance
+    var myChart = echarts.init(document.getElementById('basic-bar2'));
+
+    // specify chart configuration item and data
+    var option = {
+            // Setup grid
+            grid: {
+                left: '1%',
+                right: '2%',
+                bottom: '3%',
+                containLabel: true
+            },
+
+            // Add Tooltip
+            tooltip : {
+                trigger: 'axis'
+            },
+
+            legend: {
+                data:['Daya Real','Daya Prediksi']
+            },
+            toolbox: {
+                show : true,
+                feature : {
+
+                    magicType : {show: true, type: ['line', 'bar']},
+                    restore : {show: true},
+                    saveAsImage : {show: true}
+                }
+            },
+            color: ["#2962FF", "#4fc3f7"],
+            calculable : true,
+            xAxis : [
+                {
+                    type : 'category',
+                    data : ['Jan','Feb','Mar','Apr','May','Jun','July','Aug','Sept','Oct','Nov','Dec']
+                }
+            ],
+            yAxis : [
+                {
+                    type : 'value'
+                }
+            ],
+            series : [
+                {
+                    name:'Daya Real',
+                    type:'bar',
+                    data:[1052.24, 912.83, 1120.9, 136.02],
+                },
+                {
+                    name:'Daya Prediksi',
+                    type:'bar',
+                    data:[1054, 914, 1128, 1025],
+                }
+            ]
+        };
+    // use configuration item and data specified to show chart
+    myChart.setOption(option);
     // ------------------------------
     // Stacked bar chart
     // ------------------------------

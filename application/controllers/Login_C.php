@@ -6,6 +6,8 @@ class Login_C extends CI_Controller {
 	{
 		parent::__construct();		
 		$this->load->model('M_Users');
+		$this->load->library('form_validation','session');
+
 	}
 	public function index()
 	{
@@ -42,9 +44,14 @@ class Login_C extends CI_Controller {
 				if($aktif < 1){
 					$data['err_message'] = "Your Account is Inactive. Please check your email ". $this->input->post('email');
 				}else{
-					//redirect kemana?
-					header("Location: ./demo");
-					
+					$user 	= $this->M_Users->getUser($this->input->post('email'));
+					$data 		= array(
+	                			'sess_id' => 	$user->id,
+	                			'sess_role' => 	$user->email,
+				        	'logged_in' => 	TRUE
+					);
+					$this->session->set_userdata($data);
+	       				redirect(base_url().'demo');
 				}
 			}
 		}

@@ -45,7 +45,7 @@ $(function () {
                 //or hide: ['data1', 'data2']
         }
         , color: {
-            pattern: ['#2961ff', '#dadada', '#ff821c', '#7e74fb']
+            pattern: ['#2961ff', '#ff821c', '#ff821c', '#7e74fb']
         }
     });
     // ============================================================== 
@@ -179,8 +179,8 @@ $(function () {
         bindto: '.rate',
         data: {
             columns: [
-                ['Conversation', 0.47],
-                ['other', 99.53],
+                ['Conversation', 2.86],
+                ['other', 97.14],
             ],
             
             type : 'donut',

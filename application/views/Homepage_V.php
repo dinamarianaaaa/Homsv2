@@ -1387,9 +1387,8 @@ Author:   Webstrot
                        <br> Kapan lagi dapat Konsultasi Gratis. </p>
                     </div>
                     <div class="row">
-                        <form>
+                        <form method="POST" class="register-form" id="register-form" action="<?php echo base_url('question'); ?>">
                             <div class="cont_main_section">
-
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="contect_form1">
                                         <input type="text" name="full_name" placeholder="Nama*" class="require">
@@ -1397,7 +1396,7 @@ Author:   Webstrot
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="contect_form1">
-                                        <input type="number" name="Nomor HP" placeholder="Nomor HP" pattern="[0-9]" maxlength="13" class="require">
+                                        <input type="number" name="no_hp" placeholder="Nomor HP" pattern="[0-9]" maxlength="13" class="require">
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -1413,7 +1412,8 @@ Author:   Webstrot
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="response"></div>
                                     <div class="cntct_2_btn_wrapper">
-                                        <button type="button" class="submitForm waves-effect waves-light waves-ripple">Kirim</button>
+                                        <button type="submit" class="submitForm waves-effect waves-light waves-ripple">Kirim</button>
+                                        <!-- <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/> -->
                                     </div>
                                 </div>
                             </div>
@@ -1528,8 +1528,8 @@ about decarbonising heat?</h5>
                         <h6>Dapatkan Penawaran & Berita Terbaru... Siapa Cepat, Dia Dapat...</h6>
 
                         <div class="prs_newsletter_field">
-                            <form method="POST" action=<?php echo base_url(); ?> /application/views/subscription.php>
-                                <input type="text" name='Email' placeholder="Alamat Email*">
+                            <form method="POST" action=<?php echo base_url('subscribe'); ?>>
+                                <input type="text" name='email' placeholder="Alamat Email*">
                                 <button type="submit" class="waves-effect waves-light waves-        ripple">Submit</button>
                             </form>
                         </div>
