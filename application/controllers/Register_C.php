@@ -38,7 +38,7 @@ class Register_C extends CI_Controller {
 						'email' => $this->input->post('email'), //add email in table users
 						'no_hp' =>$this->input->post('phone_number'), //add phone number to no_hp in table users
 						'password' => $password, //add password in table users
-						'is_aktif' => 0, // default value for users before activate the account using email
+						'is_aktif' => 1, // default value for users before activate the account using email
 						'is_subscribe' => 0, //default value for users before activate the account using email
 						'status' => 1, //default value for users
 						'created_at' => unix_to_human(time(), TRUE, 'eu') //when the users created their account
@@ -46,7 +46,8 @@ class Register_C extends CI_Controller {
 					$res = $this->M_Users->addUsers('users', $users);
 					//register success
 					if($res >= 1){
-						$data['err_message'] = "Pendaftaran berhasil dilakukan. Silahkan cek email ".$this->input->post('email'). " untuk melakukan aktivasi";
+						$data['err_message'] = "Pendaftaran berhasil dilakukan. ";
+						// Silahkan cek email ".$this->input->post('email'). " untuk melakukan aktivasi";
 					}
 					//register failed without reason hahaha
 					else{
