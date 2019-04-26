@@ -856,7 +856,7 @@
                                 <h4 class="card-title">Performa Panel Surya Anda</h4>
                                 <div class="row">
                                     <div class="col-6 m-t-40">
-                                        <h2 class="m-b-5">1097.72%</h2>
+                                        <h2 class="m-b-5">109.72%</h2>
                                         <span>Great</span>
                                     </div>
                                     <div class="col-6">
@@ -894,8 +894,10 @@
                                     </div>
                                 </div>
                                 <!-- title -->
-                                <div class="m-t-30">
-                                    <div id="placeholder" class="" style="height:250px;"></div>
+                                <div class="m-t-30"><!--placeholder-->
+                                    <div id="mywatt" class="" style="height:250;">
+                                        <canvas id="graphCanvas"></canvas>
+                                    </div>
                                 </div>
                             </div>
                             <div class="card-body border-top">
@@ -908,7 +910,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <h3 class="m-b-0">180 Watt</h3><span>Daya Panel Surya</span></div>
+                                                <h3 class="m-b-0" id="power">180 Watt</h3><span>Daya Panel Surya</span></div>
                                         </div>
                                     </div>
                                     <!-- Column -->
@@ -1305,6 +1307,106 @@
     <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
     <script src="assets/extra-libs/c3/d3.min.js"></script>
      <!-- All Jquery Index 5 -->
+     <!--ajax-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type='text/javascript'>
+            $(document).ready(function(data){
+                    $.ajax({
+                            url:"http://homstech.com/api/power_histories.php?act=get&id=1",
+                            method: "GET",
+                            dataType: 'json',
+                            success: function(data){
+                                var limit = 20;
+                                var watt = [];
+                                var datetime = [];
+                                for (var i in data) {
+                                    var input = data[i].created_at;
+                                    var time = input.split(" ");
+                                                datetime.push(time[1]);
+                                                watt.push(data[i].power);
+                                            }
+                                var watt_length = watt.length;
+                                
+                                if(watt_length > limit){
+                                  for(var i = 0; i<watt_length-limit;i++){
+                                        datetime.shift();
+                                        watt.shift();
+                                    }
+                                }
+                                var chartdata = {
+                                    
+                                    labels: datetime,
+                                    datasets: [
+                                                {
+                                                label: 'Watt',
+                                                backgroundColor: '#ffe684',
+                                                borderColor: '#ffcc00',
+                                                //hoverBackgroundColor: '#CCCCCC',
+                                                hoverBorderColor: '#666666',
+                                                data: watt
+                                                }
+                                            ]
+                                };
+                                var graphTarget = $("#graphCanvas");
+
+                                var barGraph = new Chart(graphTarget, {
+                                    type: 'line',
+                                    data: chartdata,
+                                    options: {
+                                        maintainAspectRatio:false,
+                                        scales: {
+                                            yAxes: [{
+                                                ticks: {
+                                                    min: 0,
+                                                    max:1000
+                                                }
+                                            }]
+                                        }
+                                        
+                                    }
+                                });
+                                function fetch_data(){
+                                                        $.ajax({
+                                                                url:"http://homstech.com/api/power_histories.php?act=get&id=1",
+                                                                method: "GET",
+                                                                dataType: 'json',
+                                                                success: function(data){
+                                                                    var html = '';
+                                                                    var watt_baru = [];
+                                                                    var datetime_baru = [];
+                                                                    for (var i in data) {
+                                                                        var input = data[i].created_at;
+                                                                        var time = input.split(" ");
+                                                                                    datetime_baru.push(time[1]);
+                                                                                    watt_baru.push(data[i].power);
+                                                                    }
+                                                                    if (watt_baru.length != watt_length){
+                                                                        
+                                                                        barGraph.data.labels.push(datetime_baru[datetime_baru.length-1]);
+                                                                        barGraph.data.datasets[0].data.push(watt_baru[watt_baru.length-1]);  
+                                                                        barGraph.data.labels.shift();
+                                                                        barGraph.data.datasets[0].data.splice(0,1);
+                                                                        // re-render the chart
+                                                                        barGraph.update();
+                                                                        watt_length++;
+                                                                        }
+                                                                    
+                                                                    
+                                                                },
+                                                                error: function(e){
+                                                                alert("Terjadi kesalahan pada sistem");
+                                                                }
+                                                            });
+                                                    }
+                                                    setInterval(fetch_data,1000)
+                            },
+                        error: function(e){
+                        alert("Terjadi kesalahan pada sistem");
+                        }
+                    });
+        });
+        </script>
+     <!--end ajax-->
     <!-- ============================================================== -->
     <script src="assets/libs/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
